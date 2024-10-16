@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*==============================================================
+	Fonts
+	==============================================================*/
+  @font-face {
+    font-family: 'Museo Sans 700';
+    src: url('MuseoSans-700.woff2') format('woff2'),
+        url('MuseoSans-700.woff') format('woff'),
+        url('MuseoSans-700.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('MuseoSans-500Italic.woff2') format('woff2'),
+        url('MuseoSans-500Italic.woff') format('woff'),
+        url('MuseoSans-500Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('MuseoSans-500.woff2') format('woff2'),
+        url('MuseoSans-500.woff') format('woff'),
+        url('MuseoSans-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('MuseoSans-100Italic.woff2') format('woff2'),
+        url('MuseoSans-100Italic.woff') format('woff'),
+        url('MuseoSans-100Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('MuseoSans-700Italic.woff2') format('woff2'),
+        url('MuseoSans-700Italic.woff') format('woff'),
+        url('MuseoSans-700Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('MuseoSans-300.woff2') format('woff2'),
+        url('MuseoSans-300.woff') format('woff'),
+        url('MuseoSans-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 900';
+    src: url('MuseoSans-900Italic.woff2') format('woff2'),
+        url('MuseoSans-900Italic.woff') format('woff'),
+        url('MuseoSans-900Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('MuseoSans-300Italic.woff2') format('woff2'),
+        url('MuseoSans-300Italic.woff') format('woff'),
+        url('MuseoSans-300Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 900';
+    src: url('MuseoSans-900.woff2') format('woff2'),
+        url('MuseoSans-900.woff') format('woff'),
+        url('MuseoSans-900.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('MuseoSans-100.woff2') format('woff2'),
+        url('MuseoSans-100.woff') format('woff'),
+        url('MuseoSans-100.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*==============================================================
+	Bootstrap Hack
+	==============================================================*/
+
+.form-control::-webkit-input-placeholder {
+  text-transform: capitalize;
+  color: #929292;
+  opacity: 1;
+}
+
+.form-control:-moz-placeholder {
+  text-transform: capitalize;
+  color: #929292;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  text-transform: capitalize;
+  color: #929292;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  text-transform: capitalize;
+  color: #929292;
+  opacity: 1;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav>li.active>a,
+.nav>li.active>a:focus {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/*==============================================================
+Chrome Hack
+==============================================================*/
+textarea,
+input[type="text"] {
+  -webkit-appearance: none;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="file"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1310px;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+h1,.h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+h2,.h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+h3,.h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+h4,.h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+h5,.h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+h6.h6 {
+  font-family: "museo sans", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+}
+
+/* light button */
+.cta-btn a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-radius: 40px;
+  background-color: #00CE54;
+  padding: 12px 24px;
+  border: 1px solid transparent;
+}
+.cta-btn a:active {
+  background-color: #00B64A;
+}
+.cta-btn.btn-disable a{
+  background-color: #D8D8D8;
+  color: #929292;
+}
+
+.cta-btn.btn-border a{
+  border: 1px solid #00CE54;
+  background-color: transparent;
+}
+.cta-btn.btn-border a:active {
+  background-color: rgba(0, 206, 84, 0.1);
+}
+
+/* dark button */
+.cta-btn.btn-bg-dark a {
+  background-color: transparent;
+  border: 1px solid #00CE54;
+  color: #FFFFFF;
+}
+.cta-btn.btn-bg-dark a:active {
+  background-color: rgba(0, 206, 84, 0.1);
+}
+
+.cta-btn.btn-dark-disable a {
+  background-color: #AFAFAF;
+  color: #929292;
+}
+
+.cta-btn.btn-bg-border a {
+  border: 1px solid #FFFFFF;
+}
+.cta-btn.btn-bg-border a:active {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.cta-btn.btn-arrow a{
+  border-radius: 100%;
+  padding: 14px;
+}
+.cta-btn.btn-arrow a:active {
+  background-color: #00B64A;
+}
+.cta-btn.btn-arrow-disable a {
+  background-color: #D8D8D8;
+}
+
+.cta-btn.btn-border-arrow a {
+  background-color: transparent;
+  border: 1px solid #00CE54;
+}
+.cta-btn.btn-bg-border-arrow a {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+.cta-btn.btn-border-arrow a:active {
+  background-color: rgba(0, 206, 84, 0.1);
+}
+.cta-btn.btn-bg-border-arrow a:active {
+  background-color: rgba(255,255,255,0.1)
+}
+
+.header-active {
+  background-color: #EBE2F9;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 48px 0px rgba(0,0,0,0.8);
+}
+
+/* banner start */
+.header-overlay {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
+}
+.banner-wrap {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.banner-wrap:before {
+  background-color: rgba(101,69,149,0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner-wrap:after {
+  background-image: url('../images/banner-pattern.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  padding: 100px;
+  position: relative;
+  z-index: 1;
+}
+.banner h1 {
+  max-width: 761px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  font-size: 60px;
+  padding: 110px 0 60px 0;
+}
+.banner-cta-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
