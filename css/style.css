@@ -185,40 +185,45 @@ a {
 }
 
 h1,.h1 {
-  font-size: 72px;
-  font-weight: 700;
+  font-family: "museo sans", serif;
+  font-size: 60px;
+  font-weight: 900;
   line-height: 72px;
   color: #000000;
   text-align: left;
   margin: 0;
 }
 h2,.h2 {
+  font-family: "museo sans", serif;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 68px;
   color: #000000;
   text-align: left;
   margin: 0;
 }
 h3,.h3 {
+  font-family: "museo sans", serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 48px;
   color: #000000;
   text-align: left;
   margin: 0;
 }
 h4,.h4 {
+  font-family: "museo sans", serif;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 44px;
   color: #000000;
   text-align: left;
   margin: 0;
 }
 h5,.h5 {
+  font-family: "museo sans", serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 32px;
   color: #000000;
   text-align: left;
@@ -227,7 +232,7 @@ h5,.h5 {
 h6.h6 {
   font-family: "museo sans", serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 28px;
   color: #000000;
   text-align: left;
@@ -313,20 +318,13 @@ h6.h6 {
   background-color: rgba(255,255,255,0.1)
 }
 
-.header-active {
-  background-color: #EBE2F9;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 0 48px 0px rgba(0,0,0,0.8);
-}
+
 
 /* banner start */
-.header-overlay {
+.banner-overlay {
   position: absolute;
-  top: 0;
   z-index: 1;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
   background: linear-gradient(0deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
 }
 .banner-wrap {
@@ -337,7 +335,7 @@ h6.h6 {
   z-index: 1;
 }
 .banner-wrap:before {
-  background-color: rgba(101,69,149,0.6);
+  background-color: rgba(101,69,149);
   content: "";
   position: absolute;
   top: 0;
@@ -352,23 +350,46 @@ h6.h6 {
   background-repeat: no-repeat;
   content: "";
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 .banner {
-  padding: 100px;
+  position: relative;
+  z-index: 999;
+  padding: 230px 0 500px;
+}
+.banner-slider {
   position: relative;
   z-index: 1;
+}
+.banner-img.banner-img-end {
+  display: flex;
+  align-items: flex-end;
+}
+.banner-slide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.banner-img-slider-left, .banner-img-slider-right {
+  display: flex;
+  gap: 28px;
+}
+.banner-img-slider-left {
+  padding: 0 0 28px;
+}
+.banner-img-slider-left img, .banner-img-slider-right img {
+  border-radius: 12px;
+  display: block;
 }
 .banner h1 {
   max-width: 761px;
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto;
-  font-size: 60px;
-  padding: 110px 0 60px 0;
+  padding: 0 0 60px;
 }
 .banner-cta-btn {
   display: flex;

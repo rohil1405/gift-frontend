@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+    .banner h1 {
+        padding: 0 0 42px;
+    }
+    .banner {
+        padding: 225px 0 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner h1 {
+        padding: 0 0 32px;
+        font-size: 50px;
+    }
+    .banner {
+        padding: 170px 0 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner h1 {
+        padding: 0 0 32px;
+        font-size: 40px;
+        max-width: 100%;
+        line-height: 48px;
+    }
+    .banner {
+        padding: 128px 0 200px;
+    }
+    .banner-cta-btn {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .banner-cta-btn .cta-btn {
+        width: 100%;
+    }
+    .banner-cta-btn .cta-btn a {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+}
