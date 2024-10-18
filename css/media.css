@@ -1,35 +1,55 @@
-@media (max-width: 1024px) {
-    .banner h1 {
-        padding: 0 0 42px;
+@media (max-width: 1200px) {
+    .banner-img-slider-left, .banner-img-slider-right {
+        gap: 8px;
     }
     .banner {
-        padding: 225px 0 400px;
+        padding: 225px 0 180px;
     }
 }
 
+@media (max-width: 1024px) {
+    .banner-cta-btn {
+        padding: 45px 0 80px;
+    }
+    
+}
+
 @media (max-width: 991px) {
-    .banner h1 {
-        padding: 0 0 32px;
+    .h1{
         font-size: 50px;
     }
     .banner {
-        padding: 170px 0 350px;
+        padding: 130px 0;
+    }
+    .banner-cta-btn {
+        padding: 40px 0 60px;
+    }
+    .banner-img-slider-left {
+        padding-bottom: 15px;
+    }
+    .banner-wrap .slick-slide {
+        padding: 8px;
     }
 }
 
 @media (max-width: 767px) {
     .banner h1 {
-        padding: 0 0 32px;
         font-size: 40px;
         max-width: 100%;
         line-height: 48px;
     }
     .banner {
-        padding: 128px 0 200px;
+        padding: 128px 0 80px;
+    }
+    .banner-img-slider-left {
+        padding-bottom: 10px;
     }
     .banner-cta-btn {
         flex-wrap: wrap;
         gap: 12px;
+    }
+    .banner-slide {
+        margin-top: -30%;
     }
     .banner-cta-btn .cta-btn {
         width: 100%;

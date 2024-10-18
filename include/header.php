@@ -1,13 +1,13 @@
 <!-- header start -->
-<section class="header-wrap header-active">
+<section class="header-wrap">
     <div class="container">
         <header>
             <div class="header-left">
                 <div class='header-main-logo'>
                     <a href='index.php' target="_self">
-                        <img src='./images/logo.png' alt='main-logo' width='149' height='80' class='main-logo' />
-                        <img src='./images/logo-active.png' alt='active-logo' width='113' height='48' class='active-logo' />
-                        <img src='./images/mobile-logo.png' alt='mobile-logo' width='44' height='48' class='mobile-logo' />
+                        <img src='./images/logo.png' alt='main-logo' width='149' height='80' class='main-logo header-img-logo' />
+                        <img src='./images/logo-active.png' alt='active-logo' width='113' height='48' class='active-logo header-img-logo' />
+                        <img src='./images/mobile-logo.png' alt='mobile-logo' width='44' height='48' class='mobile-logo header-img-logo' />
                     </a>
                     <div class="mobile-btns">
                         <div class="cta-btn">
@@ -61,20 +61,6 @@
                             <li><a class="dropdown-item" href="#" target='_self'>Volunteering</a></li>
                         </ul>
                     </li>
-                    <!-- <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                     <li><a href='#' target='_self'>Contact Us</a></li>
                     <div class="cta-btn btn-border mobile-btn">
                         <a href='#' target="_self">Login</a>

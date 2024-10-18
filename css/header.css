@@ -96,7 +96,7 @@ p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 24px;
   text-align: left;
   color: #58585B;
   margin: 0;
@@ -168,11 +168,11 @@ header {
 .menu-listing li a:hover {
   color: #00CE54;
 }
-.menu-listing .dropdown-menu {
+/* .menu-listing .dropdown-menu {
   border-radius: 12px;
   padding: 16px 20px;
   margin-top: 8px !important;
-}
+} */
 
 .menu-listing .dropdown-menu li a {
   color: #000000;
@@ -295,7 +295,7 @@ header {
   align-items: center;
   padding: 16px;
 }
-.cta-btn.green-group:after, .cta-btn.green-group:before {
+.cta-btn.green-group a:after, .cta-btn.green-group a:before {
   position: absolute;
   content: '';
   top: -27px;
@@ -306,18 +306,29 @@ header {
   background-repeat: no-repeat;
   background-position: auto;
 }
-.cta-btn.green-group:before {
+.cta-btn.green-group a:before {
   top: 54px;
   left: 0px;
   background-image: url('../images/btn-down.png');
 }
-.header-active .cta-btn.green-group:after, .header-active .cta-btn.green-group:before {
+.header-img-logo {
+  transition: all 0.3s ease-in-out;
+}
+.header-active .cta-btn.green-group a:after, .header-active .cta-btn.green-group a:before {
   display: none;
 }
 .cta-btn.green-group {
   position: relative;
 }
-
+.cta-btn.green-group a:hover {
+  background-color: #00A945;
+}
+.cta-btn.green-group a:hover:before {
+  top: 46px;
+}
+.cta-btn.green-group a:hover:after {
+  top: -20px;
+}
 .menu-close:hover, .menu-open:hover {
   background-color:#00CE54;
 }
@@ -327,10 +338,13 @@ header {
     gap: 25px;
   }
   .header-left {
-    gap: 35px;
+    gap: 28px;
   }
   .header-call a {
     gap: 10px;
+  }
+  .menu-listing {
+    display: flex;
   }
 }
 
@@ -339,7 +353,7 @@ header {
     gap: 16px;
   }
   .menu-listing {
-    gap: 22px;
+    gap: 20px;
   }
   .header-right {
     gap: 8px;
@@ -444,20 +458,23 @@ header {
     display: flex;
     justify-content: space-between;
   }
-  @keyframes slideUp {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  .header-wrap {
-    animation: slideUp 0.3s ease-in-out;
-  }
 
+  .header-wrap {
+    animation: slideIn 0.3s ease-in-out;
+  }
+  .header-active .menu-listing svg path {
+    stroke: #FFF;
+  }
   
+}
+
+
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-300px);
+  }
+  100% {
+      transform: translateY(0);
+  }
 }

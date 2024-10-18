@@ -186,8 +186,27 @@
 
 
     </section>
-
     <!-- banner end -->
+
+    <!-- our-vision-wrap section start -->
+    <!-- <section class="our-vision-wrap">
+        <div class="container">
+            <div class="our-vision">
+                <h2 class="h2">A community engaged, supported & empowered by the giftog giving</h2>
+                <div class="our-vision-content">
+                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>
+                </div>
+                <div class="cta-btn btn-border">
+                    <a href='#' target='_self'>
+                        <img src='./images/btn-arrow.png' alt='btn-arrow' width="20" height="20" />
+                        How we help
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- our-vision-wrap section end -->
+
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>
 </body>
