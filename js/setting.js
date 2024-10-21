@@ -19,14 +19,15 @@ openBtn.addEventListener("click", () => {
   menuListing.style.animation = "slideIn 0.3s linear";
   openBtn.style.display = "none";
   closeBtn.style.display = "flex";
-  body.classList.add("no-scroll");
+  body.style.overflow = 'hidden';
+  menuListing.style.backgroundImage = `url('./images/banner-pattern.png')`;
 });
 
 closeBtn.addEventListener("click", () => {
   menuListing.style.display = "none";
   openBtn.style.display = "flex";
   closeBtn.style.display = "none";
-  body.classList.remove("no-scroll");
+  body.style.overflow = 'visible'; 
 });
 
 window.addEventListener("resize", () => {
@@ -34,12 +35,13 @@ window.addEventListener("resize", () => {
     menuListing.style.display = "none";
     closeBtn.style.display = "none";
     openBtn.style.display = "flex";
-    body.classList.remove("no-scroll"); 
+    body.style.overflow = 'visible'; 
   } else {
     menuListing.style.display = "flex";
     closeBtn.style.display = "none";
     openBtn.style.display = "none";
-    body.classList.remove("no-scroll");
+    body.style.overflow = 'visible'; 
+
   }
 });
 
@@ -50,7 +52,8 @@ $('.banner-slide').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
-    speed: 300,
+    speed: 3000,
+    dots: false,
     responsive: [
         {
           breakpoint: 1200,
@@ -72,4 +75,20 @@ $('.banner-slide').slick({
           }
       ]
   });
+
+  $(document).ready(function() {
+
+    $('.counter').each(function () {
+    $(this).prop('Counter',0).animate({
+    Counter: $(this).text()
+    }, {
+    duration: 4000,
+    easing: 'swing',
+    step: function (now) {
+    $(this).text(Math.ceil(now));
+    }
+    });
+    });
+    
+    });
 

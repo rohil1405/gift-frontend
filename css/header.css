@@ -142,6 +142,9 @@ header {
 .cta-btn.btn-border.mobile-btn {
   margin-bottom: 28px;
 }
+.cta-btn.btn-border.mobile-btn a {
+  padding: 12px 24px;
+}
 .active-logo {
   display: none;
 }
@@ -288,12 +291,20 @@ header {
   line-height: 24px;
   color: #000000;
 }
-.menu-listing li:last-child {
+.get-touch-wrap {
   display: none;
   background-color: #FFFFFF;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+}
+.menu-listing ul li:last-child {
+  display: block;
+  padding: 18px 0 0;
+}
+.dropdown-menu.show {
+  padding: 16px;
+  margin-top: 8px !important;
 }
 .cta-btn.green-group a:after, .cta-btn.green-group a:before {
   position: absolute;
@@ -335,10 +346,10 @@ header {
 
 @media (max-width: 1200px) {
   .menu-listing {
-    gap: 25px;
+    gap: 22px;
   }
   .header-left {
-    gap: 28px;
+    gap: 26px;
   }
   .header-call a {
     gap: 10px;
@@ -410,10 +421,7 @@ header {
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-  .menu-listing li  {
-    overflow-y: auto; 
-    overflow-x: hidden;
-  } 
+
   .menu-listing li a {
     padding: 0 0 28px;
     font-size: 16px;
@@ -438,7 +446,7 @@ header {
   .header-active .menu-listing li a {
     color: #FFFFFF;
   }
-  .menu-listing li:last-child  {
+  .menu-listing li:last-child .get-touch-wrap {
     display: flex;
     position: absolute;
     left: 0;

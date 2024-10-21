@@ -1,15 +1,101 @@
+@media (max-width: 1400px) {
+    .our-founder-content {
+        padding: 45px 70px;
+        min-height: 512px;
+        min-width: 400px;
+    }
+    .our-founder-listing {
+        max-width: 724px;
+        padding: 34px 0 0;
+    }
+    .our-founder-listing li {
+        padding: 36px 25px;
+    }
+    .our-founder-content::after {
+        width: 160px;
+        height: 160px;
+        left: -16%;
+    }
+}
+
 @media (max-width: 1200px) {
     .banner-img-slider-left, .banner-img-slider-right {
-        gap: 8px;
+        gap: 10px;
     }
     .banner {
         padding: 225px 0 180px;
     }
+    .banner-wrap .slick-slide {
+        padding: 8px;
+    }
+    .our-vision-text {
+        padding: 0 0 26px;
+        gap: 20px;
+    }
+    .our-vision-content {
+        padding: 55px 0 40px;
+    }
+    .our-vision-wrap {
+        padding: 0 0 74px;
+    }
+    .our-founder-wrap {
+        padding: 120px 0 80px;
+    }
+    .our-founder-content {
+        padding: 30px;
+        min-height: 450px;
+        min-width: 375px;
+    }
+    .our-founder-content h4, .our-founder-content p {
+        min-width: 100%;
+    }
+    .our-founder-content p {
+        padding: 20px 0;
+    }
+    .our-founder-listing li {
+        padding: 30px 20px;
+    }
+    .our-founder-listing {
+        max-width: 620px;
+    }
+    .our-founder-content::before {
+        width: 120px;
+        height: 93px;
+        top: -11%;
+        left: -21%;
+    }
+    .our-founder-content::after {
+        width: 140px;
+        height: 140px;
+        left: -13%;
+        bottom: -16%;
+    }
+
 }
 
 @media (max-width: 1024px) {
     .banner-cta-btn {
         padding: 45px 0 80px;
+    }
+    .our-founder-content {
+        padding: 26px;
+    }
+    .our-founder-wrap {
+        padding: 100px 0 60px;
+    }
+    .our-founder-listing {
+        max-width: 585px;
+        padding: 24px 0 0;
+    }
+    .our-founder-content::before {
+        width: 98px;
+        height: 84px;
+        top: -13%;
+        left: -18%;
+    }
+    h2, .h2 {
+        font-size: 44px;
+        line-height: 63px;
     }
     
 }
@@ -18,38 +104,78 @@
     .h1{
         font-size: 50px;
     }
+    h2, .h2 {
+        font-size: 40px;
+        line-height: 56px;
+    }
     .banner {
         padding: 130px 0;
     }
     .banner-cta-btn {
         padding: 40px 0 60px;
     }
-    .banner-img-slider-left {
-        padding-bottom: 15px;
+    .banner-slide {
+        margin-top: -17%;
     }
-    .banner-wrap .slick-slide {
-        padding: 8px;
+    .our-vision-content {
+        padding: 45px 0 30px;
+    }
+    .our-vision-wrap {
+        padding: 0 0 44px;
+    }
+    .our-founder-wrap {
+        padding: 74px 0 40px;
+    }
+    .our-founder h2 {
+        max-width: 100%;
+    }
+    .our-founder-listing {
+        max-width: 100%;
+        padding: 24px 0;
+    }
+    .our-founder-listing li {
+        padding: 24px 18px;
+    }
+    .our-founder-content {
+        padding: 22px;
+        min-width: 100%;
+        min-height: 0;
+        border-radius: 0;
+        position: relative;
+        top: auto;
+    }
+    .our-founder-content::after, .our-founder-content::before {
+        display: none;
+    }
+    h4, .h4 {
+        font-size: 28px;
+        line-height: 40px;
     }
 }
 
 @media (max-width: 767px) {
+    h2,.h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    h4, .h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
     .banner h1 {
         font-size: 40px;
         max-width: 100%;
         line-height: 48px;
     }
     .banner {
-        padding: 128px 0 80px;
-    }
-    .banner-img-slider-left {
-        padding-bottom: 10px;
+        padding: 128px 0 280px;
     }
     .banner-cta-btn {
         flex-wrap: wrap;
         gap: 12px;
     }
     .banner-slide {
-        margin-top: -30%;
+        margin-top: -45%;
     }
     .banner-cta-btn .cta-btn {
         width: 100%;
@@ -58,5 +184,54 @@
         width: 100%;
         text-align: center;
         display: block;
+    }
+    .our-vision-content {
+        padding: 82px 0 48px;
+    }
+    .our-vision-wrap {
+        padding:  0 0 40px;
+        margin: 300px 0 0;
+    }
+    .our-vision h2::after, .our-vision h2::before {
+        width: 100px;
+        height: 48px;
+    }
+    .our-vision h2, .our-vision-content {
+        max-width: 100%;
+    }
+    .our-founder-wrap {
+        padding: 40px 0 24px;
+    }
+    .our-founder-content p {
+        padding: 20px 0 32px;
+    }
+    .our-founder-content .cta-btn a {
+        display: block;
+        text-align: center;
+    }
+    .our-founder-content {
+        padding: 28px 16px;
+    }
+    .our-founder-listing li {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+        padding: 8px 8px 8px 0;
+        border-right: 0;
+        border-bottom: 1px solid #EBE2F9;
+    }
+    .our-founder-listing li h3 {
+        min-width: 100px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 475px) {
+    .banner-slide {
+        margin-top: -50%;
+    }
+    .banner {
+        padding: 128px 0 180px;
     }
 }

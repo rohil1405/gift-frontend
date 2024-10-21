@@ -48,8 +48,6 @@
                             <li><a class="dropdown-item" href="#">Volunteering</a></li>
                         </ul>
                     </li>
-
-
                     <li><a href='#' target='_self' class="dropdown-toggle" type="button" data-bs-toggle="dropdown">Support Us
                             <svg width="16" height="16" viewBox="0 0 16 16" aria-orientation="true" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.75 5.75L8 10.25L12.25 5.75" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
@@ -62,22 +60,25 @@
                         </ul>
                     </li>
                     <li><a href='#' target='_self'>Contact Us</a></li>
-                    <div class="cta-btn btn-border mobile-btn">
+                    <li class="cta-btn btn-border mobile-btn">
                         <a href='#' target="_self">Login</a>
-                    </div>
+                    </li>
                     <li>
-                        <div class="get-touch">Get in touch</div>
-                        <div class="header-call mobile-menu">
-                            <a href="tel: 987654321" target="_self">
-                                <div class="call-img">
-                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.1875 2.1875C15.3125 2.1875 17.8125 4.6875 17.8125 7.8125M12.1875 5.3125C13.4375 5.3125 14.6875 6.5625 14.6875 7.8125M2.1875 2.1875C2.1875 12.8125 7.1875 17.8125 17.8125 17.8125V12.8125L13.4375 11.5625L12.1875 13.4375C9.6875 13.4375 6.5625 10.3125 6.5625 7.8125L8.4375 6.5625L7.1875 2.1875H2.1875Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
+                        <div class='get-touch-wrap'>
+                            <div class="get-touch">Get in touch</div>
+                            <div class="header-call mobile-menu">
+                                <a href="tel: 987654321" target="_self">
+                                    <div class="call-img">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.1875 2.1875C15.3125 2.1875 17.8125 4.6875 17.8125 7.8125M12.1875 5.3125C13.4375 5.3125 14.6875 6.5625 14.6875 7.8125M2.1875 2.1875C2.1875 12.8125 7.1875 17.8125 17.8125 17.8125V12.8125L13.4375 11.5625L12.1875 13.4375C9.6875 13.4375 6.5625 10.3125 6.5625 7.8125L8.4375 6.5625L7.1875 2.1875H2.1875Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
 
-                                0208 457 4429
-                            </a>
+                                    0208 457 4429
+                                </a>
+                            </div>
                         </div>
+
                     </li>
                 </ul>
             </div>
