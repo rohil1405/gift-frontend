@@ -16,6 +16,31 @@
         height: 160px;
         left: -16%;
     }
+    .our-events-slide {
+        gap: 46px;
+    }
+    .our-events-item {
+        padding: 16px;
+    }
+    .our-events-wrap {
+        padding-top: 60px;
+    }
+    .our-word-wrap {
+        padding: 85px 0 70px;
+    }
+    .section-title {
+        padding-bottom: 70px;
+    }
+    .our-word-review {
+        padding: 36px 36px 36px 110px;
+    }
+    .word-image::before {
+        left: 180px;
+    }
+    .word-image::after {
+        right: 180px;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -70,7 +95,60 @@
         left: -13%;
         bottom: -16%;
     }
-
+    .our-events-item {
+        padding: 14px;
+    }
+    .our-events-slide {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .our-events-wrap {
+        padding-top: 35px;
+    }
+    .our-event-date {
+        margin: 15px 0;
+    }
+    .our-events-item p {
+        padding: 20px 0;
+    }
+    .events-cta {
+        gap: 10px;
+    }
+    .our-events-item::after {
+        left: 33%;
+    }
+    .our-events-item.event-line::after {
+        left: 66.5%;
+    }
+    .section-title {
+        padding-bottom: 55px;
+    }
+    .our-word-wrap {
+        padding: 85px 0 70px;
+        margin: 0 0 32px;
+    }
+    .our-word-review {
+        padding: 30px 30px 30px 80px;
+    }
+    .our-word-content {
+        gap: 40px;
+    }
+    .our-word-text:before {
+        left: 18px;
+        top: 30px;
+    }
+    .word-image::before{
+        left: 118px;
+        top: -40%;
+    }
+    .word-image::after{
+        right: 160px;
+        bottom: -25px;
+    }
+    .word-image::before, .word-image::after {
+        width: 100px;
+        height: 45px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -96,6 +174,24 @@
     h2, .h2 {
         font-size: 44px;
         line-height: 63px;
+    }
+    .our-events-item.slick-slide {
+        width: 450px !important;
+    }
+    .our-events-item p {
+        padding: 16px 0;
+        max-width: 400px;
+    }
+    .our-word-review a h5 {
+        padding: 22px 0 2px;
+    }
+    .word-image::before {
+        left: 99px;
+        top: -51%;
+    }
+    .word-image::after {
+        right: 127px;
+        bottom: -35px;
     }
     
 }
@@ -151,6 +247,60 @@
         font-size: 28px;
         line-height: 40px;
     }
+    .our-events-item.slick-slide{
+        max-width: 340px !important;
+    }
+    .our-events-item::after {
+        display: none;
+    }
+    .our-events-item.event-line::after {
+        display: none;
+    }
+    .our-word-review {
+        padding: 20px 20px 20px 55px;
+        max-width: 100%;
+    }
+    .our-word-content {
+        gap: 10px;
+    }
+    .our-word-text:before {
+        left: 6px;
+        top: 17px;
+        width: 42px;
+        height: 36px;
+    }
+    .our-word-review a h5 {
+        padding: 16px 0 0;
+    }
+    .our-word-slide.slick-slider {
+        max-width: 500px;
+    }
+    .our-word-right {
+        max-width: 180px;
+    }
+    .word-image::after {
+        right: 109px;
+        bottom: -38px;
+    }
+    .word-image::before {
+        left: 113px;
+        top: -45%;
+    }
+    .word-image::before, .word-image::after {
+        width: 88px;
+        height: 39px;
+    }
+    .section-title {
+        padding-bottom: 40px;
+    }
+    .our-word-wrap {
+        padding: 60px 0;
+        margin: 0 0 26px;
+    }
+    .section-title {
+        padding-bottom: 24px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -224,6 +374,29 @@
     .our-founder-listing li h3 {
         min-width: 100px;
         line-height: 60px;
+    }
+    .our-events-item p {
+        max-width: 100%;
+        padding: 12px 0 20px;
+    }
+    .our-events-item {
+        padding: 8px;
+    }
+    .our-event-date {
+        margin: 10px 0;
+    }
+    .our-word-right {
+        display: none;
+    }
+    .our-word-slide.slick-slider {
+        max-width: 320px;
+    }
+    .our-word-slide.slick-initialized .slick-slide {
+        margin-right: 40px;
+    }
+    .our-word-wrap {
+        padding: 40px 0;
+        margin: 0 0 16px;
     }
 }
 

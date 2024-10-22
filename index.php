@@ -8,8 +8,10 @@
 <body>
     <?php include("include/header.php"); ?>
     <!-- banner start -->
-    <section class="banner-wrap" style="background-image: url('./images/overlay.png')">
-        <div class="banner-overlay"></div>
+    <section class="banner-wrap" style="background-color: #654595">
+        <div class="banner-overlay">
+            <img src='./images/overlay.png' alt='banner-bg-img' width='1600' height='1018' />
+        </div>
         <div class="container">
             <div class="banner">
                 <h1 class="h1">GIFT's mission is to inspire and enable lifelong giving</h1>
@@ -229,7 +231,7 @@
 
                 <ul class="our-founder-listing">
                     <li class='ps-0'>
-                        <h3 class="h3">4.5k</h3>
+                        <h3 class="h3 counter">45000</h3>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
@@ -241,7 +243,7 @@
                     </li>
 
                     <li>
-                        <h3 class="h3">2k</h3>
+                        <h3 class="h3 counter">2000</h3>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/packing.png' width='20' height="20" alt='packing' />
@@ -253,7 +255,7 @@
                     </li>
 
                     <li class='border-end-0'>
-                        <h3 class="h3">5.6k</h3>
+                        <h3 class="h3 counter">56000</h3>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/primary.png' width='20' height="20" alt='primary' />
@@ -265,7 +267,7 @@
                     </li>
 
                     <li class='ps-0 border-bottom-0'>
-                        <h3 class="h3">39k</h3>
+                        <h3 class="h3 counter">39000</h3>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/bag.png' width='20' height="20" alt='bags' />
@@ -277,7 +279,7 @@
                     </li>
 
                     <li class='border-bottom-0'>
-                        <h3 class="h3">400</h3>
+                        <h3 class="h3 counter">400</h3>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/people.png' width='20' height="20" alt='people' />
@@ -319,7 +321,7 @@
     <!-- our-founder-section end -->
 
     <!-- our-events-section start -->
-    <section class="our-events-wrap" style="background-image: url('../images/banner-pattern.png');">
+    <!-- <section class="our-events-wrap" style="background-image: url('./images/banner-pattern.png');">
         <div class="container">
             <div class="our-events">
                 <div class="over-events-text">
@@ -339,7 +341,7 @@
 
                         <div class="our-events-item">
                             <a href='#' target="_self" class='event-img'>
-                                <img src='./images/event-1.png' alt='event-one' width='372' height='372' />
+                                <img class='event-main-img' src='./images/event-1.png' alt='event-one' width='372' height='372' />
                                 <div class="event-price-img">
                                     <img src='./images/price.png' alt='price' width='14' height='14' />
                                     <div class="event-price">
@@ -351,7 +353,7 @@
                                 <img src='./images/date.png' alt='date' width='14' height='14' />
                                 <div class="event-date-title">14th September 2022</div>
                             </a>
-                            <a href='#' target='_self'>
+                            <a href='#' target='_self' class='event-main-title'>
                                 <h6 class="h6">Bat Mitzvah Launch Event</h6>
                             </a>
 
@@ -374,9 +376,11 @@
                             </div>
                         </div>
 
+
+
                         <div class="our-events-item event-line">
                             <a href='#' target="_self" class='event-img'>
-                                <img src='./images/event-2.png' alt='event-two' width='372' height='372' />
+                                <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
                                 <div class="event-price-img">
                                     <img src='./images/price.png' alt='price' width='14' height='14' />
                                     <div class="event-price">
@@ -388,7 +392,7 @@
                                 <img src='./images/date.png' alt='date' width='14' height='14' />
                                 <div class="event-date-title">25th October 2022</div>
                             </a>
-                            <a href='#' target='_self'>
+                            <a href='#' target='_self' class='event-main-title'>
                                 <h6 class="h6">Bnei Mitzvah Weekly Packing</h6>
                             </a>
 
@@ -413,7 +417,7 @@
 
                         <div class="our-events-item">
                             <a href='#' target="_self" class='event-img'>
-                                <img src='./images/event-1.png' alt='event-one' width='372' height='372' />
+                                <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
                                 <div class="event-price-img">
                                     <img src='./images/price.png' alt='price' width='14' height='14' />
                                     <div class="event-price">
@@ -425,7 +429,7 @@
                                 <img src='./images/date.png' alt='date' width='14' height='14' />
                                 <div class="event-date-title">14th September 2022</div>
                             </a>
-                            <a href='#' target='_self'>
+                            <a href='#' target='_self' class='event-main-title'>
                                 <h6 class="h6">Bat Mitzvah Launch Event</h6>
                             </a>
 
@@ -453,9 +457,256 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- our-events-section start -->
 
+    <!-- our-world-section-start -->
+    <section class="our-word-wrap">
+        <div class="container">
+            <div class="our-word">
+                <div class="section-title">
+                    <h2 class="h2">Don't just take our word for it!</h2>
+                </div>
+
+                <div class="our-word-content">
+                    <div class="our-word-left">
+                        <div class="our-word-slider">
+                            <div class="our-word-slide">
+                                <div class="our-word-review">
+                                    <div class="our-word-text">
+                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
+                                        <a href='#' target="_self">
+                                            <h5 class="h5">Joshua Rowe</h5>
+                                        </a>
+                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
+                                    </div>
+                                </div>
+                                <div class="our-word-review">
+                                    <div class="our-word-text">
+                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
+                                        <a href='#' target="_self">
+                                            <h5 class="h5">Joshua Rowe</h5>
+                                        </a>
+                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
+                                    </div>
+                                </div>
+                                <div class="our-word-review">
+                                    <div class="our-word-text">
+                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
+                                        <a href='#' target="_self">
+                                            <h5 class="h5">Joshua Rowe</h5>
+                                        </a>
+                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
+                                    </div>
+                                </div>
+                                <div class="our-word-review">
+                                    <div class="our-word-text">
+                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
+                                        <a href='#' target="_self">
+                                            <h5 class="h5">Joshua Rowe</h5>
+                                        </a>
+                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
+                                    </div>
+                                </div>
+                                <div class="our-word-review">
+                                    <div class="our-word-text">
+                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
+                                        <a href='#' target="_self">
+                                            <h5 class="h5">Joshua Rowe</h5>
+                                        </a>
+                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="our-word-right">
+                        <div class='word-image'>
+                            <img src='./images/section-logo-main.png' alt='gift-section-image' width='242' height='130' />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- our-worl-section end -->
+
+    <!-- our-instragram-section start -->
+    <section class="our-instagram-wrap">
+        <div class="container">
+            <div class="our-instagram">
+                <div class="section-title">
+                    <div class="section-icon">
+                        <img src='./images/instagram-icon.png' alt='insta-icon' width='24' height='24' />
+                    </div>
+                    <h2 class="h2">Instagram feed</h2>
+                </div>
+            </div>
+        </div>
+        <div class="our-instagram-slider">
+            <div class="our-instagram-slide">
+                <div class="our-instagram-item">
+                    <img src='./images/insta-six.png' width="290" height="290" alt='insta-six' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-one.png' width="290" height="290" alt='insta-one' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-two.png' width="290" height="290" alt='insta-two' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-three.png' width="290" height="290" alt='insta-three' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-four.png' width="290" height="290" alt='insta-four' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-five.png' width="290" height="290" alt='insta-five' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-six.png' width="290" height="290" alt='insta-six' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-one.png' width="290" height="290" alt='insta-one' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-two.png' width="290" height="290" alt='insta-two' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-three.png' width="290" height="290" alt='insta-three' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-four.png' width="290" height="290" alt='insta-four' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-instagram-item">
+                    <img src='./images/insta-five.png' width="290" height="290" alt='insta-five' />
+                    <div class='insta-item-overlay'>
+                        <div class="insta-item-list">
+                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
+                            <div class="insta-like-count">21</div>
+                        </div>
+                        <div class="insta-item-list">
+                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
+                            <div class="insta-like-count">10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-instragram-section end -->
 
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>

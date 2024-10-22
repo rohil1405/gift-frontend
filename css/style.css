@@ -240,6 +240,11 @@ h6.h6 {
 }
 
 /* light button */
+.cta-btn {
+  position: relative;
+  z-index: 1;
+}
+
 .cta-btn a {
   display: inline-flex;
   align-items: center;
@@ -253,16 +258,52 @@ h6.h6 {
   background-color: #00CE54;
   padding: 12px 24px;
   border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;  
 }
+
+.cta-btn a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  border-radius: 40px;
+  background-color: #00A945;
+  z-index: -1;
+  transition: all 0.3s ease-in-out; 
+}
+
+.cta-btn a:hover::before {
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes button-hover {
+  0% {
+    border-radius: 10%;
+  }
+  100% {
+    border-radius: 100%; 
+  }
+}
+
+.cta-btn a:hover {
+  animation: button-hover 0.3s ease-in-out; 
+}
+
 .cta-btn a:active {
   background-color: #00B64A;
 }
+
 .cta-btn.btn-disable a{
   background-color: #D8D8D8;
   color: #929292;
 }
 .cta-btn.lg-btn a {
-  padding: 12px 74px;
+  padding: 12px 58px;
   background-color: #00CE54;
 }
 .cta-btn.lg-btn a:hover {
@@ -329,11 +370,14 @@ h6.h6 {
 
 
 /* banner start */
-.banner-overlay {
+.banner-overlay img{
+  opacity: 6%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
-  z-index: 1;
-  inset: 0;
-  background: linear-gradient(0deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
+  width: 100%;
+  height: 100%;
 }
 .banner-wrap {
   position: relative;
@@ -343,7 +387,9 @@ h6.h6 {
   z-index: 1;
 }
 .banner-wrap:before {
-  background-color: rgba(101,69,149);
+  /* background-color: rgba(101,69,149); */
+  background-image: url('../images/banner-pattern.png');
+  background: linear-gradient(0deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
   content: "";
   position: absolute;
   top: 0;
@@ -355,7 +401,7 @@ h6.h6 {
   padding:14px;
 }
 
-.banner-wrap:after {
+/* .banner-wrap:after {
   background-image: url('../images/banner-pattern.png');
   background-position: center;
   background-size: cover;
@@ -366,7 +412,7 @@ h6.h6 {
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 .banner {
   position: relative;
   z-index: 999;
@@ -429,7 +475,7 @@ h6.h6 {
   margin: 0 auto;
   position: relative;
 }
-.slick-next.slick-arrow, .slick-prev.slick-arrow {
+.banner-slide .slick-next.slick-arrow, .banner-slide .slick-prev.slick-arrow {
   display: none !important;
 }
 .our-vision-content {
@@ -667,7 +713,8 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-background: linear-gradient(159deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 100%);
+  padding-top: 80px;
+/* background: linear-gradient(0deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 100%); */
 }
 .over-events-text {
   display: flex;
@@ -678,21 +725,24 @@ background: linear-gradient(159deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 
   color: #000;
 }
 .events-cta {
-  display: none;
+  opacity: 0;
+  display: flex;
+  gap: 20px;
   align-items: center;
-  justify-content: space-between;
 }
 .events-cta .cta-btn a {
   color: #000;
 }
 .our-events-item a img {
   border-radius: 8px;
-  display: block;
   cursor: pointer;
+
+}
+.our-events-slider {
+  padding-top: 20px;
 }
 .our-events-item:hover .events-cta {
-  display: flex;
-  gap: 20px;
+  opacity: 1;
 }
 .our-events-item a h6:hover {
   color: #58585B;
@@ -710,11 +760,37 @@ background: linear-gradient(159deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 
 .our-events-item {
   width: 33.33%;
   transition: all 0.3s ease-in-out;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 12px;
+}
+.our-events-slide.slick-initialized.slick-slider {
+  display: block;
+  position: relative;
+}
+.our-events-slide .slick-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+
+}
+.our-events-slide .slick-dots button {
+  border-radius: 100%;
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  border: 1.2px solid #AFAFAF;
+  background-color: transparent;
+  font-size: 0;
+}
+.our-events-slide .slick-dots .slick-active button {
+  background-color: #00CE54;
+  border: 0;
 }
 .our-events-item:hover{
-  padding: 20px;
   background-color: #FFFFFF;
-  border-radius: 12px;
 }
 .event-date-title, .event-price {
   color: #000000;
@@ -726,7 +802,7 @@ background: linear-gradient(159deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 
 .our-event-date {
   padding: 4px 8px;
 }
-.our-events-item h6 {
+.event-main-title {
   width: 100%;
 }
 .event-price-img, .our-event-date {
@@ -742,6 +818,7 @@ background: linear-gradient(159deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 
   position: relative;
 }
 .event-price-img {
+  margin: 0;
   position: absolute;
   top: 16px;
   left: 16px;
@@ -752,10 +829,203 @@ background: linear-gradient(159deg, rgba(251,248,255,1) 0%, rgba(251,248,255,1) 
   height: 562px;
   border: 1px solid #EBE2F9;
   position: absolute;
-  top: -5%;
-  left: 32%;
+  top: 4%;
+  left: 32.5%;
 }
 .our-events-item.event-line::after {
   left: 66.5%;
 }
+.custom-prev-arrow, .custom-next-arrow {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 37px;
+  height: 37px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+}
+
+.custom-prev-arrow {
+  left: 0;
+  bottom: 0;
+  background-image: url('../images/prev-arrow.png');
+}
+.custom-next-arrow {
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/next-arrow.png');
+}
+
+.our-word-wrap {
+  background-image: url('../images/banner-pattern.png');
+  background-color:#00CE54;
+  padding: 100px 0 80px;
+  margin: 0 0 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-word-content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.our-word-right {
+  position: relative;
+  max-width: 242px;
+  margin: 0 auto;
+}
+.word-image::before, .word-image::after {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../images/gift-green-up.png');
+  position: absolute;
+  width: 140px;
+  height: 64px;
+  content: "";
+}
+.word-image::after {
+  transform: rotate(180deg);
+  bottom: -45px;
+  right: 216px;
+}
+.word-image::before {
+  left: 216px;
+  top: -45px;
+}
+.our-word h2 {
+  color: #FFFFFF;
+}
+.section-icon {
+  background-image: url('../images/insta-bg.png');
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 80px;
+}
+.our-word-review {
+  padding: 40px 40px 40px 120px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  max-width: 730px;
+  position: relative;
+}
+.our-word-review a h5 {
+  padding: 28px 0 4px;
+}
+.our-word-review a h5:hover {
+  color: #AFAFAF;
+}
+.our-word-text:before {
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../images/gift-quotes.png');
+  width: 52px;
+  height: 42px;
+  left: 40px;
+  top: 40px;
+  position: absolute;
+}
+.our-word-text p:last-child {
+  font-weight: 500;
+}
+.our-instagram-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.our-instagram-item {
+  margin-left: 2px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.our-instagram-slide.slick-initialized  {
+  margin-top: -22px;
+}
+.our-word-slide.slick-slider {
+  max-width: 730px;
+}
+.our-word-slide .slick-dots button {
+  border-radius: 100%;
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  border: 1.2px solid #00A945;
+  background-color: transparent;
+  font-size: 0;
+  margin-top: 32px;
+}
+.our-word-slide .slick-dots .slick-active button {
+  background-color: #FFFFFF;
+  border: 0;
+}
+.our-word-slide .slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.bg-prev-arrow, .bg-next-arrow {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 37px;
+  height: 37px;
+  border: none;
+  bottom: 0;
+  z-index: 1;
+  position: absolute;
+  background-image: url('../images/white-arrow.png');
+  background-color: transparent;
+}
+.bg-prev-arrow {
+  left: 0;
+  transform: rotate(180deg);
+}
+.bg-next-arrow {
+  right: 0;  
+}
+.insta-item-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.insta-item-overlay {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  inset: 0;
+  transition: all 0.3s ease-in-out;
+}
+.our-instagram-item:hover .insta-item-overlay{
+  display: flex;
+}
+.insta-like-count {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;  
+}
+
 
