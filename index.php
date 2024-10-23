@@ -321,7 +321,7 @@
     <!-- our-founder-section end -->
 
     <!-- our-events-section start -->
-    <!-- <section class="our-events-wrap" style="background-image: url('./images/banner-pattern.png');">
+    <section class="our-events-wrap" style="background-image: url('./images/banner-pattern.png');">
         <div class="container">
             <div class="our-events">
                 <div class="over-events-text">
@@ -457,11 +457,11 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- our-events-section start -->
 
     <!-- our-world-section-start -->
-    <section class="our-word-wrap">
+    <!-- <section class="our-word-wrap">
         <div class="container">
             <div class="our-word">
                 <div class="section-title">
@@ -530,7 +530,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- our-worl-section end -->
 
     <!-- our-instragram-section start -->
@@ -548,19 +548,6 @@
         <div class="our-instagram-slider">
             <div class="our-instagram-slide">
                 <div class="our-instagram-item">
-                    <img src='./images/insta-six.png' width="290" height="290" alt='insta-six' />
-                    <div class='insta-item-overlay'>
-                        <div class="insta-item-list">
-                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
-                            <div class="insta-like-count">21</div>
-                        </div>
-                        <div class="insta-item-list">
-                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
-                            <div class="insta-like-count">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="our-instagram-item">
                     <img src='./images/insta-one.png' width="290" height="290" alt='insta-one' />
                     <div class='insta-item-overlay'>
                         <div class="insta-item-list">
@@ -613,32 +600,6 @@
                     </div>
                 </div>
                 <div class="our-instagram-item">
-                    <img src='./images/insta-five.png' width="290" height="290" alt='insta-five' />
-                    <div class='insta-item-overlay'>
-                        <div class="insta-item-list">
-                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
-                            <div class="insta-like-count">21</div>
-                        </div>
-                        <div class="insta-item-list">
-                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
-                            <div class="insta-like-count">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="our-instagram-item">
-                    <img src='./images/insta-six.png' width="290" height="290" alt='insta-six' />
-                    <div class='insta-item-overlay'>
-                        <div class="insta-item-list">
-                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
-                            <div class="insta-like-count">21</div>
-                        </div>
-                        <div class="insta-item-list">
-                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
-                            <div class="insta-like-count">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="our-instagram-item">
                     <img src='./images/insta-one.png' width="290" height="290" alt='insta-one' />
                     <div class='insta-item-overlay'>
                         <div class="insta-item-list">
@@ -679,19 +640,6 @@
                 </div>
                 <div class="our-instagram-item">
                     <img src='./images/insta-four.png' width="290" height="290" alt='insta-four' />
-                    <div class='insta-item-overlay'>
-                        <div class="insta-item-list">
-                            <img src='./images/love.png' alt='love-icon' width='20' height='20' />
-                            <div class="insta-like-count">21</div>
-                        </div>
-                        <div class="insta-item-list">
-                            <img src='./images/msg.png' alt='msg-icon' width='20' height='20' />
-                            <div class="insta-like-count">10</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="our-instagram-item">
-                    <img src='./images/insta-five.png' width="290" height="290" alt='insta-five' />
                     <div class='insta-item-overlay'>
                         <div class="insta-item-list">
                             <img src='./images/love.png' alt='love-icon' width='20' height='20' />
@@ -707,6 +655,106 @@
         </div>
     </section>
     <!-- our-instragram-section end -->
+
+    <!-- gift-co;;aboration-section start -->
+    <section class="gift-collaboration-wrap">
+        <div class="container">
+            <div class="gift-collaboration">
+                <h2 class="h4">GIFT works in collaboration with</h2>
+
+                <div class="gift-collaboration-slider">
+                    <div class="gift-collaboration-slide">
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-one.png' alt='vat' width='117' height='52' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-two.png' alt='stock' width='165' height='44' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-three.png' alt='ey' width='124' height='60' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-four.png' alt='sab' width='116' height='52' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-five.png' alt='FR' width='202' height='62' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-one.png' alt='vat' width='117' height='52' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-two.png' alt='stock' width='165' height='44' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-three.png' alt='ey' width='124' height='60' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-four.png' alt='sab' width='116' height='52' />
+                        </div>
+                        <div class="gift-collaboration-logos">
+                            <img src='./images/logos-five.png' alt='FR' width='202' height='62' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gift-co;;aboration-section end -->
+
+    <section class="our-newsletter-wrap">
+        <div class="container">
+            <div class="our-newsletter">
+                <div class="our-newsletter-content">
+                    <h2 class="h4">Subscribe to our newsletter</h2>
+                    <form>
+                        <div class="fieldset">
+                            <input type="text" class="form-control" id="first-name" placeholder="First name">
+                        </div>
+                        <div class="fieldset">
+                            <input type="text" class="form-control" id="sur-name" placeholder="Surname">
+                        </div>
+                        <div class="fieldset">
+                            <input type="email" class="form-control" id="email" placeholder="Email address">
+                        </div>
+                        <button type="submit" class="cta-form-btn">Subscribe
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="privacy-cookies-wrap">
+        <div class="container">
+            <div class="privacy-cookies">
+                <div class="privacy-cookies-header">
+                    <h6 class="h6">Your privacy</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="privacy-cookies-body">
+                    We use cookies to optimise our website and our service. View our
+                    <a href='#' target="_self">Cookies Policy</a>
+                </div>
+                <div class="privacy-cookies-footer">
+                    <div class="cta-btn btn-border">
+                        <a href='#' target="_self">Preferences</a>
+                    </div>
+                    <button type='submit' class='btn-accept'>
+                        Accept all
+                        <img src='./images/accept-all.png' width='20' height='20' alt='accept-all' />
+
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
 
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>

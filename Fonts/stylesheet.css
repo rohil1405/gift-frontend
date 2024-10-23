@@ -1,88 +1,58 @@
 @font-face {
-    font-family: 'Museo Sans 900';
-    src: url('MuseoSans-900Italic.woff2') format('woff2'),
-        url('MuseoSans-900Italic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 300';
-    src: url('MuseoSans-300Italic.woff2') format('woff2'),
-        url('MuseoSans-300Italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 700';
-    src: url('MuseoSans-700Italic.woff2') format('woff2'),
-        url('MuseoSans-700Italic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 500';
-    src: url('MuseoSans-500Italic.woff2') format('woff2'),
-        url('MuseoSans-500Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 900';
-    src: url('MuseoSans-900.woff2') format('woff2'),
-        url('MuseoSans-900.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Museo Sans Rounded 1000';
+    src: url('MuseoSansRounded-1000.woff2') format('woff2'),
+        url('MuseoSansRounded-1000.woff') format('woff'),
+        url('MuseoSansRounded-1000.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Museo Sans 300';
-    src: url('MuseoSans-300.woff2') format('woff2'),
-        url('MuseoSans-300.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 500';
-    src: url('MuseoSans-500.woff2') format('woff2'),
-        url('MuseoSans-500.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 100';
-    src: url('MuseoSans-100Italic.woff2') format('woff2'),
-        url('MuseoSans-100Italic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Museo Sans 700';
-    src: url('MuseoSans-700.woff2') format('woff2'),
-        url('MuseoSans-700.woff') format('woff');
+    font-family: 'Museo Sans Rounded 700';
+    src: url('MuseoSansRounded-700.woff2') format('woff2'),
+        url('MuseoSansRounded-700.woff') format('woff'),
+        url('MuseoSansRounded-700.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Museo Sans 100';
-    src: url('MuseoSans-100.woff2') format('woff2'),
-        url('MuseoSans-100.woff') format('woff');
+    font-family: 'Museo Sans Rounded 300';
+    src: url('MuseoSansRounded-300.woff2') format('woff2'),
+        url('MuseoSansRounded-300.woff') format('woff'),
+        url('MuseoSansRounded-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Rounded 900';
+    src: url('MuseoSansRounded-900.woff2') format('woff2'),
+        url('MuseoSansRounded-900.woff') format('woff'),
+        url('MuseoSansRounded-900.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Rounded 500';
+    src: url('MuseoSansRounded-500.woff2') format('woff2'),
+        url('MuseoSansRounded-500.woff') format('woff'),
+        url('MuseoSansRounded-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Rounded 100';
+    src: url('MuseoSansRounded-100.woff2') format('woff2'),
+        url('MuseoSansRounded-100.woff') format('woff'),
+        url('MuseoSansRounded-100.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;

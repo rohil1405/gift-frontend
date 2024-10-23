@@ -6,9 +6,9 @@
 	==============================================================*/
   @font-face {
     font-family: 'Museo Sans 700';
-    src: url('MuseoSans-700.woff2') format('woff2'),
-        url('MuseoSans-700.woff') format('woff'),
-        url('MuseoSans-700.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-700.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-700.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-700.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -16,9 +16,9 @@
 
 @font-face {
     font-family: 'Museo Sans 500';
-    src: url('MuseoSans-500Italic.woff2') format('woff2'),
-        url('MuseoSans-500Italic.woff') format('woff'),
-        url('MuseoSans-500Italic.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-500Italic.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-500Italic.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-500Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -26,9 +26,9 @@
 
 @font-face {
     font-family: 'Museo Sans 500';
-    src: url('MuseoSans-500.woff2') format('woff2'),
-        url('MuseoSans-500.woff') format('woff'),
-        url('MuseoSans-500.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-500.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-500.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-500.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -36,9 +36,9 @@
 
 @font-face {
     font-family: 'Museo Sans 100';
-    src: url('MuseoSans-100Italic.woff2') format('woff2'),
-        url('MuseoSans-100Italic.woff') format('woff'),
-        url('MuseoSans-100Italic.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-100Italic.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-100Italic.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-100Italic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
     font-display: swap;
@@ -46,9 +46,9 @@
 
 @font-face {
     font-family: 'Museo Sans 700';
-    src: url('MuseoSans-700Italic.woff2') format('woff2'),
-        url('MuseoSans-700Italic.woff') format('woff'),
-        url('MuseoSans-700Italic.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-700Italic.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-700Italic.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-700Italic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -56,9 +56,9 @@
 
 @font-face {
     font-family: 'Museo Sans 300';
-    src: url('MuseoSans-300.woff2') format('woff2'),
-        url('MuseoSans-300.woff') format('woff'),
-        url('MuseoSans-300.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-300.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-300.woff') format('woff'),
+        url('../FontsMuseoSansRounded-300.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -66,9 +66,9 @@
 
 @font-face {
     font-family: 'Museo Sans 900';
-    src: url('MuseoSans-900Italic.woff2') format('woff2'),
-        url('MuseoSans-900Italic.woff') format('woff'),
-        url('MuseoSans-900Italic.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-900Italic.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-900Italic.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-900Italic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -76,9 +76,9 @@
 
 @font-face {
     font-family: 'Museo Sans 300';
-    src: url('MuseoSans-300Italic.woff2') format('woff2'),
-        url('MuseoSans-300Italic.woff') format('woff'),
-        url('MuseoSans-300Italic.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-300Italic.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-300Italic.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-300Italic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -86,9 +86,9 @@
 
 @font-face {
     font-family: 'Museo Sans 900';
-    src: url('MuseoSans-900.woff2') format('woff2'),
-        url('MuseoSans-900.woff') format('woff'),
-        url('MuseoSans-900.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-900.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-900.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-900.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -96,9 +96,9 @@
 
 @font-face {
     font-family: 'Museo Sans 100';
-    src: url('MuseoSans-100.woff2') format('woff2'),
-        url('MuseoSans-100.woff') format('woff'),
-        url('MuseoSans-100.ttf') format('truetype');
+    src: url('../Fonts/MuseoSansRounded-100.woff2') format('woff2'),
+        url('../Fonts/MuseoSansRounded-100.woff') format('woff'),
+        url('../Fonts/MuseoSansRounded-100.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -185,7 +185,7 @@ a {
 }
 
 h1,.h1 {
-  font-family: "museo sans", serif;
+  font-family: 'Museo Sans Rounded 900';
   font-size: 60px;
   font-weight: 900;
   line-height: 72px;
@@ -194,7 +194,7 @@ h1,.h1 {
   margin: 0;
 }
 h2,.h2 {
-  font-family: "museo sans", serif;
+  font-family: "Museo Sans Rounded 700";
   font-size: 48px;
   font-weight: 700;
   line-height: 68px;
@@ -203,7 +203,7 @@ h2,.h2 {
   margin: 0;
 }
 h3,.h3 {
-  font-family: "museo sans", serif;
+  font-family: "Museo Sans Rounded 900";
   font-size: 40px;
   font-weight: 900;
   line-height: 48px;
@@ -212,7 +212,7 @@ h3,.h3 {
   margin: 0;
 }
 h4,.h4 {
-  font-family: "museo sans", serif;
+  font-family: "Museo Sans Rounded 700";
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -221,7 +221,7 @@ h4,.h4 {
   margin: 0;
 }
 h5,.h5 {
-  font-family: "museo sans", serif;
+  font-family: "Museo Sans Rounded 700";
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -230,7 +230,7 @@ h5,.h5 {
   margin: 0;
 }
 h6.h6 {
-  font-family: "museo sans", serif;
+  font-family: "Museo Sans Rounded 700";
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
@@ -242,7 +242,7 @@ h6.h6 {
 /* light button */
 .cta-btn {
   position: relative;
-  z-index: 1;
+  z-index: 100;
 }
 
 .cta-btn a {
@@ -261,37 +261,31 @@ h6.h6 {
   overflow: hidden;
   position: relative;  
 }
-
-.cta-btn a::before {
-  content: "";
+.cta-btn a:focus, .cta-btn a:active {
+  outline: 0;
+  box-shadow: none;
+  background: #00A945;
+}
+.cta-btn a .ripple-span {
+  border-radius: 50%;
+  background-color: #00a945;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  bottom: 0;
-  border-radius: 40px;
-  background-color: #00A945;
-  z-index: -1;
-  transition: all 0.3s ease-in-out; 
+  transform: scale(0);
+  animation: ripple 1.2s ease-in;
+  width: 20px;
+  height: 20px;
 }
 
-.cta-btn a:hover::before {
-  width: 30px;
-  height: 30px;
-}
 
-@keyframes button-hover {
-  0% {
-    border-radius: 10%;
+@keyframes ripple {
+  from {
+    transform: scale(1);
+    opacity: 1;
   }
-  100% {
-    border-radius: 100%; 
+  to {
+    transform: scale(18);
+    opacity: 0.4;
   }
-}
-
-.cta-btn a:hover {
-  animation: button-hover 0.3s ease-in-out; 
 }
 
 .cta-btn a:active {
@@ -314,6 +308,9 @@ h6.h6 {
 .cta-btn.btn-border a{
   border: 1px solid #00CE54;
   background-color: transparent;
+}
+.cta-btn.btn-border a .ripple-span {
+  background-color: rgba(0,206,84,0.2);
 }
 .cta-btn.btn-border a:active {
   background-color: rgba(0, 206, 84, 0.1);
@@ -366,6 +363,9 @@ h6.h6 {
 .cta-btn.btn-bg-border-arrow a:active {
   background-color: rgba(255,255,255,0.1)
 }
+.cta-btn.btn-bg-border-arrow a .ripple-span {
+  background-color: rgba(0,0,0,0.2);
+}
 
 
 
@@ -387,12 +387,10 @@ h6.h6 {
   z-index: 1;
 }
 .banner-wrap:before {
-  /* background-color: rgba(101,69,149); */
-  background-image: url('../images/banner-pattern.png');
-  background: linear-gradient(0deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
+  background: url('../images/banner-pattern.png'),linear-gradient(180deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
   content: "";
   position: absolute;
-  top: 0;
+  top: 35%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -401,18 +399,6 @@ h6.h6 {
   padding:14px;
 }
 
-/* .banner-wrap:after {
-  background-image: url('../images/banner-pattern.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
 .banner {
   position: relative;
   z-index: 999;
@@ -773,7 +759,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   gap: 8px;
   justify-content: center;
   align-items: center;
-  padding-top: 32px;
+  padding: 32px 0 40px;
 
 }
 .our-events-slide .slick-dots button {
@@ -845,16 +831,15 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   cursor: pointer;
   z-index: 1;
   position: absolute;
+  bottom: 40px;
 }
 
 .custom-prev-arrow {
   left: 0;
-  bottom: 0;
   background-image: url('../images/prev-arrow.png');
 }
 .custom-next-arrow {
   right: 0;
-  bottom: 0;
   background-image: url('../images/next-arrow.png');
 }
 
@@ -943,18 +928,26 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   top: 40px;
   position: absolute;
 }
+.our-instagram-slide .slick-track
+{
+    display: flex !important;
+}
+.gift-collaboration-slide .slick-track
+{
+    display: flex !important;
+}
+
 .our-word-text p:last-child {
   font-weight: 500;
 }
 .our-instagram-item img {
-  display: block;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   cursor: pointer;
 }
+.our-instagram-slide.slick-initialized .slick-slide {
+  margin-left: 2px
+}
 .our-instagram-item {
-  margin-left: 2px;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
@@ -1021,11 +1014,347 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
 .our-instagram-item:hover .insta-item-overlay{
   display: flex;
 }
+.our-instagram-slide.slick-initialized .slick-slide {
+  width: auto !important;
+}
 .insta-like-count {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   color: #FFFFFF;  
 }
+.our-instagram-wrap {
+  padding: 40px 0 50px;
+}
+.gift-collaboration-wrap {
+  padding: 50px 0 30px;
+}
+.gift-collaboration-slider {
+  padding: 80px 0 0;
+}
+.gift-collaboration-slide.slick-initialized .slick-slide {
+  width: auto !important;
+  margin-right: 140px;
+}
+.gift-collaboration-slider .slick-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.gift-collaboration-slider .slick-dots button {
+  border-radius: 100%;
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  border: 1.2px solid #AFAFAF;
+  background-color: transparent;
+  font-size: 0;
+  margin-top: 32px;
+}
+.gift-collaboration-slider .slick-dots .slick-active button {
+  background-color: #00A945;
+  border: 0;
+}
+.gift-collaboration h2 {
+  text-align: center;
+}
+.our-newsletter {
+  padding: 40px;
+  border: 1px solid #F0E9FB;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+.our-newsletter::after {
+  position: absolute;
+  content: "";
+  background-image: url('../images/black-pattern.png');
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 8%;
+}
+.our-newsletter::before{
+  position: absolute;
+  content: "";
+  background: radial-gradient(89.4% 86.08% at 65.31% 68.5%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+  left: 0;
+  border-radius: 12px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.our-newsletter-content {
+  position: relative;
+  z-index: 1;
+}
+.our-newsletter-wrap {
+  margin-bottom: -102px;
+}
+
+.our-newsletter form{
+  display: flex;
+  gap: 24px;
+  padding: 28px 0 0;
+}
+.fieldset {
+  width: 100%;
+  max-width: 322px;
+}
+.fieldset input {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #929292;
+  height: 48px;
+}
+.fieldset input:focus {
+  box-shadow: 0 10px 10px 0 #fff;
+  border: 1px solid #D8D8D8;
+}
+.cta-form-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 40px;
+  background-color: #00CE54;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 24px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.cta-form-btn:hover {
+  border: 1px solid #00CE54;
+  color: #000;
+  background-color: rgba(0,206,112,0.1);
+}
+.cta-form-btn svg path {
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-form-btn:hover svg path {
+  stroke: black;
+}
+
+/* 
+footer start */
+.footer-wrap {
+  padding-top: 180px;
+  background-color: #FBF8FF;
+}
+.footer-bottom-wrap {
+  padding: 20px 0;
+  background-color: #654595;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-charity {
+  display: flex;
+}
+.footer-right, .footer-charity-no {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.created-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(65.67% 65.67% at 50.49% 48.86%, #E94F8C 0%, #E94F8C 6%, #E94F8C 28%, #D2166A 71%, #D2166A 100%);
+}
+.footer-bottom-right {
+  display: flex;
+  align-items: center;
+}
+.gift-condition-listing {
+  display: flex;
+}
+.gift-condition-listing li {
+  padding-right: 32px;
+  position: relative;
+}
+.gift-condition-listing li:before {
+  content: '';
+  position: absolute;
+  border: 1px solid #8D6AC2;
+  height: 16px;
+  width: 1px;
+  top: 18%;
+  right: 12%;
+}
+.gift-condition-listing li a:hover {
+  color: #00B64A;
+}
+.gift-condition-listing li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+}
+.gift-created {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.footer-top-left {
+  max-width: 678px;
+}
+.gift-locations {
+  display: flex;
+  gap: 52px;
+}
+.address-type {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+.location-address-type a{
+  color: #58585B;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.location-address-type a:hover {
+  color: #00B64A;
+}
+.location-address-type {
+  max-width: 135px  ;
+}
+.small-address {
+  max-width: 116px;
+}
+.footer-top-wrap {
+  padding-bottom: 60px;
+}
+.footer-top {
+  display: flex;
+  gap: 105px;
+}
+.footer-top h6 {
+  padding-bottom: 28px;
+}
+.footer-top-center img {
+  padding-top: 56px;
+}
+.social-bg {
+  background-image: url('../images/fb-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.social-bg.twitter {
+  background-image: url('../images/twitter-logo.png');
+}
+.social-bg.yt {
+  background-image: url('../images/yt-logo.png');
+}
+.social-bg.insta {
+  background-image: url('../images/insta-logo.png');
+}
+.social-bg.linkedin {
+  background-image: url('../images/linkedin-logo.png');
+}
+.social-media-listing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.social-bg:hover svg {
+  fill: #8D6AC2;
+}
+
+.privacy-cookies-wrap {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9999;
+}
+.privacy-cookies {
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 12px;
+  max-width: 464px;
+}
+.privacy-cookies-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.privacy-cookies-header button {
+  border-radius: 100%;
+  border: 1px solid #00CE54;
+  width: 32px;
+  height: 32px;
+}
+.privacy-cookies-header button:focus {
+  box-shadow: 0 3px 3px 0 #00A945;
+}
+.privacy-cookies-footer .btn-border a {
+  color: #000;
+  padding: 12px 48px;
+}
+
+.privacy-cookies-footer {
+  display: flex;
+  gap: 20px;
+}
+.privacy-cookies-body {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+  padding: 12px 0 48px;
+  max-width: 348px;
+}
+.privacy-cookies-body a {
+  text-decoration: underline;
+  color: #00CE54;
+  font-weight: 600;
+}
+.btn-accept {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 0;
+  background-color: #00CE54;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 12px 42px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-accept:hover {
+  background-color: #00a945;
+}
+
 
 
