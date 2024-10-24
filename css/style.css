@@ -1306,14 +1306,19 @@ footer start */
   justify-content: space-between;
   align-items: center;
 }
-.privacy-cookies-header button {
-  border-radius: 100%;
-  border: 1px solid #00CE54;
+.close-btn {
   width: 32px;
   height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 1px solid #00CE54;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.privacy-cookies-header button:focus {
-  box-shadow: 0 3px 3px 0 #00A945;
+.close-btn:hover {
+  background-color: rgba(0,206,84,0.1);
 }
 .privacy-cookies-footer .btn-border a {
   color: #000;
@@ -1355,6 +1360,64 @@ footer start */
 .btn-accept:hover {
   background-color: #00a945;
 }
+.cookie-preferences .form-check-label{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #58585B;
+}
+.cookie-preferences {
+  padding: 24px 0 0;
+  margin-bottom: -25px;
+  display: none;
+}
+.cookie-preferences .form-check {
+  margin: 0 0 12px;
+}
+.cookie-preferences .form-check-input {
+  box-shadow: none;
+}
+.cookie-preferences .form-check-input:checked {
+  background-color: #00CE54;
+  border: 0;
+}
+.form-switch .form-check-input {
+  background-color: transparent;
+  height: 24px;
+  width: 40px;
+  margin: 0;
+}
+.form-check.form-switch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 0;
+}
+.cookie-preferences.active {
+  display: block;
+}
+
+.privacy-cookies-wrap.close {
+  display: none;
+}
+
+/* modal start */
+.rv-modal-wrap .modal-body > * {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #58585B;
+}
+.rv-modal-wrap .modal-body p:first-child {
+  font-weight: 600;
+  color: #000;
+}
+.rv-modal-wrap .modal-footer a {
+  padding: 12px 40px;
+}
+/* modal end */
+
+
 
 
 

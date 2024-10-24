@@ -112,7 +112,7 @@ p {
   left: 0;
   top: 0;
   transition: all 0.3s ease-in-out;
-  z-index: 9999;
+  z-index: 1000;
   padding: 20px 0 24px;
 }
 header {
@@ -343,6 +343,97 @@ header {
 .menu-close:hover, .menu-open:hover {
   background-color:#00CE54;
 }
+.signin-modal-wrap .modal-dialog{
+  max-width: 660px;
+}
+.signin-modal-wrap .modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  padding: 0;
+}
+.signin-modal-wrap .modal-header {
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  padding: 0;
+}
+.signin-modal-wrap .modal-body {
+  padding: 40px 0 20px;
+}
+.modal-header .close-btn {
+  width: 48px;
+  height: 48px;
+}
+.modal-header img {
+  margin: 0 !important;
+}
+  .modal-footer > * {
+  margin: 0;
+}
+.signin-modal-wrap .modal-content {
+  border-radius: 12px;
+  padding: 32px;
+}
+.modal-footer-content a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #00CE54;
+  text-decoration: underline;
+  text-decoration-color: #00CE54;
+  text-underline-offset: 2px;
+}
+.modal-footer-content a:hover {
+  color: rgba(0,206,31,0.7);
+}
+.signin-modal-wrap .modal-header button {
+  border-radius: 100%;
+  border: 1px solid #00A945;
+  width: 28px;
+  height: 28px;
+  transition: all 0.3s ease-in-out;
+}
+.signin-modal-wrap .modal-body .form-label {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #929292;
+  margin-bottom: 4px;
+}
+.signin-modal-wrap .modal-body .form-control {
+  height: 48px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #929292;
+}
+.signin-modal-wrap .modal-body .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #D8D8D8;
+}
+.signin-modal-wrap .modal-header button:focus {
+  box-shadow: none;
+}
+.signin-modal-wrap .modal-header button:hover {
+  background-color: rgba(0,206,31,0.1);
+}
+.modal-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 12px;
+}
+.gift-account {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-top: 5px;
+}
 
 @media (max-width: 1200px) {
   .menu-listing {
@@ -473,9 +564,42 @@ header {
   .header-active .menu-listing svg path {
     stroke: #FFF;
   }
+}
+
+@media (max-width: 767px) {
+  .signin-modal-wrap .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .signin-modal-wrap .modal {
+    height: auto;
+  }
+  .signin-modal-wrap .modal-content {
+    border-radius: 0;
+    border: 0;
+    padding: 16px;
+  }
+  .modal-backdrop.show {
+    opacity: 1;
+    background-color: #FFF;
+  }
   
 }
 
+@media (max-width: 475px) {
+  .signin-modal-wrap .modal-footer {
+    flex-wrap: wrap;
+  }
+  .signin-modal-wrap .modal-footer .cta-btn {
+    width: 100%;
+  }
+  .signin-modal-wrap .modal-footer .cta-btn a {
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
 
 
 @keyframes slideIn {

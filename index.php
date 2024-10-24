@@ -17,7 +17,7 @@
                 <h1 class="h1">GIFT's mission is to inspire and enable lifelong giving</h1>
                 <div class="banner-cta-btn">
                     <div class="cta-btn">
-                        <a href='#' target='_self'>
+                        <a href='#' target='_self' data-bs-toggle="modal" data-bs-target="#registerVolunteer">
                             <img src='./images/charm_heart.svg' alt='heart' width="20" height="20" />
                             Become a volunteer
                         </a>
@@ -728,31 +728,76 @@
     </section>
 
     <section class="privacy-cookies-wrap">
-        <div class="container">
-            <div class="privacy-cookies">
-                <div class="privacy-cookies-header">
-                    <h6 class="h6">Your privacy</h6>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="privacy-cookies">
+            <div class="privacy-cookies-header">
+                <h6 class="h6">Your privacy</h6>
+                <div class="close-btn">
+                    <img src='./images/btn-close.png' alt='btn-clsoe' width='20' height='20' />
                 </div>
-                <div class="privacy-cookies-body">
+
+            </div>
+            <div class="privacy-cookies-body">
+                <div class="cookies-content">
                     We use cookies to optimise our website and our service. View our
                     <a href='#' target="_self">Cookies Policy</a>
                 </div>
-                <div class="privacy-cookies-footer">
-                    <div class="cta-btn btn-border">
-                        <a href='#' target="_self">Preferences</a>
+
+                <div class="cookie-preferences">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Functional</label>
                     </div>
-                    <button type='submit' class='btn-accept'>
-                        Accept all
-                        <img src='./images/accept-all.png' width='20' height='20' alt='accept-all' />
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Statistics</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Marketing</label>
+                    </div>
+                </div>
 
-                    </button>
+            </div>
+            <div class="privacy-cookies-footer">
+                <div class="cta-btn btn-border">
+                    <a href='#' target="_self">Preferences</a>
+                </div>
+                <button type='submit' class='btn-accept'>
+                    Accept all
+                    <img src='./images/accept-all.png' width='20' height='20' alt='accept-all' />
 
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- rv-modal-section start -->
+    <section class="rv-modal-wrap">
+        <div class="modal fade" id="registerVolunteer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="registerVolunteerLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="h5">Register as a volunteer</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Many of our volunteers love giving so much they have become much needed regulars.</p>
+                        <p>Please browse the opportunities, we cannot express enough how incredible it feels to know you have given your time and effort to help someone and know that you are truly making a difference.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="cta-btn">
+                            <a href='#' target='_self'>
+                                Read more
+                                <img src='./images/white-arrow.png' width="20" height="20" alt='white-img' />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
+    <!-- rv-modal-section end -->
 
 
 

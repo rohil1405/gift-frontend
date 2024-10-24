@@ -273,6 +273,7 @@
         padding: 40px 0 60px;
     }
     .banner-slide {
+        padding-top: 15px;
         margin-top: -17%;
     }
     .our-vision-content {
@@ -566,12 +567,29 @@
     }
     .privacy-cookies {
         max-width: 100%;
+        border-radius: 12px 12px 0 0;
+        padding: 16px;
     }
     .btn-accept {
-        padding: 12px 28px;
+        padding: 12px 24px;
     }
-    .privacy-cookies-footer .cta-btn {
+    .privacy-cookies-footer .cta-btn a {
         padding: 12px 34px;
+    }
+    .privacy-cookies-footer {
+        gap: 10px;
+        justify-content: center;
+    }
+    .privacy-cookies-body {
+        padding: 12px 0 28px;
+        max-width: 100%;
+    }
+    .cookies-content  {
+        text-align: center;
+    }
+    .cookie-preferences {
+        padding: 0;
+        margin: 0 0 -12px;
     }
 }
 

@@ -61,7 +61,7 @@
                     </li>
                     <li><a href='#' target='_self'>Contact Us</a></li>
                     <li class="cta-btn btn-border mobile-btn">
-                        <a href='#' target="_self">Login</a>
+                        <a href='#' target="_self" data-bs-toggle="modal" data-bs-target="#signinModal">Login</a>
                     </li>
                     <li>
                         <div class='get-touch-wrap'>
@@ -104,13 +104,60 @@
                 </div>
 
                 <div class="cta-btn btn-border">
-                    <a href='#' target="_self">Login</a>
+                    <a href='#' target="_self" data-bs-toggle="modal" data-bs-target="#signinModal">Login</a>
                 </div>
 
 
             </div>
         </header>
     </div>
-
 </section>
 <!-- header end -->
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<section class="signin-modal-wrap">
+    <div class="modal fade" id="signinModal" tabindex="-1" aria-labelledby="signinModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header-title">
+                        <h2 class="h5">Sign in</h2>
+                        <div class="modal-text">Login to your account</div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="signinemail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="signinemail" placeholder="Email address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signinpassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signinpassword" placeholder="Your password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-footer-content">
+                        <a href='#' target='_self'>
+                            Forgot password?
+                        </a>
+                        <div class="gift-account">
+                            Don`thave an account?
+                            <a href='#' target='_self'>Register</a>
+                        </div>
+                    </div>
+                    <div class="cta-btn">
+                        <a href='#' target="_self">
+                            Sign in
+                            <img src='./images/white-arrow.png' alt='white-arrow' width="20" height="20" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
