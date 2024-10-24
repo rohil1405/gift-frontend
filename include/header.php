@@ -141,7 +141,7 @@
                 </div>
                 <div class="modal-footer">
                     <div class="modal-footer-content">
-                        <a href='#' target='_self'>
+                        <a href='forgot-password.php' target='_self'>
                             Forgot password?
                         </a>
                         <div class="gift-account">

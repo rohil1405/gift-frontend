@@ -776,10 +776,13 @@
     <section class="rv-modal-wrap">
         <div class="modal fade" id="registerVolunteer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="registerVolunteerLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2 class="h5">Register as a volunteer</h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
                     </div>
                     <div class="modal-body">
                         <p>Many of our volunteers love giving so much they have become much needed regulars.</p>

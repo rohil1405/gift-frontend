@@ -1396,11 +1396,104 @@ footer start */
 .cookie-preferences.active {
   display: block;
 }
-
 .privacy-cookies-wrap.close {
   display: none;
 }
 
+.forgot-password-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  min-height: 100vh;
+  background:radial-gradient(71.35% 71.35% at 65.91% 9.65%, rgba(251, 248, 255, 0) 0%, #FBF8FF 100%),  url('../images/banner-pattern.png');
+}
+.forgot-password-right {
+  margin-left: auto;
+}
+.forgot-password-content {
+  padding: 132px 0 186px;
+}
+.forgot-cta {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.forgot-cta .btn-border a {
+  color: #000;
+}
+.forgot-password-left {
+  max-width: 400px;
+  margin-left: 160px;
+  width: 50%;
+}
+.forgot-password-right {
+  width: 50%;
+}
+.forgot-password-right-bottom, .forgot-password-right-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.forgot-password-right-bottom {
+  padding-top: 28px;
+  align-items: flex-start;
+}
+.fp-img{
+  position: relative;
+  margin-left: 28px;
+}
+.fimg-one {
+  width: 137px;
+  padding-bottom: 17.3%;
+}
+.fimg-two {
+  width: 125px;
+  padding-bottom: 22.7%;
+}
+.fimg-three {
+  width: 449px;
+  padding-bottom: 39.8%;
+}
+.fimg-four {
+  width: 260px;
+  padding-bottom: 36.5%;
+}
+.fimg-five {
+  width: 400px;
+  padding-bottom: 54.4%;
+}
+.fp-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+.forgot-password-content p {
+  padding: 40px 0;
+}
+.forgot-password-wrap .form-control, .forgot-password-wrap .form-label {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #929292;
+  margin: 0;
+}
+.forgot-password-wrap .form-control:focus {
+  box-shadow: none;
+}
+.forgot-password-wrap .form-control {
+  border: 1px solid #D8D8D8;
+  height: 48px;
+}
+.forgot-password-wrap .form-label {
+  font-size: 10px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
 /* modal start */
 .rv-modal-wrap .modal-body > * {
   font-size: 14px;
@@ -1411,9 +1504,81 @@ footer start */
 .rv-modal-wrap .modal-body p:first-child {
   font-weight: 600;
   color: #000;
+  padding: 24px 0 20px;
+}
+.rv-modal-wrap .modal-dialog {
+  position: relative;
+}
+.rv-modal-wrap .modal-content::after, .rv-modal-wrap .modal-content::before {
+  content: "";
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rv-modal-wrap .modal-content::after {
+  width: 408px;
+  height: 408px;
+  border-radius: 100%;
+  right: -34%;
+  top: -10%;
+  background-size: cover;
+  background-image: url('../images/modal-become.png');
+}
+.rv-modal-wrap .modal-content::before {
+  width: 177px;
+  height: 78px;
+  right: 15%;
+  bottom: -2%;
+  background-size: contain;
+  background-image: url('../images/pink-modal.png');
+}
+.rv-modal-wrap .modal-body {
+  padding: 0;
+  max-width: 340px;
 }
 .rv-modal-wrap .modal-footer a {
   padding: 12px 40px;
+  margin-top: 32px;
+}
+.rv-modal-wrap .modal-content {
+  padding: 34px;
+  overflow: visible;
+  border-radius: 12px;
+  margin-left: -115px;
+}
+.rv-modal-wrap .modal.show .modal-dialog {
+  max-width: 612px;
+}
+.rv-modal-wrap .modal-header {
+  padding: 0;
+  border: 0;
+  display: block;
+}
+.rv-modal-wrap .btn-close {
+  background-image: url('../images/white-close.png');
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid #00CE54;
+  position: absolute;
+  right:-35%;
+  top: -10%;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.rv-modal-wrap .btn-close:hover {
+  background-color: rgba(0,206,31,0.2);
+}
+
+.modal-backdrop.show {
+  background:
+  linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0.8) 100%);
+}
+.rv-modal-wrap .modal-footer {
+  justify-content: flex-start;
+  padding: 0;
+  border: 0;
 }
 /* modal end */
 
