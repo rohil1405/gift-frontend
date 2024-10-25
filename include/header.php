@@ -120,7 +120,7 @@
     <div class="modal fade" id="signinModal" tabindex="-1" aria-labelledby="signinModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header d-flex justify-content-between">
                     <div class="modal-header-title">
                         <h2 class="h5">Sign in</h2>
                         <div class="modal-text">Login to your account</div>
@@ -139,14 +139,14 @@
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer d-flex justify-content-between align-items-center">
                     <div class="modal-footer-content">
                         <a href='forgot-password.php' target='_self'>
                             Forgot password?
                         </a>
                         <div class="gift-account">
                             Don`thave an account?
-                            <a href='#' target='_self'>Register</a>
+                            <a href='register.php' target='_self'>Register</a>
                         </div>
                     </div>
                     <div class="cta-btn">

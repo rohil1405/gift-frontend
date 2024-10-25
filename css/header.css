@@ -347,15 +347,10 @@ header {
   max-width: 660px;
 }
 .signin-modal-wrap .modal-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border: 0;
   padding: 0;
 }
 .signin-modal-wrap .modal-header {
-  display: flex;
-  justify-content: space-between;
   border: 0;
   padding: 0;
 }
@@ -395,7 +390,7 @@ header {
   height: 28px;
   transition: all 0.3s ease-in-out;
 }
-.signin-modal-wrap .modal-body .form-label {
+.form-label {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 500;
@@ -403,7 +398,7 @@ header {
   color: #929292;
   margin-bottom: 4px;
 }
-.signin-modal-wrap .modal-body .form-control {
+.form-control {
   height: 48px;
   font-size: 14px;
   font-weight: 400;

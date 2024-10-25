@@ -6,12 +6,11 @@
 </head>
 
 <body>
-
-    <section class="forgot-password-wrap">
+    <a href='index.php' target='_self' class='main-logo position-absolute'>
+        <img src='./images/logo-active.png' width="113" height="48" alt='logo' />
+    </a>
+    <section class="forgot-password-wrap d-flex flex-wrap w-100 min-vh-100 position-relative">
         <div class="forgot-password-left">
-            <a href='index.php' target='_self'>
-                <img src='./images/logo-active.png' width="113" height="48" alt='logo' />
-            </a>
             <div class="forgot-password-content">
                 <h1 class="h1">Forgot your login details?</h1>
                 <p>Don't worry, it happens to the best of us. Please enter your email address and date of birth and we’ll send you a link to reset your password.</p>
@@ -21,7 +20,7 @@
                         <input type="email" class="form-control" id="femail" placeholder="Email address">
                     </div>
                 </form>
-                <div class="forgot-cta">
+                <div class="forgot-cta d-flex justify-content-between">
                     <div class="cta-btn btn-border">
                         <a href='index.php' target='_self'>Cancel</a>
                     </div>
