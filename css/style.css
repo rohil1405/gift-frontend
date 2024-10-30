@@ -1093,7 +1093,21 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   z-index: 1;
 }
 .our-newsletter-wrap {
-  margin-bottom: -102px;
+  position: relative;
+}
+.our-newsletter-wrap .container {
+  position: relative;
+  z-index: 2;
+}
+.our-newsletter-wrap:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50%;
+  background-color: #FBF8FF;
+  width: 100%;
+  z-index: 1;
 }
 
 .our-newsletter form{
@@ -1180,8 +1194,11 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
 /* 
 footer start */
 .footer-wrap {
-  padding-top: 180px;
+  /* padding-top: 180px; */
   background-color: #FBF8FF;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
 }
 .footer-bottom-wrap {
   padding: 20px 0;
@@ -1281,6 +1298,7 @@ footer start */
 }
 .footer-top-wrap {
   padding-bottom: 60px;
+  padding-top: 80px;
 }
 .footer-top {
   display: flex;
@@ -1723,6 +1741,93 @@ footer start */
   border: 0;
 }
 /* modal end */
+
+.thank-you-wrap {
+  position: relative;
+  padding: 254px 0 174px;
+}
+.thank-you-wrap:before {
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/banner-pattern.png');
+}
+.thank-u-img {
+  position: relative;
+  text-align: center;
+}
+.thank-u-img::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  width: 138px;
+  height: 66px;
+  background-size: contain;
+  background-image: url('../images/green-up-layout.png');
+}
+.thank-you h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+.thank-you p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 12px 0 40px;
+}
+.thank-you .cta-btn {
+  text-align: center;
+}
+.thank-you .cta-btn a, .not-found .cta-btn a {
+  color: #000;
+}
+.not-found-title {
+  font-weight: "Museo Sans Rounded 900";
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 120px;
+  color: #00CE54;
+  text-align: center;
+  position: relative;
+}
+.not-found-title::after {
+  top: -48%;
+  width: 170px;
+  height: 95px;
+  left: 36%;
+  background-image: url('../images/green-up-layout.png');
+}
+.not-found-title::after, .not-found-title::before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+}
+.not-found-title::before {
+  bottom: -12%;
+  left: 44%;
+  width: 66px;
+  height: 30px;
+  background-image: url('../images/green-shape-up.png');
+}
+.not-found-wrap {
+  padding: 308px 0 172px;
+  text-align: center;
+}
+.not-found p {
+  padding: 12px 0 40px;
+  text-align: center;
+}
+.not-found h1 {
+  padding-top: 60px;
+  text-align: center;
+}
 
 
 

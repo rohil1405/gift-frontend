@@ -5,7 +5,13 @@
     <?php include("include/head.php"); ?>
 </head>
 
-<body>
+
+<body class="home">
+    <?php
+    global $prefix_url;
+    $prefix_url = 'index.php';
+    ?>
+
     <?php include("include/header.php"); ?>
     <!-- banner start -->
     <section class="banner-wrap" style="background-color: #654595">
@@ -803,7 +809,10 @@
     <!-- rv-modal-section end -->
 
 
-
+    <?php
+    global $hide_footer_form;
+    $hide_footer_form = true;
+    ?>
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>
 </body>

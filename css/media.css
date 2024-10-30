@@ -52,11 +52,8 @@
     .footer-top h6 {
         padding-bottom: 20px;
     }
-    .footer-wrap {
-        padding-top: 150px;
-    }
     .footer-top-wrap {
-        padding-bottom: 50px;
+        padding-bottom: 38px;
     }
     .forgot-password-content {
         padding: 100px 0 162px;
@@ -262,7 +259,7 @@
         gap: 34px;
     }
     .footer-top-wrap {
-        padding-bottom: 38px;
+        padding-bottom: 20px;
     }
     .our-newsletter {
         padding: 24px;
@@ -272,6 +269,12 @@
     }
     .footer-bottom-left {
         gap: 14px;
+    }
+    .gift-condition-listing li {
+        padding-right: 24px;
+    }
+    .thank-you-wrap {
+        padding: 220px 0 120px;
     }
     
 }
@@ -398,9 +401,6 @@
     .address-type {
         padding-bottom: 10px;
     }
-    .footer-wrap {
-        padding-top: 138px;
-    }
     .our-newsletter form {
         flex-wrap: wrap;
     }
@@ -493,6 +493,16 @@
     }
 
     /* modal end */
+
+    .thank-you-wrap {
+        padding: 180px 0 100px;
+    }
+    .thank-you h1 {
+        padding-top: 32px;
+    }
+    .thank-you p {
+        padding: 10px 0 32px;
+    }
  
 }
 
@@ -601,9 +611,6 @@
     .our-newsletter-wrap {
         margin-bottom: -150px;
     }
-    .footer-wrap {
-        padding-top: 200px;
-    }
     .fieldset {
         max-width: 100%;
     }
@@ -709,7 +716,26 @@
         padding: 15px 0;
         flex-direction: column-reverse;
     }
-
+    .footer-top-left {
+        padding-top: 100px;
+    }
+    .thank-you-wrap {
+        padding: 130px 0 60px;
+    }
+    .thank-you h1 {
+        padding-top: 10px;
+    }
+    .thank-you p {
+        padding: 12px 0 36px;
+    }
+    .thank-u-img img {
+        width: 98px;
+        height: 106px;
+    }
+    .thank-u-img::before {
+        width: 111px;
+        height: 53px;
+    }
 }
 
 @media (max-width: 475px) {
