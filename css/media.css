@@ -73,6 +73,13 @@
     .forgot-password-wrap {
         padding: 35px 0;
     }
+    .contact-info-item {
+        padding: 0 16px;
+        padding-bottom: 32px;
+    }
+    .contact-info-listing {
+        margin: 0 -16px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -199,6 +206,20 @@
     .gift-locations {
         gap: 15px;
     }
+    .header-main-header .banner {
+        padding: 170px 0;
+    }
+    .contact-info-list {
+        padding: 24px 28px;
+    }
+    .contact-info-item {
+        padding: 0 12px;
+        padding-bottom: 24px;
+    }
+    .contact-info-listing {
+        margin: 0 -12px;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -518,7 +539,7 @@
         font-size: 24px;
         line-height: 32px;
     }
-    .banner h1 {
+    .banner .h1 {
         font-size: 40px;
         max-width: 100%;
         line-height: 48px;
@@ -735,6 +756,21 @@
     .thank-u-img::before {
         width: 111px;
         height: 53px;
+    }
+    .banner-content::before {
+        width: 126px;
+        height: 76px;
+        top: -20%;
+        right: 0;
+    }
+    .header-main-header .banner {
+        padding: 148px 0;
+    }
+    .contact-info {
+        margin-top: -108px;
+    }
+    .contact-info-list {
+        padding: 28px;
     }
 }
 

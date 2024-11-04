@@ -1,13 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
   function checkHeaderState() {
+      const headerWrap = document.querySelector(".header-wrap");
+      const isHeader = document.getElementsByClassName('header-main-header').length > 0;
+
+
       if (window.scrollY > 0 || document.documentElement.scrollHeight <= window.innerHeight) {
-          document.querySelector(".header-wrap").classList.add("header-active");
-      } else {
-          document.querySelector(".header-wrap").classList.remove("header-active");
+          headerWrap.classList.add("header-active");
+      } else if (!isHeader) {
+          headerWrap.classList.remove("header-active");
       }
   }
 
   checkHeaderState();
+
   window.addEventListener("scroll", checkHeaderState);
   window.addEventListener("resize", checkHeaderState);
 });
@@ -327,6 +332,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
    
   });
+
+
   
 
   document.querySelector('.close-btn').addEventListener('click', function(e) {

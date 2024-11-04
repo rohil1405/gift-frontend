@@ -370,7 +370,7 @@ h6.h6 {
 
 
 /* banner start */
-.banner-overlay img{
+.banner-overlay img, .contact-overlay img{
   opacity: 6%;
   background-position: center;
   background-size: cover;
@@ -436,7 +436,7 @@ h6.h6 {
 .banner-cta-btn {
   padding: 60px 0 140px;
 }
-.banner h1 {
+.banner .h1 {
   max-width: 761px;
   text-align: center;
   color: #FFFFFF;
@@ -1565,26 +1565,27 @@ footer start */
 .forgot-password-content p {
   padding: 40px 0;
 }
-.form-control, .form-label {
+.form-control, .form-label, .form-select {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   color: #929292;
   margin: 0;
 }
-.form-control:focus {
+.form-control:focus, .form-select:focus {
   box-shadow: none;
 }
-.form-control {
+.form-control, .form-select {
   border: 1px solid #D8D8D8;
   height: 48px;
 }
-.form-control:hover {
+.form-control:hover, .form-select:hover {
   border: 1px solid #AFAFAF;
 }
-.form-control:active {
+.form-control:active, .form-select:active {
   border: 1px solid #00B64A;
 }
+
 .form-label {
   font-size: 10px;
   margin-bottom: 4px;
@@ -1788,7 +1789,7 @@ footer start */
 .thank-you .cta-btn a, .not-found .cta-btn a {
   color: #000;
 }
-.not-found-title {
+.not-found-text {
   font-weight: "Museo Sans Rounded 900";
   font-size: 100px;
   font-weight: 900;
@@ -1797,6 +1798,7 @@ footer start */
   text-align: center;
   position: relative;
 }
+
 .not-found-title::after {
   top: -48%;
   width: 170px;
@@ -1827,6 +1829,213 @@ footer start */
 .not-found h1 {
   padding-top: 60px;
   text-align: center;
+}
+
+.header-main-header .banner {
+  padding: 212px 0 208px;
+}
+.banner-content {
+  max-width: 620px;
+  position: relative;
+}
+.banner-inner-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  padding-bottom: 12px;
+  opacity: 0.5;
+}
+.banner-content h1 {
+  color: #fff;
+}
+
+.banner-content::before {
+  position: absolute;
+  content: "";
+  width: 205px;
+  height: 123px;
+  top: -25%;
+  right: -15%; 
+  background-image: url('../images/banner-inner-green.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact-info-list {
+  width: 100%;
+  background-color: #fff;
+  padding: 28px 32px;
+  border-radius: 12px;
+  border: 1px solid #F0E9FB;
+  box-shadow: 0px 32px 140px -16px rgba(0,0,0,0.8);
+}
+.contact-info-content {
+  padding: 20px 0 0;
+}
+.contact-info-listing {
+  margin: 0 -22px;
+
+}
+.contact-info-item {
+  padding: 0 22px;
+  padding-bottom: 44px;
+}
+.contact-info-area {
+  padding-top: 8px;
+}
+.contact-info-area a {
+  color: #58585B;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-left: 8px;
+  width: calc(100% - 36px);
+}
+
+.contact-info-area a:hover {
+  color: #00CE54;
+}
+.contact-info {
+  margin-top: -135px;
+  position: relative;
+  z-index: 1;
+}
+.contact-area-img:hover {
+  background-color: rgba(0, 206, 84, 0.1);
+}
+.contact-area-img {
+  border-radius: 100%;
+  border: 1px solid #00CE54;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.header-main-header .banner-wrap:before {
+  background: url('../images/banner-pattern.png');
+  height: auto;
+}
+.field-required {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #58585B;
+  text-transform: uppercase;
+}
+.form-field {
+  padding-bottom: 20px;
+}
+.form-footer {
+  padding-top: 20px;
+}
+.contact-form-wrap {
+  padding: 76px 0 100px;
+  position: relative;
+}
+.contact-form-wrap h2 {
+  padding-bottom: 46px;
+}
+.form-field textarea {
+  height: 160px;
+}
+.contact-form-list {
+  margin-left: auto;
+}
+.cimage img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+.contact-images {
+  position: absolute;
+  top: 77px;
+}
+.cimage {
+  position: relative;
+  margin-right: 28px;
+}
+.cimg-one {
+  width: 443px;
+  padding-bottom: 37.4%
+}
+.cimg-two {
+  width: 290px;
+  padding-bottom: 24.5%;
+}
+.cimg-three {
+  width: 400px;
+  padding-bottom: 50.7%;
+}
+.contact-images-top {
+  padding-bottom: 28px;
+}
+.cimg-four {
+  width: 125px;
+  padding-bottom: 15.9%;
+}
+.cimg-five {
+  width: 180px;
+  padding-bottom: 22.9%;
+}
+.voluteering-opportunities .h2 {
+  text-align: center;
+  color: #fff;
+}
+.voluteering-opportunities p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 40px 0 48px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.voluteering-opportunities .cta-btn {
+  padding-bottom: 100px;
+}
+.voluteering-opportunities-wrap {
+  padding: 100px 0 200px;
+  position: relative;
+  text-align: center;
+}
+.voluteering-opportunities h6 {
+  color: #fff;
+  text-align: center;
+  padding: 88px 0 26px;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+.voluteering-opportunities-wrap {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.voluteering-opportunities-wrap:before {
+  background: url('../images/banner-pattern.png'),linear-gradient(90deg, #373737 32.66%, rgba(55, 55, 55, 0) 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.voluterring-item img{
+  display: flex;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/hackathons.png');
 }
 
 
