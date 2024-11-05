@@ -6,11 +6,7 @@
 </head>
 
 
-<body>
-    <?php
-    global $prefix_url;
-    $prefix_url = 'thank-you.php';
-    ?>
+<body class='footer-main-footer'>
 
     <?php include("include/header.php"); ?>
 
@@ -33,10 +29,6 @@
     </section>
     <!-- thank-you-wrap section end -->
 
-    <?php
-    global $hide_footer_form;
-    $hide_footer_form = false;
-    ?>
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>
 </body>

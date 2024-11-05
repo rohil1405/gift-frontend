@@ -7,10 +7,7 @@
 
 
 <body class="header-main-header">
-    <?php
-    global $prefix_url;
-    $prefix_url = 'index.php';
-    ?>
+
 
     <?php include("include/header.php"); ?>
     <!-- banner start -->
@@ -126,73 +123,72 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
     <!-- contact-form-wrap section start -->
     <section class="contact-form-wrap">
-        <div class="container">
-            <div class="contact-form">
-                <div class="col-md-5 contact-form-list">
-                    <h2 class="h4">You can also contact us by completing the form below:</h2>
+        <div class="contact-form d-flex">
+            <div class="contact-images">
+                <div class="contact-images-top d-flex align-items-end">
+                    <div class="cimage cimg-one">
+                        <img src='./images/contact-one.png' width='443' height="295" alt='contact-one' />
+                    </div>
+                    <div class="cimage cimg-two">
+                        <img src='./images/contact-two.png' width='290' height="193" alt='contact-two' />
+                    </div>
+                </div>
+                <div class="contact-images-bottom d-flex align-items-start">
+                    <div class="cimage cimg-three">
+                        <img src='./images/contact-three.png' width='400' height="399" alt='contact-three' />
+                    </div>
+                    <div class="cimage cimg-four">
+                        <img src='./images/contact-five.png' width='125' height="125" alt='contact-four' />
+                    </div>
+                    <div class="cimage cimg-five">
+                        <img src='./images/contact-six.png' width='180' height="180" alt='contact-five' />
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-list">
+                <h2 class="h4">You can also contact us by completing the form below:</h2>
 
-                    <form>
-                        <div class='form-field'>
-                            <input type="text" class="form-control" id="formFullName" placeholder="Full Name*">
+                <form>
+                    <div class='form-field'>
+                        <input type="text" class="form-control" id="formFullName" placeholder="Full Name*">
+                    </div>
+                    <div class='form-field'>
+                        <input type="email" class="form-control" id="formEmail" placeholder="Email*">
+                    </div>
+                    <div class='form-field'>
+                        <input type="number" class="form-control" id="formTelePhone" placeholder="Telephone*">
+                    </div>
+                    <div class='form-field'>
+                        <select class="form-select">
+                            <option selected>Type of enquiry *</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class='form-field'>
+                        <select class="form-select">
+                            <option selected>How did you hear about us? *</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class='form-field'>
+                        <textarea class="form-control" id="formTextarea" rows="3" placeholder="Your message...*"></textarea>
+                    </div>
+                    <div class="form-footer d-flex justify-content-between align-items-center">
+                        <div class="field-required">* required fields</div>
+                        <div class="cta-btn">
+                            <a href='#' target='_self'>
+                                Submit
+                                <img src='./images/white-arrow.png' alt='white-arrow' width="20" height="20" />
+                            </a>
                         </div>
-                        <div class='form-field'>
-                            <input type="email" class="form-control" id="formEmail" placeholder="Email*">
-                        </div>
-                        <div class='form-field'>
-                            <input type="number" class="form-control" id="formTelePhone" placeholder="Telephone*">
-                        </div>
-                        <div class='form-field'>
-                            <select class="form-select">
-                                <option selected>Type of enquiry *</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                        <div class='form-field'>
-                            <select class="form-select">
-                                <option selected>How did you hear about us? *</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                        <div class='form-field'>
-                            <textarea class="form-control" id="formTextarea" rows="3" placeholder="Your message...*"></textarea>
-                        </div>
-                        <div class="form-footer d-flex justify-content-between align-items-center">
-                            <div class="field-required">* required fields</div>
-                            <div class="cta-btn">
-                                <a href='#' target='_self'>
-                                    Submit
-                                    <img src='./images/white-arrow.png' alt='white-arrow' width="20" height="20" />
-                                </a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
-        </div>
-        <div class="contact-images">
-            <div class="contact-images-top d-flex align-items-end">
-                <div class="cimage cimg-one">
-                    <img src='./images/contact-one.png' width='443' height="295" alt='contact-one' />
-                </div>
-                <div class="cimage cimg-two">
-                    <img src='./images/contact-two.png' width='290' height="193" alt='contact-two' />
-                </div>
-            </div>
-            <div class="contact-images-bottom d-flex align-items-start">
-                <div class="cimage cimg-three">
-                    <img src='./images/contact-three.png' width='400' height="399" alt='contact-three' />
-                </div>
-                <div class="cimage cimg-four">
-                    <img src='./images/contact-five.png' width='125' height="125" alt='contact-four' />
-                </div>
-                <div class="cimage cimg-five">
-                    <img src='./images/contact-six.png' width='180' height="180" alt='contact-five' />
-                </div>
-            </div>
+
         </div>
     </section>
     <!-- contact-from-wrap section end -->
@@ -218,10 +214,57 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
                 <h6 class="h6">GIFT runs the following main volunteering opportunities</h6>
 
-                <div class="volunterring-listing">
-                    <div class="voluterring-item">
-                        <img src='./images/packthons.png' width='128' height='128' />
+                <div class="volunterring-listing d-flex justify-content-center">
+                    <div class="volunterring-area">
+                        <div class="voluterring-item d-flex justify-content-center align-items-center">
+                            <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+                        </div>
+                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                            Packathons
+                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        </div>
                     </div>
+
+                    <div class="volunterring-area">
+                        <div class="voluterring-item d-flex justify-content-center align-items-center">
+                            <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+                        </div>
+                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                            Driving
+                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        </div>
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class="voluterring-item d-flex justify-content-center align-items-center">
+                            <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+                        </div>
+                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                            Packathons
+                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        </div>
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class="voluterring-item d-flex justify-content-center align-items-center">
+                            <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+                        </div>
+                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                            Packathons
+                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        </div>
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class="voluterring-item d-flex justify-content-center align-items-center">
+                            <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+                        </div>
+                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                            Packathons
+                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -253,10 +296,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
             </div>
         </div>
     </section>
-    <?php
-    global $hide_footer_form;
-    $hide_footer_form = true;
-    ?>
+
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>
 </body>

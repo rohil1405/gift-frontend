@@ -1,7 +1,6 @@
 <!-- footer-wrap-section start -->
 <section class="footer-wrap">
     <footer>
-        <?php if ($hide_footer_form) : ?>
 
             <div class="footer-top-wrap">
                 <div class="container">
@@ -89,7 +88,6 @@
 
                 </div>
             </div>
-        <?php endif; ?>
         <div class="footer-bottom-wrap">
             <div class="container">
                 <div class="footer-bottom">

@@ -219,6 +219,9 @@
     .contact-info-listing {
         margin: 0 -12px;
     }
+    .main-logo {
+        width: 112px;
+    }
 
 }
 
@@ -297,10 +300,21 @@
     .thank-you-wrap {
         padding: 220px 0 120px;
     }
+
     
 }
 
 @media (max-width: 991px) {
+    .gift-collaboration-slider {
+        padding: 48px 0 0;
+    }
+    .gift-collaboration-slider .slick-dots {
+        margin-top: 40px;
+    }
+    .dropdown-menu.show { 
+        width: 100%;
+        margin-top: -24px !important;
+    }
     .h1{
         font-size: 50px;
     }

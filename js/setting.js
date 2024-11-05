@@ -1,21 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
   function checkHeaderState() {
-      const headerWrap = document.querySelector(".header-wrap");
-      const isHeader = document.getElementsByClassName('header-main-header').length > 0;
+    const headerWrap = document.querySelector(".header-wrap");
+    const isFooter = document.body.classList.contains('footer-main-footer');
+    const isHeader = document.body.classList.contains('header-main-header');
 
-
-      if (window.scrollY > 0 || document.documentElement.scrollHeight <= window.innerHeight) {
-          headerWrap.classList.add("header-active");
-      } else if (!isHeader) {
-          headerWrap.classList.remove("header-active");
+    if (isFooter || isHeader) {
+      headerWrap.classList.add('header-active');
+    } else {
+      if (window.scrollY > 0) {
+        headerWrap.classList.add("header-active");
+      } else {
+        headerWrap.classList.remove("header-active");
       }
+    }
   }
 
   checkHeaderState();
-
   window.addEventListener("scroll", checkHeaderState);
-  window.addEventListener("resize", checkHeaderState);
 });
+
 
 
 
@@ -93,11 +96,10 @@ $('.gift-collaboration-slide').slick({
   dots: true,
   speed: 300,
   slidesToShow: 5,
-  slidesToScroll: 1,
+  slidesToScroll: 5,
   autoplay: false,
   cssEase: 'linear',
   autoplaySpeed: 2000,
-  centerMode: true,
   arrows: true,  
   nextArrow: '<button type="button" class="slick-next custom-next-arrow"></button>',
   prevArrow: '<button type="button" class="slick-prev custom-prev-arrow"></button>',
@@ -111,7 +113,8 @@ $('.gift-collaboration-slide').slick({
     {
       breakpoint: 991,
       settings: {
-        slidesToShow: 3
+        slidesToShow: 3,
+        centerMode: true,
       }
     },
     {
@@ -135,11 +138,11 @@ $('.gift-collaboration-slide').slick({
 $('.banner-slide').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 0,  
-  speed: 3000, 
+  // autoplay: true,
+  // autoplaySpeed: 0,  
+  // speed: 3000, 
   dots: false,
-  infinite: true,  
+  // infinite: true,  
   cssEase: 'linear', 
   arrows: false,
   responsive: [

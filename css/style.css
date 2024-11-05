@@ -203,9 +203,9 @@ h2,.h2 {
   margin: 0;
 }
 h3,.h3 {
-  font-family: "Museo Sans Rounded 900";
+  font-family: "Museo Sans Rounded 700";
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 48px;
   color: #000000;
   text-align: left;
@@ -759,8 +759,6 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   gap: 8px;
   justify-content: center;
   align-items: center;
-  padding: 32px 0 40px;
-
 }
 .our-events-slide .slick-dots button {
   border-radius: 100%;
@@ -831,7 +829,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   cursor: pointer;
   z-index: 1;
   position: absolute;
-  bottom: 40px;
+  bottom: 0;
 }
 
 .custom-prev-arrow {
@@ -1050,7 +1048,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   border: 1.2px solid #AFAFAF;
   background-color: transparent;
   font-size: 0;
-  margin-top: 32px;
+  margin: 0;
 }
 .gift-collaboration-slider .slick-dots .slick-active button {
   background-color: #00A945;
@@ -1799,25 +1797,6 @@ footer start */
   position: relative;
 }
 
-.not-found-title::after {
-  top: -48%;
-  width: 170px;
-  height: 95px;
-  left: 36%;
-  background-image: url('../images/green-up-layout.png');
-}
-.not-found-title::after, .not-found-title::before {
-  content: "";
-  position: absolute;
-  background-size: contain;
-}
-.not-found-title::before {
-  bottom: -12%;
-  left: 44%;
-  width: 66px;
-  height: 30px;
-  background-image: url('../images/green-shape-up.png');
-}
 .not-found-wrap {
   padding: 308px 0 172px;
   text-align: center;
@@ -1933,7 +1912,7 @@ footer start */
 }
 .contact-form-wrap {
   padding: 76px 0 100px;
-  position: relative;
+  max-width: 1440px;
 }
 .contact-form-wrap h2 {
   padding-bottom: 46px;
@@ -1942,7 +1921,8 @@ footer start */
   height: 160px;
 }
 .contact-form-list {
-  margin-left: auto;
+  padding-left: 169px;
+  width: calc(100% - 761px)
 }
 .cimage img {
   position: absolute;
@@ -1952,10 +1932,7 @@ footer start */
   display: block;
   border-radius: 12px;
 }
-.contact-images {
-  position: absolute;
-  top: 77px;
-}
+
 .cimage {
   position: relative;
   margin-right: 28px;
@@ -2028,16 +2005,50 @@ footer start */
   height: 100%;
   z-index: -1;
 }
-.voluterring-item img{
-  display: flex;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  align-items: center;
+.volunterring-area {
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 12px;
+}
+.volunterring-listing {
+  gap: 108px;
+}
+.voluterring-item-title img {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+.volunterring-area:hover {
+  background: linear-gradient(0deg, rgba(0, 206, 84, 0.8), rgba(0, 206, 84, 0.8)),
+  linear-gradient(180deg, rgba(0, 206, 84, 0.6) 32.66%, rgba(0, 206, 84, 0) 100%);
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+.volunterring-area:hover .voluterring-item-title img {
+  display: block;
+}
+.voluterring-item-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #F0E9FB;
+  text-align: left;
+  padding-top: 20px;
+  gap: 8px;
+}
+.volunterring-area:hover .voluterring-item path{
+ 
+}
+.voluterring-item{
+  width: 128px;
+  height: 128px;
   background-repeat: no-repeat;
-  background-image: url('../images/hackathons.png');
+  background-image: url("data:image/svg+xml,%3Csvg width='128' height='128' viewBox='0 0 128 128' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M84.0368 123.573C69.7336 127.441 55.447 130.008 42.0227 123.604C20.54 113.357 3.01193 97.4502 0.957606 70.4666C0.0806491 58.9478 0.329933 49.1978 2.89331 40.7215C5.45137 32.2628 10.3235 25.0421 18.7524 18.5959C19.0695 18.3533 19.3843 18.1124 19.6968 17.8733C27.201 12.1309 33.399 7.38808 39.9711 4.31161C46.7899 1.11964 54.0182 -0.27891 63.5156 0.932482C65.7023 1.21138 67.903 1.4365 70.1058 1.66184C83.686 3.05099 97.3467 4.44838 108.28 18.5057C109.347 19.8777 110.433 21.2043 111.517 22.5288C117.99 30.4363 124.402 38.2704 126.423 55.2591C127.606 65.1974 127.931 72.1484 126.806 78.761C125.683 85.3689 123.104 91.6758 118.418 100.31C112.29 111.599 101.753 118.782 84.0368 123.573Z' fill='%2300CE54' fill-opacity='0.08' stroke='%2300CE54'/%3E%3C/svg%3E%0A");
 }
 
+.footer-main-footer .footer-top-wrap {
+  display: none;
+}
 
 
 

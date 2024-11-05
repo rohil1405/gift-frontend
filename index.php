@@ -691,15 +691,7 @@
                         <div class="gift-collaboration-logos">
                             <img src='./images/logos-two.png' alt='stock' width='165' height='44' />
                         </div>
-                        <div class="gift-collaboration-logos">
-                            <img src='./images/logos-three.png' alt='ey' width='124' height='60' />
-                        </div>
-                        <div class="gift-collaboration-logos">
-                            <img src='./images/logos-four.png' alt='sab' width='116' height='52' />
-                        </div>
-                        <div class="gift-collaboration-logos">
-                            <img src='./images/logos-five.png' alt='FR' width='202' height='62' />
-                        </div>
+
                     </div>
                 </div>
             </div>

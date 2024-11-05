@@ -44,8 +44,8 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Programmes</a></li>
-                            <li><a class="dropdown-item" href="#">Volunteering</a></li>
+                            <li><a class="dropdown-item" href="#" target="_self">Programmes</a></li>
+                            <li><a class="dropdown-item" href="#" target="_self">Volunteering</a></li>
                         </ul>
                     </li>
                     <li><a href='#' target='_self' class="dropdown-toggle" type="button" data-bs-toggle="dropdown">Support Us
@@ -59,7 +59,7 @@
                             <li><a class="dropdown-item" href="#" target='_self'>Volunteering</a></li>
                         </ul>
                     </li>
-                    <li><a href='#' target='_self'>Contact Us</a></li>
+                    <li><a href='contact-us.php' target='_self'>Contact Us</a></li>
                     <li class="cta-btn btn-border mobile-btn">
                         <a href='#' target="_self" data-bs-toggle="modal" data-bs-target="#signinModal">Login</a>
                     </li>
