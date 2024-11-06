@@ -214,103 +214,127 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                 <h6 class="h6">GIFT runs the following main volunteering opportunities</h6>
 
                 <div class="volunterring-listing d-flex justify-content-center flex-wrap">
+
                     <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/packthons.png' width='48' height='48' alt='packathons' />
+
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Packathons
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Packathons
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+
+
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/driving.png' width='56' height='44' alt='driving' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Driving
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
                     </div>
 
                     <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/driving.png' width='56' height='44' alt='driving' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Driving
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
-                        </div>
-                    </div>
-
-                    <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/kitchen.png' width='48' height='48' alt='kitchen' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Giving Kitchen
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/kitchen.png' width='48' height='48' alt='kitchen' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Giving Kitchen
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
                     </div>
 
                     <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/hand.png' width='50' height='53' alt='hand' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Helping Hand
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
-                        </div>
-                    </div>
-
-                    <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/gift-box.png' width='48' height='44' alt='packathons' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            GIFT Box Ambassador
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/hand.png' width='50' height='53' alt='hand' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Helping Hand
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
                     </div>
 
                     <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/packthons.png' width='61' height='52' alt='care-nection' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Care-nection
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
-                        </div>
-                    </div>
-
-                    <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/friend.png' width='55' height='52' alt='friend' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Befriending
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/gift-box.png' width='48' height='44' alt='packathons' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                GIFT Box Ambassador
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
                     </div>
 
                     <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/go.png' width='53' height='53' alt='go' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            GO
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
-                        </div>
-                    </div>
-
-                    <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/hand.png' width='52' height='44' alt='tutoring' />
-                        </div>
-                        <div class="voluterring-item-title d-flex align-items-center justify-content-center">
-                            Tutoring
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/packthons.png' width='61' height='52' alt='care-nection' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Care-nection
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
                     </div>
 
                     <div class="volunterring-area">
-                        <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
-                            <img src='./images/yoni.png' width='38' height='52' alt='yoni-jesner' />
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/friend.png' width='55' height='52' alt='friend' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Befriending
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
-                        <div class="voluterring-item-title">
-                            Yoni Jesner/DofE
-                            <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/go.png' width='53' height='53' alt='go' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                GO
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/hand.png' width='52' height='44' alt='tutoring' />
+                            </div>
+                            <div class="voluterring-item-title d-flex align-items-center justify-content-center">
+                                Tutoring
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="volunterring-area">
+                        <div class='voluterring-item-box'>
+                            <div class="voluterring-item d-flex justify-content-center align-items-center m-auto">
+                                <img src='./images/yoni.png' width='38' height='52' alt='yoni-jesner' />
+                            </div>
+                            <div class="voluterring-item-title">
+                                Yoni Jesner/DofE
+                                <img src='./images/arrow-hover.png' alt='white-arrow' width='20' height="20" />
+                            </div>
                         </div>
                     </div>
 
@@ -345,6 +369,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
             </div>
         </div>
     </section>
+
 
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>

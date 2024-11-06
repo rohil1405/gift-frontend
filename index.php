@@ -231,97 +231,99 @@
 
     <!-- our-founder-section start -->
     <section class="our-founder-wrap d-flex justify-content-end">
+        <div class="our-founder-list d-flex">
+            <div class="our-founder">
+                <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
 
-        <div class="our-founder">
-            <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
+                <ul class="our-founder-listing">
+                    <li class='ps-0'>
+                        <h3 class="h3 counter">4500</h3>
+                        <div class="our-founder-item">
+                            <div class="founder-item-img">
+                                <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
+                            </div>
+                            <div class="founder-item-title">
+                                Giving Kitchen meals in 1 year
+                            </div>
+                        </div>
+                    </li>
 
-            <ul class="our-founder-listing">
-                <li class='ps-0'>
-                    <h3 class="h3 counter">4500</h3>
-                    <div class="our-founder-item">
-                        <div class="founder-item-img">
-                            <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
+                    <li>
+                        <h3 class="h3 counter">2000</h3>
+                        <div class="our-founder-item">
+                            <div class="founder-item-img">
+                                <img src='./images/packing.png' width='20' height="20" alt='packing' />
+                            </div>
+                            <div class="founder-item-title">
+                                packing sessions
+                            </div>
                         </div>
-                        <div class="founder-item-title">
-                            Giving Kitchen meals in 1 year
-                        </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li>
-                    <h3 class="h3 counter">2000</h3>
-                    <div class="our-founder-item">
-                        <div class="founder-item-img">
-                            <img src='./images/packing.png' width='20' height="20" alt='packing' />
+                    <li class='border-end-0'>
+                        <h3 class="h3 counter">5600</h3>
+                        <div class="our-founder-item">
+                            <div class="founder-item-img">
+                                <img src='./images/primary.png' width='20' height="20" alt='primary' />
+                            </div>
+                            <div class="founder-item-title">
+                                students reached(primary-university)
+                            </div>
                         </div>
-                        <div class="founder-item-title">
-                            packing sessions
-                        </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li class='border-end-0'>
-                    <h3 class="h3 counter">5600</h3>
-                    <div class="our-founder-item">
-                        <div class="founder-item-img">
-                            <img src='./images/primary.png' width='20' height="20" alt='primary' />
+                    <li class='ps-0 border-bottom-0'>
+                        <h3 class="h3 counter">39000</h3>
+                        <div class="our-founder-item">
+                            <div class="founder-item-img">
+                                <img src='./images/bag.png' width='20' height="20" alt='bags' />
+                            </div>
+                            <div class="founder-item-title">
+                                bags packed and distributed by volunteers
+                            </div>
                         </div>
-                        <div class="founder-item-title">
-                            students reached(primary-university)
-                        </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li class='ps-0 border-bottom-0'>
-                    <h3 class="h3 counter">39000</h3>
-                    <div class="our-founder-item">
-                        <div class="founder-item-img">
-                            <img src='./images/bag.png' width='20' height="20" alt='bags' />
+                    <li class='border-bottom-0'>
+                        <h3 class="h3 counter">400</h3>
+                        <div class="our-founder-item">
+                            <div class="founder-item-img">
+                                <img src='./images/people.png' width='20' height="20" alt='people' />
+                            </div>
+                            <div class="founder-item-title">
+                                families receiving food parcels
+                            </div>
                         </div>
-                        <div class="founder-item-title">
-                            bags packed and distributed by volunteers
-                        </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li class='border-bottom-0'>
-                    <h3 class="h3 counter">400</h3>
-                    <div class="our-founder-item">
-                        <div class="founder-item-img">
-                            <img src='./images/people.png' width='20' height="20" alt='people' />
+                    <li class='border-bottom-0 border-end-0'>
+                        <h3 class="h3 counter">1000</h3>
+                        <div class="our-founder-item">
+                            <div class="founder-item-img">
+                                <img src='./images/video.png' width='20' height="20" alt='video' />
+                            </div>
+                            <div class="founder-item-title">
+                                Sparks videos reach
+                                1000 individuals/week
+                            </div>
                         </div>
-                        <div class="founder-item-title">
-                            families receiving food parcels
-                        </div>
-                    </div>
-                </li>
-
-                <li class='border-bottom-0 border-end-0'>
-                    <h3 class="h3 counter">1000</h3>
-                    <div class="our-founder-item">
-                        <div class="founder-item-img">
-                            <img src='./images/video.png' width='20' height="20" alt='video' />
-                        </div>
-                        <div class="founder-item-title">
-                            Sparks videos reach
-                            1000 individuals/week
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="our-founder-content">
-            <h4 class="h4">It'so impactful, it might just change your life..</h4>
-            <p>Join our band of incredible volunteers, who through their giving, have made an immeasurable to difference to those in need in our community. Whether you can give an hour a week or an hour a month, we guarantee you'll feel the joy of helping others and you'll never look back!</p>
-            <div class="cta-btn btn-border">
-                <a href='#' target='_self'>
-                    Yes, I'll be a GIFT volunteer!
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="our-founder-content">
+                <h4 class="h4">It'so impactful, it might just change your life..</h4>
+                <p>Join our band of incredible volunteers, who through their giving, have made an immeasurable to difference to those in need in our community. Whether you can give an hour a week or an hour a month, we guarantee you'll feel the joy of helping others and you'll never look back!</p>
+                <div class="cta-btn btn-border">
+                    <a href='#' target='_self'>
+                        Yes, I'll be a GIFT volunteer!
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
+
     </section>
     <!-- our-founder-section end -->
 

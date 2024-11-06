@@ -193,6 +193,18 @@ header {
   height: 6px;
   background-image: url('../images/shape-nav.png');
 }
+.menu-listing li a {
+  position: relative;
+}
+.menu-listing li a:active::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 41px;
+  height: 6px;
+  background-image: url('../images/shape-nav.png');
+}
+
 .menu-listing .dropdown-menu li a:hover {
   color: #00CE54;
 }

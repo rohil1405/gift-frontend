@@ -198,6 +198,7 @@ $('.our-instagram-slide').slick({
 });
 
 
+
 $('.our-events-slide, .gift-collaboration-slide').on('afterChange', function(event, slick, currentSlide) {
   $('.custom-next-arrow').css('background-image', 'url("./images/next-arrow.png")');
   $('.custom-prev-arrow').css({

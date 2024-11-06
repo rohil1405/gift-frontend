@@ -54,6 +54,7 @@
     }
     .footer-top-wrap {
         padding-bottom: 38px;
+        padding-top: 160px;
     }
     .forgot-password-content {
         padding: 100px 0 162px;
@@ -88,6 +89,9 @@
     }
     .contact-form-wrap h2 {
         padding-bottom: 38px;
+    }
+    .voluteering-opportunities {
+        padding: 80px 0 170px;
     }
 }
 
@@ -252,7 +256,18 @@
     .contact-form-wrap {
         padding: 64px 0;
     }
-
+    .voluteering-opportunities {
+        padding: 64px 0 130px;
+    }
+    .voluteering-opportunities .cta-btn {
+        padding-bottom: 78px;
+    }
+    .voluteering-opportunities h6 {
+        padding: 60px 0 20px;
+    }
+    .voluteering-opportunities p {
+        padding: 36px 0 42px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -314,6 +329,7 @@
     }
     .footer-top-wrap {
         padding-bottom: 20px;
+        padding-top: 130px;
     }
     .our-newsletter {
         padding: 24px;
@@ -584,7 +600,21 @@
     .contact-form-wrap {
         padding: 55px 0;
     }
- 
+    .volunterring-area {
+        width: 25%;
+    }
+    .voluteering-opportunities {
+        padding: 52px 0 120px;
+    }
+    .voluteering-opportunities p {
+        padding: 30px 0 36px;
+    }
+    .voluteering-opportunities .cta-btn {
+        padding-bottom: 60px;
+    }
+    .voluteering-opportunities h6 {
+        padding: 44px 0 16px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -699,7 +729,8 @@
         justify-content: center;
     }
     .our-newsletter-wrap {
-        margin-bottom: -150px;
+        margin-bottom: -168px;
+        margin-top: -186px;
     }
     .fieldset {
         max-width: 100%;
@@ -807,7 +838,7 @@
         flex-direction: column-reverse;
     }
     .footer-top-left {
-        padding-top: 100px;
+        padding-top: 70px;
     }
     .thank-you-wrap {
         padding: 130px 0 60px;
@@ -868,6 +899,31 @@
     }
     .gift-collaboration-slider .slick-dots {
         margin-top: 30px;
+    }
+    .volunterring-area {
+        width: 50%;
+    }
+    .voluteering-opportunities {
+        padding: 40px 0 200px;
+    }
+    .voluteering-opportunities h6 {
+        padding: 32px 0 20px;
+    }
+    .voluteering-opportunities .cta-btn {
+        padding-bottom: 36px;
+    }
+    .voluteering-opportunities p {
+        padding: 32px 0;
+    }
+    .not-found-img img {
+        width: 225px;
+        height: 154px;
+    }
+    .not-found h1 {
+        padding-top: 12px;
+    }
+    .not-found p {
+        padding: 12px 0 36px;
     }
 }
 
