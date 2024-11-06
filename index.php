@@ -230,86 +230,85 @@
     <!-- our-vision-wrap section end -->
 
     <!-- our-founder-section start -->
-    <section class="our-founder-wrap">
-        <div class="container">
-            <div class="our-founder">
-                <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
+    <section class="our-founder-wrap d-flex justify-content-end">
 
-                <ul class="our-founder-listing">
-                    <li class='ps-0'>
-                        <h3 class="h3 counter">45000</h3>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
-                            </div>
-                            <div class="founder-item-title">
-                                Giving Kitchen meals in 1 year
-                            </div>
-                        </div>
-                    </li>
+        <div class="our-founder">
+            <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
 
-                    <li>
-                        <h3 class="h3 counter">2000</h3>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/packing.png' width='20' height="20" alt='packing' />
-                            </div>
-                            <div class="founder-item-title">
-                                packing sessions
-                            </div>
+            <ul class="our-founder-listing">
+                <li class='ps-0'>
+                    <h3 class="h3 counter">4500</h3>
+                    <div class="our-founder-item">
+                        <div class="founder-item-img">
+                            <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
                         </div>
-                    </li>
+                        <div class="founder-item-title">
+                            Giving Kitchen meals in 1 year
+                        </div>
+                    </div>
+                </li>
 
-                    <li class='border-end-0'>
-                        <h3 class="h3 counter">56000</h3>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/primary.png' width='20' height="20" alt='primary' />
-                            </div>
-                            <div class="founder-item-title">
-                                students reached(primary-university)
-                            </div>
+                <li>
+                    <h3 class="h3 counter">2000</h3>
+                    <div class="our-founder-item">
+                        <div class="founder-item-img">
+                            <img src='./images/packing.png' width='20' height="20" alt='packing' />
                         </div>
-                    </li>
+                        <div class="founder-item-title">
+                            packing sessions
+                        </div>
+                    </div>
+                </li>
 
-                    <li class='ps-0 border-bottom-0'>
-                        <h3 class="h3 counter">39000</h3>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/bag.png' width='20' height="20" alt='bags' />
-                            </div>
-                            <div class="founder-item-title">
-                                bags packed and distributed by volunteers
-                            </div>
+                <li class='border-end-0'>
+                    <h3 class="h3 counter">5600</h3>
+                    <div class="our-founder-item">
+                        <div class="founder-item-img">
+                            <img src='./images/primary.png' width='20' height="20" alt='primary' />
                         </div>
-                    </li>
+                        <div class="founder-item-title">
+                            students reached(primary-university)
+                        </div>
+                    </div>
+                </li>
 
-                    <li class='border-bottom-0'>
-                        <h3 class="h3 counter">400</h3>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/people.png' width='20' height="20" alt='people' />
-                            </div>
-                            <div class="founder-item-title">
-                                families receiving food parcels
-                            </div>
+                <li class='ps-0 border-bottom-0'>
+                    <h3 class="h3 counter">39000</h3>
+                    <div class="our-founder-item">
+                        <div class="founder-item-img">
+                            <img src='./images/bag.png' width='20' height="20" alt='bags' />
                         </div>
-                    </li>
+                        <div class="founder-item-title">
+                            bags packed and distributed by volunteers
+                        </div>
+                    </div>
+                </li>
 
-                    <li class='border-bottom-0 border-end-0'>
-                        <h3 class="h3 counter">1000</h3>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/video.png' width='20' height="20" alt='video' />
-                            </div>
-                            <div class="founder-item-title">
-                                Sparks videos reach
-                                1000 individuals/week
-                            </div>
+                <li class='border-bottom-0'>
+                    <h3 class="h3 counter">400</h3>
+                    <div class="our-founder-item">
+                        <div class="founder-item-img">
+                            <img src='./images/people.png' width='20' height="20" alt='people' />
                         </div>
-                    </li>
-                </ul>
-            </div>
+                        <div class="founder-item-title">
+                            families receiving food parcels
+                        </div>
+                    </div>
+                </li>
+
+                <li class='border-bottom-0 border-end-0'>
+                    <h3 class="h3 counter">1000</h3>
+                    <div class="our-founder-item">
+                        <div class="founder-item-img">
+                            <img src='./images/video.png' width='20' height="20" alt='video' />
+                        </div>
+                        <div class="founder-item-title">
+                            Sparks videos reach
+                            1000 individuals/week
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
         <div class="our-founder-content">
             <h4 class="h4">It'so impactful, it might just change your life..</h4>
@@ -467,7 +466,7 @@
     <!-- our-events-section start -->
 
     <!-- our-world-section-start -->
-    <!-- <section class="our-word-wrap">
+    <section class="our-word-wrap">
         <div class="container">
             <div class="our-word">
                 <div class="section-title">
@@ -478,24 +477,6 @@
                     <div class="our-word-left">
                         <div class="our-word-slider">
                             <div class="our-word-slide">
-                                <div class="our-word-review">
-                                    <div class="our-word-text">
-                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
-                                        <a href='#' target="_self">
-                                            <h5 class="h5">Joshua Rowe</h5>
-                                        </a>
-                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
-                                    </div>
-                                </div>
-                                <div class="our-word-review">
-                                    <div class="our-word-text">
-                                        <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
-                                        <a href='#' target="_self">
-                                            <h5 class="h5">Joshua Rowe</h5>
-                                        </a>
-                                        <p>Chair of Governors, King David High School, Manchester, UK</p>
-                                    </div>
-                                </div>
                                 <div class="our-word-review">
                                     <div class="our-word-text">
                                         <p>The GIFT programme has been so beneficial to our pupils. It has reinforced the meaning of ‘giving’ and ‘generosity’ which is the founding principle of our faith. It has taught the pupils the value of cooperation and the bond of friendships. We cannot thank the GIFT Manchester team enough for their wonderful work.</p>
@@ -536,7 +517,7 @@
 
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- our-worl-section end -->
 
     <!-- our-instragram-section start -->

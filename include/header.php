@@ -6,7 +6,7 @@
                 <div class='header-main-logo'>
                     <a href='index.php' target="_self">
                         <img src='./images/logo.png' alt='main-logo' width='149' height='80' class='main-logo header-img-logo' />
-                        <img src='./images/logo-active.png' alt='active-logo' width='113' height='48' class='active-logo header-img-logo' />
+                        <img src='./images/logo-active.svg' alt='active-logo' width='113' height='48' class='active-logo header-img-logo' />
                         <img src='./images/mobile-logo.png' alt='mobile-logo' width='44' height='48' class='mobile-logo header-img-logo' />
                     </a>
                     <div class="mobile-btns">
@@ -33,7 +33,7 @@
 
                 <ul class='menu-listing'>
                     <li>
-                        <a href='index.php' target='_self'>About</a>
+                        <a href='about.php' target='_self'>About</a>
                     </li>
                     <li><a href='#' target='_self'>Media</a></li>
                     <li class="nav-item dropdown">

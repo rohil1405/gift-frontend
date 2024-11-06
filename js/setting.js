@@ -19,11 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", checkHeaderState);
 });
 
-
-
-
 $(document).ready(function(){
-	$(document).on('mouseover','.cta-btn a', function(e){
+	$(document).on('mouseover','.cta-btn a, .cta-form-btn', function(e){
       $btn = $(this);
 			var $offset = $(this).offset();
       $span = $('<span/>');
@@ -93,13 +90,13 @@ $('.our-word-slide').slick({
 });
 
 $('.gift-collaboration-slide').slick({
+  infinite: true,
+  speed: 1400,
   dots: true,
-  speed: 300,
-  slidesToShow: 5,
-  slidesToScroll: 5,
   autoplay: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
   cssEase: 'linear',
-  autoplaySpeed: 2000,
   arrows: true,  
   nextArrow: '<button type="button" class="slick-next custom-next-arrow"></button>',
   prevArrow: '<button type="button" class="slick-prev custom-prev-arrow"></button>',
@@ -111,24 +108,11 @@ $('.gift-collaboration-slide').slick({
       }
     },
     {
-      breakpoint: 991,
+      breakpoint: 767,
       settings: {
         slidesToShow: 3,
-        centerMode: true,
       }
     },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2
-      }
-    },
-    {
-      breakpoint: 475,
-      settings: {
-        slidesToShow: 1
-      }
-    }
   ]
 });
 
@@ -139,11 +123,12 @@ $('.banner-slide').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   // autoplay: true,
-  // autoplaySpeed: 0,  
-  // speed: 3000, 
+  autoplaySpeed: 0,  
+  speed: 3000, 
   dots: false,
-  // infinite: true,  
+  infinite: true,  
   cssEase: 'linear', 
+  centerPadding: '20px',
   arrows: false,
   responsive: [
     {
@@ -236,6 +221,7 @@ $('.our-events-slide, .gift-collaboration-slide').on('afterChange', function(eve
 
 
 
+
 $(document).ready(function () {
   function initSlick() {
     if ($(window).width() < 1024) {
@@ -251,6 +237,14 @@ $(document).ready(function () {
         nextArrow: '<button type="button" class="slick-next custom-next-arrow"></button>',
         prevArrow: '<button type="button" class="slick-prev custom-prev-arrow"></button>',
         responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              centerPadding: '20px', 
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          },
           {
             breakpoint: 767,
             settings: {
@@ -276,7 +270,6 @@ $(document).ready(function () {
 
 
 
-
 $(document).ready(function() {
   function isSectionVisible() {
       var sectionTop = $('.our-founder-wrap').offset().top;
@@ -289,16 +282,23 @@ $(document).ready(function() {
 
   var counterStarted = false;
 
+  function formatNumber(value) {
+      return value >= 1000 ? (value / 1000).toFixed(1) + 'k' : value;
+  }
+
   function startCounter() {
       if (isSectionVisible() && !counterStarted) {
-          $(' .counter').each(function() {
-              $(this).prop('Counter', 0).animate({
-                  Counter: $(this).text()
+          $('.counter').each(function() {
+              var $this = $(this);
+              var targetValue = parseInt($this.text().replace('k', ''), 10); 
+
+              $this.prop('Counter', 0).animate({
+                  Counter: targetValue
               }, {
                   duration: 4000,
                   easing: 'swing',
                   step: function(now) {
-                      $(this).text(Math.ceil(now));
+                      $this.text(formatNumber(Math.ceil(now)));
                   }
               });
           });
@@ -312,6 +312,7 @@ $(document).ready(function() {
 
   startCounter();
 });
+
 
 document.addEventListener('DOMContentLoaded', function() {
   const cookiePreferences = document.querySelector('.cookie-preferences');

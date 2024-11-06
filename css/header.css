@@ -1,7 +1,6 @@
 /*==============================================================
 	Common Styles Initials
 	==============================================================*/
-
 html {
   -webkit-text-size-adjust: none;
   width: 100%;
@@ -52,7 +51,6 @@ a {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #FFFFFF;
 }
 
 a:hover,
@@ -176,7 +174,9 @@ header {
   padding: 16px 20px;
   margin-top: 8px !important;
 } */
-
+#signinModal {
+  background-color: rgba(101,69,149,0.8);
+}
 .menu-listing .dropdown-menu li a {
   color: #000000;
   font-size: 14px;
@@ -303,10 +303,12 @@ header {
   padding: 18px 0 0;
 }
 .dropdown-menu.show {
-  padding: 16px;
-  margin-top: 8px !important;
+  padding: 16px 20px;
+  margin-top: 14px !important;
+  border-radius: 12px;
+  margin-left: -20px !important;
 }
-.cta-btn.green-group a:after, .cta-btn.green-group a:before {
+.cta-btn.green-group:after, .cta-btn.green-group:before {
   position: absolute;
   content: '';
   top: -27px;
@@ -317,7 +319,7 @@ header {
   background-repeat: no-repeat;
   background-position: auto;
 }
-.cta-btn.green-group a:before {
+.cta-btn.green-group:before {
   top: 54px;
   left: 0px;
   background-image: url('../images/btn-down.png');
@@ -325,7 +327,7 @@ header {
 .header-img-logo {
   transition: all 0.3s ease-in-out;
 }
-.header-active .cta-btn.green-group a:after, .header-active .cta-btn.green-group a:before {
+.header-active .cta-btn.green-group:after, .header-active .cta-btn.green-group:before {
   display: none;
 }
 .cta-btn.green-group {
@@ -334,10 +336,10 @@ header {
 .cta-btn.green-group a:hover {
   background-color: #00A945;
 }
-.cta-btn.green-group a:hover:before {
+.cta-btn.green-group:hover:before {
   top: 46px;
 }
-.cta-btn.green-group a:hover:after {
+.cta-btn.green-group:hover:after {
   top: -20px;
 }
 .menu-close:hover, .menu-open:hover {

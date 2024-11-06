@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 /*==============================================================
 	Fonts
 	==============================================================*/
@@ -181,7 +180,6 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   display: inline-block;
-  color: #FFFFFF;
 }
 
 h1,.h1 {
@@ -275,6 +273,19 @@ h6.h6 {
   width: 20px;
   height: 20px;
 }
+.cta-form-btn:hover {
+  background-color: #00a945;
+}
+.cta-form-btn .ripple-span {
+  border-radius: 50%;
+  background-color: #00a945;
+  position: absolute;
+  transform: scale(0);
+  animation: ripple 1.2s ease-in;
+  width: 20px;
+  height: 20px;
+}
+
 
 
 @keyframes ripple {
@@ -309,12 +320,17 @@ h6.h6 {
   border: 1px solid #00CE54;
   background-color: transparent;
 }
+.cta-btn.btn-border a:hover {
+  background-color: rgba(0,206,84,0.2);
+}
 .cta-btn.btn-border a .ripple-span {
   background-color: rgba(0,206,84,0.2);
 }
 .cta-btn.btn-border a:active {
   background-color: rgba(0, 206, 84, 0.1);
 }
+
+
 
 /* dark button */
 .cta-btn.btn-bg-dark a {
@@ -387,10 +403,10 @@ h6.h6 {
   z-index: 1;
 }
 .banner-wrap:before {
-  background: url('../images/banner-pattern.png'),linear-gradient(180deg, rgba(101,69,149,1) 0%, rgba(101,69,149,0) 100%);
+  background: linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0)), url(../images/banner-pattern.png);
   content: "";
   position: absolute;
-  top: 35%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -483,12 +499,12 @@ h6.h6 {
   background-image: url('../images/green-shape-up.png');
 }
 .our-vision h2::after {
-  right: 0;
-  top: -38%;
+  right: 3%;
+  top: -48%;
 }
 .our-vision h2::before {
-  left: 0;
-  bottom: -38%;
+  left: 3%;
+  bottom: -48%;
   transform: rotate(180deg);
 }
 .our-vision .cta-btn {
@@ -598,6 +614,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
 }
 .our-founder {
   position: relative;
+  max-width: 955px;
 }
 .our-founder-content {
   min-width: 528px;
@@ -605,13 +622,16 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   background-color: #654595;
   border-radius: 12px 0 0 12px;
   color: #FFFFFF;
-  position: absolute;
+  /* position: absolute; */
   right: 0;
   top: 140px;
   background-image: url('../images/banner-pattern.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 177px;
+  width: calc(100% - 177px);
+
 }
 .our-founder-content h4, .our-founder-content p {
   color: #FFFFFF;
@@ -730,8 +750,14 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
 .our-events-item:hover .events-cta {
   opacity: 1;
 }
-.our-events-item a h6:hover {
+.our-events-item a:hover h6 {
   color: #58585B;
+}
+.events-cta .cta-btn.lg-btn a {
+  justify-content: center;
+}
+.events-cta .cta-btn.btn-border {
+  flex-shrink: 0;
 }
 .our-events-item p {
   padding: 12px 0 32px;
@@ -1074,7 +1100,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   top: 0;
   left: 0;
   z-index: -1;
-  opacity: 8%;
+  opacity: 4%;
 }
 .our-newsletter::before{
   position: absolute;
@@ -1151,6 +1177,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   border: 1px solid #D8D8D8;
 }
 .cta-form-btn {
+  overflow: hidden;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1163,18 +1190,7 @@ background: linear-gradient(0deg, rgba(250,246,255,1) 0%, rgba(255,255,255,1) 10
   line-height: 24px;
   border: 1px solid transparent;
   transition: all 0.3s ease-in-out;
-}
-.cta-form-btn:hover {
-  border: 1px solid #00CE54;
-  color: #000;
-  background-color: rgba(0,206,112,0.1);
-}
-.cta-form-btn svg path {
-  transition: all 0.3s ease-in-out;
-}
-
-.cta-form-btn:hover svg path {
-  stroke: black;
+  position: relative;
 }
 .form-check-label {
   font-size: 14px;
@@ -1894,8 +1910,7 @@ footer start */
   justify-content: center;
 }
 .header-main-header .banner-wrap:before {
-  background: url('../images/banner-pattern.png');
-  height: auto;
+  background: linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0)), url(../images/banner-pattern.png);
 }
 .field-required {
   font-size: 12px;
@@ -1914,15 +1929,21 @@ footer start */
   padding: 76px 0 100px;
   max-width: 1440px;
 }
+#registerVolunteer {
+  background-color: rgba(101, 69, 149, 0.2)
+}
 .contact-form-wrap h2 {
   padding-bottom: 46px;
 }
 .form-field textarea {
   height: 160px;
 }
+.contact-images {
+  padding-right: 169px;
+  width: calc(100% - 510px)
+}
 .contact-form-list {
-  padding-left: 169px;
-  width: calc(100% - 761px)
+  padding: 0 15px;
 }
 .cimage img {
   position: absolute;
@@ -1978,9 +1999,11 @@ footer start */
   padding-bottom: 100px;
 }
 .voluteering-opportunities-wrap {
-  padding: 100px 0 200px;
   position: relative;
-  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 .voluteering-opportunities h6 {
   color: #fff;
@@ -1988,13 +2011,11 @@ footer start */
   padding: 88px 0 26px;
   border-top: 1px solid rgba(255,255,255,0.4);
 }
-.voluteering-opportunities-wrap {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
+.voluteering-opportunities {
+  padding: 100px 0 200px;
+  text-align: center;
 }
+
 .voluteering-opportunities-wrap:before {
   background: url('../images/banner-pattern.png'),linear-gradient(90deg, #373737 32.66%, rgba(55, 55, 55, 0) 100%);
   content: "";
@@ -2006,13 +2027,14 @@ footer start */
   z-index: -1;
 }
 .volunterring-area {
+  width: 20%;
   transition: all 0.3s ease-in-out;
   padding: 20px;
   background-color: transparent;
   border-radius: 12px;
 }
 .volunterring-listing {
-  gap: 108px;
+  width: 100%;
 }
 .voluterring-item-title img {
   display: none;
@@ -2037,7 +2059,7 @@ footer start */
   gap: 8px;
 }
 .volunterring-area:hover .voluterring-item path{
- 
+ stroke: #fff;
 }
 .voluterring-item{
   width: 128px;
@@ -2050,6 +2072,119 @@ footer start */
   display: none;
 }
 
+.banner-inner .banner-content {
+  text-align: center;
+  max-width: 100%;
+}
+.banner-inner .banner-content::before {
+  display: none;
+}
+.banner-inner .banner {
+  padding: 198px 0 100px;
+}
 
+.about-main-tabs .nav-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000000;
+  padding: 0;
+}
+.about-main-tabs .nav-pills {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 34px 0;
+  border-top: 1px solid #F0E9FB;
+  background-color: #F0E9FB;
+  border-bottom: 1px solid #F0E9FB;
+  margin: 0 !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: transparent;
+  color: #000000;
+}
+.nav-link.active {
+  position: relative;
+}
+.about-main-tabs .nav-link:hover, .nav-link.active:hover {
+  color: #00CE54;
+}
+.about-main-tabs .nav-link.active:before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  width: 80px;
+  height: 6px;
+  background-image: url('../images/tabs-before.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-meet-tabs .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000;
+  padding: 12px 24px;
+  background-color: #F4F4F4;
+  border-radius: 42px;
+}
+.about-meet-tabs .nav-link:hover {
+  background-color: #00CE54;
+  color: #fff;
+}
+.about-meet-tabs .nav-pills {
+  margin: 0 !important;
+  display: flex;
+  gap: 12px;
+  padding: 60px 0 20px;
+}
+.about-meet-tabs .nav-link.active {
+  background-color: #00CE54;
+  color: #fff;
+}
+#meet-team {
+  background-color: #fff;
+  padding: 100px 0 90px;
+}
+.who-we-are .h2 {
+  position: relative;
+}
+.who-we-are .h2:before {
+  content: "";
+  position: absolute;
+  background-image: url('../images/tabs-green.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 205px;
+  height: 141px;
+  bottom: 0;
+  left: 15%;
+}
+.content-author {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 24px;
+}
+.we-are-content {
+  padding: 32px 28px 32px 108px;
+  background-color: #fff;
+  position: relative;
+}
+.we-are-content:before {
+  position: absolute;
+  content: "";
+  background-image: url('../images/gift-quotes.png');
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 
