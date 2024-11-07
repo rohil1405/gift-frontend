@@ -7,10 +7,7 @@
 
 
 <body class="home">
-    <?php
-    global $prefix_url;
-    $prefix_url = 'index.php';
-    ?>
+
 
     <?php include("include/header.php"); ?>
     <!-- banner start -->
@@ -37,168 +34,151 @@
                 </div>
             </div>
         </div>
-
-        <div class="banner-slider">
+        <div class="banner-slider d-flex">
             <div class="banner-slide">
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class='banner-img img-one'>
-                            <img src='./images/banner-one.png' alt='banner-one' height='295' width='443' />
-                        </div>
-                        <div class='banner-img img-two'>
-                            <img src='./images/banner-three.png' alt='banner-three' height='193' width='290' />
-                        </div>
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/banner-one.png' alt='banner-one' height='295' width='443' />
                     </div>
-                    <div class="banner-img-slider-right">
-                        <div class="banner-img img-three">
-                            <img src='./images/banner-two.png' alt='banner-two' height='266' width='400' />
-                        </div>
-                        <div class="banner-img img-four">
-                            <img src='./images/banner-four.png' alt='banner-four' height='125' width='125' />
-                        </div>
-                        <div class="banner-img img-five">
-                            <img src='./images/banner-five.png' alt='banner-five' height='180' width='180' />
-                        </div>
+                    <div class='banner-img'>
+                        <img src='./images/banner-three.png' alt='banner-three' height='193' width='290' />
                     </div>
-
                 </div>
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class="banner-img one-img">
-                            <img src='./images/one-banner.png' alt='one-banner' width='620' height='620' />
-                        </div>
-
+                <div class="slide-bottom slides d-flex">
+                    <div class="banner-img">
+                        <img src='./images/banner-two.png' alt='banner-two' height='266' width='400' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/banner-four.png' alt='banner-four' height='125' width='125' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/banner-five.png' alt='banner-five' height='180' width='180' />
                     </div>
                 </div>
 
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class='banner-img two-img'>
-                            <img src='./images/two-banner.png' alt='two-banner' height='220' width='179' />
-                        </div>
-                        <div class='banner-img three-img'>
-                            <img src='./images/three-banner.png' alt='banner-three' height='330' width='495' />
-                        </div>
+            </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/one-banner.png' alt='banner-one' height='620' width='620' />
                     </div>
-                    <div class="banner-img-slider-right">
-                        <div class="banner-img four-img">
-                            <img src='./images/four-banner.png' alt='four-banner' height='125' width='125' />
-                        </div>
-                        <div class="banner-img five-img">
-                            <img src='./images/five-banner.png' alt='five-banner' height='266' width='400' />
-                        </div>
-                        <div class="banner-img six-img">
-                            <img src='./images/six-banner.png' alt='six-banner' height='160' width='121' />
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class='banner-img img-three'>
-                            <img src='./images/slide-one.png' alt='slide-one' height='266' width='400' />
-                        </div>
-                        <div class='banner-img two-slide-img'>
-                            <img src='./images/slide-two.png' alt='banner-three' height='125' width='125' />
-                        </div>
-                        <div class="banner-img three-slide-img">
-                            <img src='./images/slide-three.png' alt='slide-three' height='180' width='180' />
-                        </div>
-                    </div>
-                    <div class="banner-img-slider-right">
-
-                        <div class="banner-img four-slide-img">
-                            <img src='./images/slide-four.png' alt='slide-four' height='295' width='443' />
-                        </div>
-                        <div class="banner-img five-slide-img">
-                            <img src='./images/slide-five.png' alt='slide-five' height='290' width='193' />
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class="banner-img one-img">
-                            <img src='./images/slide-six.png' alt='slide-six' width='620' height='620' />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class='banner-img three-img'>
-                            <img src='./images/one-slide.png' alt='one-slide' height='330' width='495' />
-                        </div>
-                        <div class='banner-img two-img'>
-                            <img src='./images/two-slide.png' alt='two-slide' height='220' width='179' />
-                        </div>
-                    </div>
-                    <div class="banner-img-slider-right">
-                        <div class="banner-img three-img-banner">
-                            <img src='./images/three-slide.png' alt='three-slide' height='266' width='400' />
-                        </div>
-                        <div class="banner-img six-img">
-                            <img src='./images/four-slide.png' alt='four-slide' height='160' width='121' />
-                        </div>
-                        <div class="banner-img four-img">
-                            <img src='./images/five-slide.png' alt='five-slide' height='125' width='125' />
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class='banner-img four-slide-img'>
-                            <img src='./images/gift-one.png' alt='gift-one' height='295' width='443' />
-                        </div>
-                        <div class='banner-img img-two'>
-                            <img src='./images/gift-two.png' alt='gift-two' height='193' width='290' />
-                        </div>
-                    </div>
-                    <div class="banner-img-slider-right">
-                        <div class="banner-img three-img-banner">
-                            <img src='./images/gift-three.png' alt='gift-three' height='266' width='400' />
-                        </div>
-                        <div class="banner-img four-img">
-                            <img src='./images/gift-four.png' alt='gift-four' height='125' width='125' />
-                        </div>
-                        <div class="banner-img img-five">
-                            <img src='./images/gift-five.png' alt='gift-five' height='180' width='180' />
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="banner-img-slider">
-                    <div class="banner-img-slider-left">
-                        <div class='banner-img two-img'>
-                            <img src='./images/one-gift.png' alt='one-gift' height='220' width='179' />
-                        </div>
-                        <div class='banner-img three-img'>
-                            <img src='./images/two-gift.png' alt='two-gift' height='330' width='495' />
-                        </div>
-                    </div>
-                    <div class="banner-img-slider-right">
-                        <div class="banner-img four-img">
-                            <img src='./images/three-gift.png' alt='three-gift' height='125' width='125' />
-                        </div>
-                        <div class="banner-img img-three">
-                            <img src='./images/four-gift.png' alt='four-gift' height='266' width='400' />
-                        </div>
-                        <div class="banner-img six-img">
-                            <img src='./images/five-gift.png' alt='five-gift' height='160' width='121' />
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/two-banner.png' alt='two-banner' height='220' width='179' />
+                    </div>
+                    <div class='banner-img'>
+                        <img src='./images/three-banner.png' alt='banner-three' height='330' width='495' />
+                    </div>
+                </div>
+                <div class="slide-bottom slides d-flex">
+                    <div class="banner-img">
+                        <img src='./images/four-banner.png' alt='four-banner' height='125' width='125' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/five-banner.png' alt='five-banner' height='266' width='400' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/six-banner.png' alt='six-banner' height='160' width='121' />
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/slide-one.png' alt='slide-one' height='266' width='400' />
+                    </div>
+                    <div class='banner-img'>
+                        <img src='./images/slide-two.png' alt='banner-three' height='125' width='125' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/slide-three.png' alt='slide-three' height='180' width='180' />
+                    </div>
+                </div>
+                <div class="slide-bottom slides d-flex">
+                    <div class="banner-img">
+                        <img src='./images/slide-four.png' alt='slide-four' height='295' width='443' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/slide-five.png' alt='slide-five' height='290' width='193' />
+                    </div>
+                </div>
+
+            </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/slide-six.png' alt='slide-six' width='620' height='620' />
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/one-slide.png' alt='one-slide' height='330' width='495' />
+                    </div>
+                    <div class='banner-img'>
+                        <img src='./images/two-slide.png' alt='two-slide' height='220' width='179' />
+                    </div>
+                </div>
+                <div class="slide-bottom slides d-flex">
+                    <div class="banner-img">
+                        <img src='./images/three-slide.png' alt='three-slide' height='266' width='400' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/four-slide.png' alt='four-slide' height='160' width='121' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/five-slide.png' alt='five-slide' height='125' width='125' />
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/gift-one.png' alt='gift-one' height='295' width='443' />
+                    </div>
+                    <div class='banner-img'>
+                        <img src='./images/gift-two.png' alt='gift-two' height='193' width='290' />
+                    </div>
+                </div>
+                <div class="slide-bottom slides d-flex">
+                    <div class="banner-img">
+                        <img src='./images/gift-three.png' alt='gift-three' height='266' width='400' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/gift-four.png' alt='gift-four' height='125' width='125' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/gift-five.png' alt='gift-five' height='180' width='180' />
+                    </div>
+                </div>
+            </div>
+            <div class="banner-slide">
+                <div class="slide-top slides d-flex">
+                    <div class='banner-img'>
+                        <img src='./images/one-gift.png' alt='one-gift' height='220' width='179' />
+                    </div>
+                    <div class='banner-img'>
+                        <img src='./images/two-gift.png' alt='two-gift' height='330' width='495' />
+                    </div>
+                </div>
+                <div class="slide-bottom slides d-flex">
+                    <div class="banner-img">
+                        <img src='./images/three-gift.png' alt='three-gift' height='125' width='125' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/four-gift.png' alt='four-gift' height='266' width='400' />
+                    </div>
+                    <div class="banner-img">
+                        <img src='./images/five-gift.png' alt='five-gift' height='160' width='121' />
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-
     </section>
     <!-- banner end -->
 
@@ -237,7 +217,9 @@
 
                 <ul class="our-founder-listing">
                     <li class='ps-0'>
-                        <h3 class="h3 counter">4500</h3>
+                        <div class="counter-number">
+                            <span class="count">4.5</span>k
+                        </div>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
@@ -249,7 +231,9 @@
                     </li>
 
                     <li>
-                        <h3 class="h3 counter">2000</h3>
+                        <div class="counter-number">
+                            <span class="count">2</span>k
+                        </div>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/packing.png' width='20' height="20" alt='packing' />
@@ -261,7 +245,9 @@
                     </li>
 
                     <li class='border-end-0'>
-                        <h3 class="h3 counter">5600</h3>
+                        <div class="counter-number">
+                            <span class="count">5.6</span>k
+                        </div>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/primary.png' width='20' height="20" alt='primary' />
@@ -273,7 +259,9 @@
                     </li>
 
                     <li class='ps-0 border-bottom-0'>
-                        <h3 class="h3 counter">39000</h3>
+                        <div class="counter-number">
+                            <span class="count">39</span>k
+                        </div>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/bag.png' width='20' height="20" alt='bags' />
@@ -285,7 +273,9 @@
                     </li>
 
                     <li class='border-bottom-0'>
-                        <h3 class="h3 counter">400</h3>
+                        <div class="counter-number">
+                            <span class="count">400</span>
+                        </div>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/people.png' width='20' height="20" alt='people' />
@@ -297,7 +287,9 @@
                     </li>
 
                     <li class='border-bottom-0 border-end-0'>
-                        <h3 class="h3 counter">1000</h3>
+                        <div class="counter-number">
+                            <span class="count">1000</span>
+                        </div>
                         <div class="our-founder-item">
                             <div class="founder-item-img">
                                 <img src='./images/video.png' width='20' height="20" alt='video' />
@@ -345,7 +337,6 @@
 
                 <div class="our-events-slider">
                     <div class="our-events-slide">
-
                         <div class="our-events-item">
                             <a href='#' target="_self" class='event-img'>
                                 <img class='event-main-img' src='./images/event-1.png' alt='event-one' width='372' height='372' />
@@ -382,10 +373,7 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-                        <div class="our-events-item event-line">
+                        <div class="our-events-item">
                             <a href='#' target="_self" class='event-img'>
                                 <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
                                 <div class="event-price-img">
@@ -421,7 +409,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="our-events-item">
                             <a href='#' target="_self" class='event-img'>
                                 <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
@@ -458,6 +445,10 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="custom-arrows">
+                        <div class="custom-prev"></div>
+                        <div class="custom-next"></div>
                     </div>
 
 
@@ -506,6 +497,11 @@
                                         <p>Chair of Governors, King David High School, Manchester, UK</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="custom-arrows">
+                                <div class="bg-next-arrow"></div>
+                                <div class="bg-prev-arrow"></div>
+
                             </div>
 
                         </div>
@@ -677,6 +673,10 @@
 
                     </div>
                 </div>
+                <div class="custom-arrows">
+                    <div class="custom-prev-arrow"></div>
+                    <div class="custom-next-arrow"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -782,12 +782,6 @@
         </div>
     </section>
     <!-- rv-modal-section end -->
-
-
-    <?php
-    global $hide_footer_form;
-    $hide_footer_form = true;
-    ?>
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>
 </body>

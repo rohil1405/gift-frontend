@@ -85,12 +85,12 @@ $('.our-word-slide').slick({
   autoplay: false,
   cssEase: 'linear',
   autoplaySpeed: 2000,
-  nextArrow: '<button type="button" class="slick-next bg-next-arrow"></button>',
-        prevArrow: '<button type="button" class="slick-prev bg-prev-arrow"></button>',
+  prevArrow: $('.bg-next-arrow'), 
+  nextArrow: $('.bg-prev-arrow'),
 });
 
 $('.gift-collaboration-slide').slick({
-  infinite: true,
+  infinite: false,
   speed: 1400,
   dots: true,
   autoplay: false,
@@ -98,8 +98,8 @@ $('.gift-collaboration-slide').slick({
   slidesToScroll: 1,
   cssEase: 'linear',
   arrows: true,  
-  nextArrow: '<button type="button" class="slick-next custom-next-arrow"></button>',
-  prevArrow: '<button type="button" class="slick-prev custom-prev-arrow"></button>',
+  prevArrow: $('.custom-prev-arrow'), 
+  nextArrow: $('.custom-next-arrow'),
   responsive: [
     {
       breakpoint: 1200,
@@ -119,7 +119,7 @@ $('.gift-collaboration-slide').slick({
 
 
 
-$('.banner-slide').slick({
+$('.banner-slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   // autoplay: true,
@@ -199,28 +199,6 @@ $('.our-instagram-slide').slick({
 
 
 
-$('.our-events-slide, .gift-collaboration-slide').on('afterChange', function(event, slick, currentSlide) {
-  $('.custom-next-arrow').css('background-image', 'url("./images/next-arrow.png")');
-  $('.custom-prev-arrow').css({
-    'transform': 'rotate(0deg)',
-    'background-image': 'url("./images/prev-arrow.png")'
-  }).prop('disabled', true);
-
-  if (currentSlide === 1 || currentSlide === 2) {
-    $('.custom-prev-arrow').css({
-      'transform': 'rotate(180deg)',
-      'background-image': 'url("./images/next-arrow.png")' 
-    }).prop('disabled', false);
-  
-    
-    $('.custom-next-arrow').css({
-      'background-image': 'url("./images/next-arrow.png")'
-    });
-  }
-  
-});
-
-
 
 
 $(document).ready(function () {
@@ -230,13 +208,13 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,           
         centerPadding: '40px', 
-        infinite: true,
+        infinite: false,
         dots: true,
         arrows: true,
         autoplay: false,
         autoplaySpeed: 2000,
-        nextArrow: '<button type="button" class="slick-next custom-next-arrow"></button>',
-        prevArrow: '<button type="button" class="slick-prev custom-prev-arrow"></button>',
+        prevArrow: $('.custom-prev-arrow'), 
+        nextArrow: $('.custom-next-arrow'),
         responsive: [
           {
             breakpoint: 991,
@@ -289,20 +267,17 @@ $(document).ready(function() {
 
   function startCounter() {
       if (isSectionVisible() && !counterStarted) {
-          $('.counter').each(function() {
-              var $this = $(this);
-              var targetValue = parseInt($this.text().replace('k', ''), 10); 
-
-              $this.prop('Counter', 0).animate({
-                  Counter: targetValue
-              }, {
-                  duration: 4000,
-                  easing: 'swing',
-                  step: function(now) {
-                      $this.text(formatNumber(Math.ceil(now)));
-                  }
-              });
+        $('.count').each(function () {
+          $(this).prop('Counter', 0).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 3000,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text($(this).text().includes('.') ? now.toFixed(1) : Math.ceil(now));
+              }
           });
+      });
           counterStarted = true; 
       }
   }
