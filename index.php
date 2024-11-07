@@ -34,153 +34,155 @@
                 </div>
             </div>
         </div>
-        <div class="banner-slider d-flex">
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/banner-one.png' alt='banner-one' height='295' width='443' />
-                    </div>
-                    <div class='banner-img'>
-                        <img src='./images/banner-three.png' alt='banner-three' height='193' width='290' />
-                    </div>
-                </div>
-                <div class="slide-bottom slides d-flex">
-                    <div class="banner-img">
-                        <img src='./images/banner-two.png' alt='banner-two' height='266' width='400' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/banner-four.png' alt='banner-four' height='125' width='125' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/banner-five.png' alt='banner-five' height='180' width='180' />
-                    </div>
-                </div>
 
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/one-banner.png' alt='banner-one' height='620' width='620' />
-                    </div>
-                </div>
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/two-banner.png' alt='two-banner' height='220' width='179' />
-                    </div>
-                    <div class='banner-img'>
-                        <img src='./images/three-banner.png' alt='banner-three' height='330' width='495' />
-                    </div>
-                </div>
-                <div class="slide-bottom slides d-flex">
-                    <div class="banner-img">
-                        <img src='./images/four-banner.png' alt='four-banner' height='125' width='125' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/five-banner.png' alt='five-banner' height='266' width='400' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/six-banner.png' alt='six-banner' height='160' width='121' />
-                    </div>
-                </div>
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/slide-one.png' alt='slide-one' height='266' width='400' />
-                    </div>
-                    <div class='banner-img'>
-                        <img src='./images/slide-two.png' alt='banner-three' height='125' width='125' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/slide-three.png' alt='slide-three' height='180' width='180' />
-                    </div>
-                </div>
-                <div class="slide-bottom slides d-flex">
-                    <div class="banner-img">
-                        <img src='./images/slide-four.png' alt='slide-four' height='295' width='443' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/slide-five.png' alt='slide-five' height='290' width='193' />
-                    </div>
-                </div>
-
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/slide-six.png' alt='slide-six' width='620' height='620' />
-                    </div>
-                </div>
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/one-slide.png' alt='one-slide' height='330' width='495' />
-                    </div>
-                    <div class='banner-img'>
-                        <img src='./images/two-slide.png' alt='two-slide' height='220' width='179' />
-                    </div>
-                </div>
-                <div class="slide-bottom slides d-flex">
-                    <div class="banner-img">
-                        <img src='./images/three-slide.png' alt='three-slide' height='266' width='400' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/four-slide.png' alt='four-slide' height='160' width='121' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/five-slide.png' alt='five-slide' height='125' width='125' />
-                    </div>
-                </div>
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/gift-one.png' alt='gift-one' height='295' width='443' />
-                    </div>
-                    <div class='banner-img'>
-                        <img src='./images/gift-two.png' alt='gift-two' height='193' width='290' />
-                    </div>
-                </div>
-                <div class="slide-bottom slides d-flex">
-                    <div class="banner-img">
-                        <img src='./images/gift-three.png' alt='gift-three' height='266' width='400' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/gift-four.png' alt='gift-four' height='125' width='125' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/gift-five.png' alt='gift-five' height='180' width='180' />
-                    </div>
-                </div>
-            </div>
-            <div class="banner-slide">
-                <div class="slide-top slides d-flex">
-                    <div class='banner-img'>
-                        <img src='./images/one-gift.png' alt='one-gift' height='220' width='179' />
-                    </div>
-                    <div class='banner-img'>
-                        <img src='./images/two-gift.png' alt='two-gift' height='330' width='495' />
-                    </div>
-                </div>
-                <div class="slide-bottom slides d-flex">
-                    <div class="banner-img">
-                        <img src='./images/three-gift.png' alt='three-gift' height='125' width='125' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/four-gift.png' alt='four-gift' height='266' width='400' />
-                    </div>
-                    <div class="banner-img">
-                        <img src='./images/five-gift.png' alt='five-gift' height='160' width='121' />
-                    </div>
-                </div>
-
-            </div>
-        </div>
     </section>
     <!-- banner end -->
+
+    <div class="banner-slider d-flex">
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/banner-one.png' alt='banner-one' height='295' width='443' />
+                </div>
+                <div class='banner-img'>
+                    <img src='./images/banner-three.png' alt='banner-three' height='193' width='290' />
+                </div>
+            </div>
+            <div class="slide-bottom slides d-flex">
+                <div class="banner-img">
+                    <img src='./images/banner-two.png' alt='banner-two' height='266' width='400' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/banner-four.png' alt='banner-four' height='125' width='125' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/banner-five.png' alt='banner-five' height='180' width='180' />
+                </div>
+            </div>
+
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/one-banner.png' alt='banner-one' height='620' width='620' />
+                </div>
+            </div>
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/two-banner.png' alt='two-banner' height='220' width='179' />
+                </div>
+                <div class='banner-img'>
+                    <img src='./images/three-banner.png' alt='banner-three' height='330' width='495' />
+                </div>
+            </div>
+            <div class="slide-bottom slides d-flex">
+                <div class="banner-img">
+                    <img src='./images/four-banner.png' alt='four-banner' height='125' width='125' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/five-banner.png' alt='five-banner' height='266' width='400' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/six-banner.png' alt='six-banner' height='160' width='121' />
+                </div>
+            </div>
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/slide-one.png' alt='slide-one' height='266' width='400' />
+                </div>
+                <div class='banner-img'>
+                    <img src='./images/slide-two.png' alt='banner-three' height='125' width='125' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/slide-three.png' alt='slide-three' height='180' width='180' />
+                </div>
+            </div>
+            <div class="slide-bottom slides d-flex">
+                <div class="banner-img">
+                    <img src='./images/slide-four.png' alt='slide-four' height='295' width='443' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/slide-five.png' alt='slide-five' height='290' width='193' />
+                </div>
+            </div>
+
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/slide-six.png' alt='slide-six' width='620' height='620' />
+                </div>
+            </div>
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/one-slide.png' alt='one-slide' height='330' width='495' />
+                </div>
+                <div class='banner-img'>
+                    <img src='./images/two-slide.png' alt='two-slide' height='220' width='179' />
+                </div>
+            </div>
+            <div class="slide-bottom slides d-flex">
+                <div class="banner-img">
+                    <img src='./images/three-slide.png' alt='three-slide' height='266' width='400' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/four-slide.png' alt='four-slide' height='160' width='121' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/five-slide.png' alt='five-slide' height='125' width='125' />
+                </div>
+            </div>
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/gift-one.png' alt='gift-one' height='295' width='443' />
+                </div>
+                <div class='banner-img'>
+                    <img src='./images/gift-two.png' alt='gift-two' height='193' width='290' />
+                </div>
+            </div>
+            <div class="slide-bottom slides d-flex">
+                <div class="banner-img">
+                    <img src='./images/gift-three.png' alt='gift-three' height='266' width='400' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/gift-four.png' alt='gift-four' height='125' width='125' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/gift-five.png' alt='gift-five' height='180' width='180' />
+                </div>
+            </div>
+        </div>
+        <div class="banner-slide">
+            <div class="slide-top slides d-flex">
+                <div class='banner-img'>
+                    <img src='./images/one-gift.png' alt='one-gift' height='220' width='179' />
+                </div>
+                <div class='banner-img'>
+                    <img src='./images/two-gift.png' alt='two-gift' height='330' width='495' />
+                </div>
+            </div>
+            <div class="slide-bottom slides d-flex">
+                <div class="banner-img">
+                    <img src='./images/three-gift.png' alt='three-gift' height='125' width='125' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/four-gift.png' alt='four-gift' height='266' width='400' />
+                </div>
+                <div class="banner-img">
+                    <img src='./images/five-gift.png' alt='five-gift' height='160' width='121' />
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!-- our-vision-wrap section start -->
     <section class="our-vision-wrap">
@@ -210,111 +212,114 @@
     <!-- our-vision-wrap section end -->
 
     <!-- our-founder-section start -->
-    <section class="our-founder-wrap d-flex justify-content-end">
-        <div class="our-founder-list d-flex">
-            <div class="our-founder">
-                <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
+    <section class="our-founder-wrap d-flex">
+        <div class="container">
+            <div class="our-founder-list d-flex">
+                <div class="our-founder">
+                    <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
 
-                <ul class="our-founder-listing">
-                    <li class='ps-0'>
-                        <div class="counter-number">
-                            <span class="count">4.5</span>k
-                        </div>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
+                    <ul class="our-founder-listing">
+                        <li class='ps-0'>
+                            <div class="counter-number">
+                                <span class="count">4.5</span>k
                             </div>
-                            <div class="founder-item-title">
-                                Giving Kitchen meals in 1 year
+                            <div class="our-founder-item">
+                                <div class="founder-item-img">
+                                    <img src='./images/kitchen.png' width='20' height="20" alt='kitchen' />
+                                </div>
+                                <div class="founder-item-title">
+                                    Giving Kitchen meals in 1 year
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li>
-                        <div class="counter-number">
-                            <span class="count">2</span>k
-                        </div>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/packing.png' width='20' height="20" alt='packing' />
+                        <li>
+                            <div class="counter-number">
+                                <span class="count">2</span>k
                             </div>
-                            <div class="founder-item-title">
-                                packing sessions
+                            <div class="our-founder-item">
+                                <div class="founder-item-img">
+                                    <img src='./images/packing.png' width='20' height="20" alt='packing' />
+                                </div>
+                                <div class="founder-item-title">
+                                    packing sessions
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li class='border-end-0'>
-                        <div class="counter-number">
-                            <span class="count">5.6</span>k
-                        </div>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/primary.png' width='20' height="20" alt='primary' />
+                        <li class='border-end-0'>
+                            <div class="counter-number">
+                                <span class="count">5.6</span>k
                             </div>
-                            <div class="founder-item-title">
-                                students reached(primary-university)
+                            <div class="our-founder-item">
+                                <div class="founder-item-img">
+                                    <img src='./images/primary.png' width='20' height="20" alt='primary' />
+                                </div>
+                                <div class="founder-item-title">
+                                    students reached(primary-university)
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li class='ps-0 border-bottom-0'>
-                        <div class="counter-number">
-                            <span class="count">39</span>k
-                        </div>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/bag.png' width='20' height="20" alt='bags' />
+                        <li class='ps-0 border-bottom-0'>
+                            <div class="counter-number">
+                                <span class="count">39</span>k
                             </div>
-                            <div class="founder-item-title">
-                                bags packed and distributed by volunteers
+                            <div class="our-founder-item">
+                                <div class="founder-item-img">
+                                    <img src='./images/bag.png' width='20' height="20" alt='bags' />
+                                </div>
+                                <div class="founder-item-title">
+                                    bags packed and distributed by volunteers
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li class='border-bottom-0'>
-                        <div class="counter-number">
-                            <span class="count">400</span>
-                        </div>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/people.png' width='20' height="20" alt='people' />
+                        <li class='border-bottom-0'>
+                            <div class="counter-number">
+                                <span class="count">400</span>
                             </div>
-                            <div class="founder-item-title">
-                                families receiving food parcels
+                            <div class="our-founder-item">
+                                <div class="founder-item-img">
+                                    <img src='./images/people.png' width='20' height="20" alt='people' />
+                                </div>
+                                <div class="founder-item-title">
+                                    families receiving food parcels
+                                </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li class='border-bottom-0 border-end-0'>
-                        <div class="counter-number">
-                            <span class="count">1000</span>
-                        </div>
-                        <div class="our-founder-item">
-                            <div class="founder-item-img">
-                                <img src='./images/video.png' width='20' height="20" alt='video' />
+                        <li class='border-bottom-0 border-end-0'>
+                            <div class="counter-number">
+                                <span class="count">1000</span>
                             </div>
-                            <div class="founder-item-title">
-                                Sparks videos reach
-                                1000 individuals/week
+                            <div class="our-founder-item">
+                                <div class="founder-item-img">
+                                    <img src='./images/video.png' width='20' height="20" alt='video' />
+                                </div>
+                                <div class="founder-item-title">
+                                    Sparks videos reach
+                                    1000 individuals/week
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="our-founder-content">
-                <h4 class="h4">It'so impactful, it might just change your life..</h4>
-                <p>Join our band of incredible volunteers, who through their giving, have made an immeasurable to difference to those in need in our community. Whether you can give an hour a week or an hour a month, we guarantee you'll feel the joy of helping others and you'll never look back!</p>
-                <div class="cta-btn btn-border">
-                    <a href='#' target='_self'>
-                        Yes, I'll be a GIFT volunteer!
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="our-founder-content">
+                    <h4 class="h4">It'so impactful, it might just change your life..</h4>
+                    <p>Join our band of incredible volunteers, who through their giving, have made an immeasurable to difference to those in need in our community. Whether you can give an hour a week or an hour a month, we guarantee you'll feel the joy of helping others and you'll never look back!</p>
+                    <div class="cta-btn btn-border">
+                        <a href='#' target='_self'>
+                            Yes, I'll be a GIFT volunteer!
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+
 
     </section>
     <!-- our-founder-section end -->
@@ -338,117 +343,131 @@
                 <div class="our-events-slider">
                     <div class="our-events-slide">
                         <div class="our-events-item">
-                            <a href='#' target="_self" class='event-img'>
-                                <img class='event-main-img' src='./images/event-1.png' alt='event-one' width='372' height='372' />
-                                <div class="event-price-img">
-                                    <img src='./images/price.png' alt='price' width='14' height='14' />
-                                    <div class="event-price">
-                                        Price: £10
+                            <div class='our-events-item-box'>
+                                <a href='#' target="_self" class='event-img'>
+                                    <img class='event-main-img' src='./images/event-1.png' alt='event-one' width='372' height='372' />
+                                    <div class="event-price-img">
+                                        <img src='./images/price.png' alt='price' width='14' height='14' />
+                                        <div class="event-price">
+                                            Price: £10
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="our-event-date">
+                                    <img src='./images/date.png' alt='date' width='14' height='14' />
+                                    <div class="event-date-title">14th September 2022</div>
+                                </a>
+                                <h6 class="h6">
+                                    <a href='#' target='_self' class='event-main-title'>
+                                        Bat Mitzvah Launch Event
+                                    </a>
+
+                                </h6>
+
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna.</p>
+                                <div class="events-cta">
+                                    <div class="cta-btn btn-border">
+                                        <a href='#' target='_self'>
+                                            Read more
+                                        </a>
+                                    </div>
+
+                                    <div class="cta-btn lg-btn">
+                                        <a href='#' target='_self'>
+                                            Apply
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
                                     </div>
                                 </div>
-                            </a>
-                            <a class="our-event-date">
-                                <img src='./images/date.png' alt='date' width='14' height='14' />
-                                <div class="event-date-title">14th September 2022</div>
-                            </a>
-                            <a href='#' target='_self' class='event-main-title'>
-                                <h6 class="h6">Bat Mitzvah Launch Event</h6>
-                            </a>
+                            </div>
 
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna.</p>
-                            <div class="events-cta">
-                                <div class="cta-btn btn-border">
-                                    <a href='#' target='_self'>
-                                        Read more
+                        </div>
+                        <div class="our-events-item">
+                            <div class='our-events-item-box'>
+                                <a href='#' target="_self" class='event-img'>
+                                    <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
+                                    <div class="event-price-img">
+                                        <img src='./images/price.png' alt='price' width='14' height='14' />
+                                        <div class="event-price">
+                                            Price: £10
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="our-event-date">
+                                    <img src='./images/date.png' alt='date' width='14' height='14' />
+                                    <div class="event-date-title">25th October 2022</div>
+                                </a>
+                                <h6 class="h6">
+                                    <a href='#' target='_self' class='event-main-title'>
+                                        Bnei Mitzvah Weekly Packing
                                     </a>
-                                </div>
+                                </h6>
 
-                                <div class="cta-btn lg-btn">
-                                    <a href='#' target='_self'>
-                                        Apply
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
+                                <p>Vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+                                <div class="events-cta">
+                                    <div class="cta-btn btn-border">
+                                        <a href='#' target='_self'>
+                                            Read more
+                                        </a>
+                                    </div>
+
+                                    <div class="cta-btn lg-btn">
+                                        <a href='#' target='_self'>
+                                            Apply
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="our-events-item">
-                            <a href='#' target="_self" class='event-img'>
-                                <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
-                                <div class="event-price-img">
-                                    <img src='./images/price.png' alt='price' width='14' height='14' />
-                                    <div class="event-price">
-                                        Price: £10
+                            <div class="our-events-item-box">
+                                <a href='#' target="_self" class='event-img'>
+                                    <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
+                                    <div class="event-price-img">
+                                        <img src='./images/price.png' alt='price' width='14' height='14' />
+                                        <div class="event-price">
+                                            Price: £10
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                            <a class="our-event-date">
-                                <img src='./images/date.png' alt='date' width='14' height='14' />
-                                <div class="event-date-title">25th October 2022</div>
-                            </a>
-                            <a href='#' target='_self' class='event-main-title'>
-                                <h6 class="h6">Bnei Mitzvah Weekly Packing</h6>
-                            </a>
-
-                            <p>Vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
-                            <div class="events-cta">
-                                <div class="cta-btn btn-border">
-                                    <a href='#' target='_self'>
-                                        Read more
+                                </a>
+                                <a class="our-event-date">
+                                    <img src='./images/date.png' alt='date' width='14' height='14' />
+                                    <div class="event-date-title">14th September 2022</div>
+                                </a>
+                                <h6 class="h6">
+                                    <a href='#' target='_self' class='event-main-title'>
+                                        Bat Mitzvah Launch Event
                                     </a>
-                                </div>
+                                </h6>
 
-                                <div class="cta-btn lg-btn">
-                                    <a href='#' target='_self'>
-                                        Apply
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="our-events-item">
-                            <a href='#' target="_self" class='event-img'>
-                                <img class='event-main-img' src='./images/event-3.png' alt='event-one' width='372' height='372' />
-                                <div class="event-price-img">
-                                    <img src='./images/price.png' alt='price' width='14' height='14' />
-                                    <div class="event-price">
-                                        Price: £10
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna.</p>
+                                <div class="events-cta">
+                                    <div class="cta-btn btn-border">
+                                        <a href='#' target='_self'>
+                                            Read more
+                                        </a>
                                     </div>
-                                </div>
-                            </a>
-                            <a class="our-event-date">
-                                <img src='./images/date.png' alt='date' width='14' height='14' />
-                                <div class="event-date-title">14th September 2022</div>
-                            </a>
-                            <a href='#' target='_self' class='event-main-title'>
-                                <h6 class="h6">Bat Mitzvah Launch Event</h6>
-                            </a>
 
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna.</p>
-                            <div class="events-cta">
-                                <div class="cta-btn btn-border">
-                                    <a href='#' target='_self'>
-                                        Read more
-                                    </a>
-                                </div>
-
-                                <div class="cta-btn lg-btn">
-                                    <a href='#' target='_self'>
-                                        Apply
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
+                                    <div class="cta-btn lg-btn">
+                                        <a href='#' target='_self'>
+                                            Apply
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="custom-arrows">
-                        <div class="custom-prev"></div>
-                        <div class="custom-next"></div>
+                        <div class="custom-prev-arrow"></div>
+                        <div class="custom-next-arrow"></div>
                     </div>
 
 

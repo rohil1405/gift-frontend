@@ -19,8 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", checkHeaderState);
 });
 
+
+
 $(document).ready(function(){
-	$(document).on('mouseover','.cta-btn a, .cta-form-btn', function(e){
+	$(document).on('mouseover','.cta-btn a, .cta-form-btn, .btn-accept', function(e){
       $btn = $(this);
 			var $offset = $(this).offset();
       $span = $('<span/>');
@@ -83,6 +85,7 @@ $('.our-word-slide').slick({
   dots: true,
   arrows: true,
   autoplay: false,
+  centerPadding: '60px',
   cssEase: 'linear',
   autoplaySpeed: 2000,
   prevArrow: $('.bg-next-arrow'), 
@@ -124,6 +127,7 @@ $('.banner-slider').slick({
   slidesToScroll: 1,
   // autoplay: true,
   autoplaySpeed: 0,  
+  variableWidth: true,
   speed: 3000, 
   dots: false,
   infinite: true,  
@@ -203,9 +207,9 @@ $('.our-instagram-slide').slick({
 
 $(document).ready(function () {
   function initSlick() {
-    if ($(window).width() < 1024) {
+    if ($(window).width() < 767) {
       $('.our-events-slide').slick({
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,           
         centerPadding: '40px', 
         infinite: false,
@@ -215,24 +219,6 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         prevArrow: $('.custom-prev-arrow'), 
         nextArrow: $('.custom-next-arrow'),
-        responsive: [
-          {
-            breakpoint: 991,
-            settings: {
-              centerPadding: '20px', 
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            }
-          },
-          {
-            breakpoint: 767,
-            settings: {
-              centerPadding: '20px', 
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            }
-          }
-        ]
       });
     } else {
       if ($('.our-events-slide').hasClass('slick-initialized')) {

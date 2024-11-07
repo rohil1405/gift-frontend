@@ -122,73 +122,79 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
     <!-- contact-form-wrap section start -->
     <section class="contact-form-wrap">
-        <div class="contact-form d-flex">
-            <div class="contact-images">
-                <div class="contact-images-top d-flex align-items-end">
-                    <div class="cimage cimg-one">
-                        <img src='./images/contact-one.png' width='443' height="295" alt='contact-one' />
-                    </div>
-                    <div class="cimage cimg-two">
-                        <img src='./images/contact-two.png' width='290' height="193" alt='contact-two' />
-                    </div>
-                </div>
-                <div class="contact-images-bottom d-flex align-items-start">
-                    <div class="cimage cimg-three">
-                        <img src='./images/contact-three.png' width='400' height="399" alt='contact-three' />
-                    </div>
-                    <div class="cimage cimg-four">
-                        <img src='./images/contact-five.png' width='125' height="125" alt='contact-four' />
-                    </div>
-                    <div class="cimage cimg-five">
-                        <img src='./images/contact-six.png' width='180' height="180" alt='contact-five' />
-                    </div>
-                </div>
-            </div>
-            <div class="contact-form-list">
-                <h2 class="h4">You can also contact us by completing the form below:</h2>
-
-                <form>
-                    <div class='form-field'>
-                        <input type="text" class="form-control" id="formFullName" placeholder="Full Name*">
-                    </div>
-                    <div class='form-field'>
-                        <input type="email" class="form-control" id="formEmail" placeholder="Email*">
-                    </div>
-                    <div class='form-field'>
-                        <input type="number" class="form-control" id="formTelePhone" placeholder="Telephone*">
-                    </div>
-                    <div class='form-field'>
-                        <select class="form-select">
-                            <option selected>Type of enquiry *</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class='form-field'>
-                        <select class="form-select">
-                            <option selected>How did you hear about us? *</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class='form-field'>
-                        <textarea class="form-control" id="formTextarea" rows="3" placeholder="Your message...*"></textarea>
-                    </div>
-                    <div class="form-footer d-flex justify-content-between align-items-center">
-                        <div class="field-required">* required fields</div>
-                        <div class="cta-btn">
-                            <a href='#' target='_self'>
-                                Submit
-                                <img src='./images/white-arrow.png' alt='white-arrow' width="20" height="20" />
-                            </a>
+        <div class="container">
+            <div class="contact-form d-flex">
+                <div class="contact-images">
+                    <div class="slide-top d-flex align-items-end">
+                        <div class="cimage">
+                            <img src='./images/contact-one.png' width='443' height="295" alt='contact-one' />
+                        </div>
+                        <div class="cimage">
+                            <img src='./images/contact-two.png' width='290' height="193" alt='contact-two' />
                         </div>
                     </div>
-                </form>
-            </div>
+                    <div class="slide-bottom d-flex align-items-start">
+                        <div class="cimage">
+                            <img src='./images/contact-three.png' width='400' height="399" alt='contact-three' />
+                        </div>
+                        <div class="cimage">
+                            <img src='./images/contact-five.png' width='125' height="125" alt='contact-four' />
+                        </div>
+                        <div class="cimage">
+                            <img src='./images/contact-six.png' width='180' height="180" alt='contact-five' />
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-list">
+                    <div>
+                        <h2 class="h4">You can also contact us by completing the form below:</h2>
 
+                        <form>
+                            <div class='form-field'>
+                                <input type="text" class="form-control" id="formFullName" placeholder="Full Name*">
+                            </div>
+                            <div class='form-field'>
+                                <input type="email" class="form-control" id="formEmail" placeholder="Email*">
+                            </div>
+                            <div class='form-field'>
+                                <input type="number" class="form-control" id="formTelePhone" placeholder="Telephone*">
+                            </div>
+                            <div class='form-field'>
+                                <select class="form-select">
+                                    <option selected>Type of enquiry *</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class='form-field'>
+                                <select class="form-select">
+                                    <option selected>How did you hear about us? *</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class='form-field'>
+                                <textarea class="form-control" id="formTextarea" rows="3" placeholder="Your message...*"></textarea>
+                            </div>
+                            <div class="form-footer d-flex justify-content-between align-items-center">
+                                <div class="field-required">* required fields</div>
+                                <div class="cta-btn">
+                                    <a href='#' target='_self'>
+                                        Submit
+                                        <img src='./images/white-arrow.png' alt='white-arrow' width="20" height="20" />
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
+
     </section>
     <!-- contact-from-wrap section end -->
 

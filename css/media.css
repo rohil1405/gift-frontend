@@ -11,6 +11,9 @@
     .our-founder-listing li {
         padding: 36px 25px;
     }
+    .banner-slider {
+        margin-top: -30%;
+    }
     .our-founder-content::after {
         width: 160px;
         height: 160px;
@@ -152,7 +155,6 @@
     }
     .our-events-slide {
         gap: 0;
-        justify-content: space-between;
     }
     .our-events-wrap {
         padding-top: 35px;
@@ -268,6 +270,12 @@
     .voluteering-opportunities p {
         padding: 36px 0 42px;
     }
+    .banner-cta-btn {
+        padding: 52px 0 88px;
+    }
+    .banner-slider {
+        margin-top: -17%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -346,7 +354,9 @@
     .thank-you-wrap {
         padding: 220px 0 120px;
     }
-
+    .our-events-item::before {
+        display: none;
+    }
     
 }
 
@@ -369,14 +379,22 @@
         line-height: 56px;
     }
     .banner {
-        padding: 130px 0;
+        padding: 220px 0;
+    }
+    .banner-slider {
+        margin-top: -20%;
+    }
+    .slide-bottom {
+        padding-top: 20px;
+    }
+    .banner-slide {
+        padding: 0 10px;
+    }
+    .slide-top, .slide-bottom {
+        gap: 18px;
     }
     .banner-cta-btn {
         padding: 40px 0 60px;
-    }
-    .banner-slide {
-        padding-top: 15px;
-        margin-top: -17%;
     }
     .our-vision-content {
         padding: 45px 0 30px;
@@ -615,9 +633,21 @@
     .voluteering-opportunities h6 {
         padding: 44px 0 16px;
     }
+    .our-events-item {
+        width: 50%;
+    }
+    .our-events-slide {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 767px) {
+
+    .our-events .custom-arrows {
+        display: block;
+      }
     .section-title {
         padding-bottom: 34px;
     }
@@ -641,8 +671,8 @@
         flex-wrap: wrap;
         gap: 12px;
     }
-    .banner-slide {
-        margin-top: -45%;
+    .banner-slider {
+        margin-top: -58%;
     }
     .banner-cta-btn .cta-btn {
         width: 100%;
@@ -656,8 +686,11 @@
         padding: 82px 0 48px;
     }
     .our-vision-wrap {
-        padding:  90px 0 40px;
-        margin: 300px 0 0;
+        padding: 40px 0;
+        margin: 74px 0 0;
+    }
+    .our-events-item.slick-slide {
+        margin-right: 20px;
     }
     .our-vision h2::after, .our-vision h2::before {
         width: 100px;
