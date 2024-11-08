@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 $(document).ready(function(){
-	$(document).on('mouseover','.cta-btn a, .cta-form-btn, .btn-accept', function(e){
+	$(document).on('mouseover','.cta-btn a, .cta-form-btn, .btn-accept , .btn-close', function(e){
       $btn = $(this);
 			var $offset = $(this).offset();
       $span = $('<span/>');
@@ -90,6 +90,34 @@ $('.our-word-slide').slick({
   autoplaySpeed: 2000,
   prevArrow: $('.bg-next-arrow'), 
   nextArrow: $('.bg-prev-arrow'),
+});
+
+$('.review-slider').slick({
+  infinite: false,
+  speed: 1400,
+  dots: true,
+  autoplay: false,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  cssEase: 'linear',
+  arrows: true,  
+  centerPadding: '40px',
+  prevArrow: $('.custom-prev-arrow'), 
+  nextArrow: $('.custom-next-arrow'),
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+  ]
 });
 
 $('.gift-collaboration-slide').slick({

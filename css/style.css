@@ -273,10 +273,10 @@ h6.h6 {
   width: 20px;
   height: 20px;
 }
-.cta-form-btn:hover, .btn-accept:hover {
+.cta-form-btn:hover, .btn-accept:hover, .btn-close:hover {
   background-color: #00a945;
 }
-.cta-form-btn .ripple-span, .btn-accept .ripple-span {
+.cta-form-btn .ripple-span, .btn-close .ripple-span, .btn-accept .ripple-span {
   border-radius: 50%;
   background-color: #00a945;
   position: absolute;
@@ -1539,6 +1539,8 @@ footer start */
   font-weight: 400;
   color: #929292;
   margin: 0;
+}
+.form-control {
   border: 1px solid #D8D8D8;
   height: 48px;
 }
@@ -2229,7 +2231,7 @@ footer start */
   max-width: 783px;
   margin-left: auto;
 }
-.people-work-wrap {
+.gift-people-work-wrap {
   background-color: #fff;
   padding: 100px 0 60px;
 }
@@ -2266,6 +2268,211 @@ footer start */
 .people-work-content p {
   padding-bottom: 20px;
 }
+
+.join-team-box {
+  padding: 28px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 32px 140px -16px rgba(0,0,0,0.08);
+}
+.join-team-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #F0E9FB;
+  border-radius: 100%;
+}
+.join-team-item-content {
+  padding-left: 8px;
+  width: calc(100% - 36px);
+}
+.join-team-ans {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.join-team-ques {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+  color: #AFAFAF;
+  text-transform: uppercase;
+}
+.join-team-listing {
+  padding-bottom: 20px;
+}
+.join-team-listing li {
+  padding-bottom: 12px;
+}
+.join-deadline {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #AFAFAF;
+  padding-top: 16px;
+}
+.join-team-offer-wrap {
+  padding: 100px 0 52px;
+}
+.join-offer-content {
+  max-width: 620px;
+  margin-left: 150px;
+}
+.join-offer-content p {
+  padding-bottom: 48px;
+  color: #000;
+}
+.join-offer-content p:last-child {
+  padding-bottom: 32px;
+}
+.join-offer-content h5 {
+  padding: 48px 0 32px;
+  border-top: 1px solid #D8D8D8;
+}
+.join-offer-content h5 + p {
+  padding-bottom: 32px;
+}
+.join-offer-content ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+  padding-bottom: 8px;
+}
+.join-offer-content ul {
+  padding-bottom: 48px;
+  list-style-type: disc;
+  padding-left: 16px;
+}
+.apply-now-modal .modal-content {
+  min-width: 600px;
+  padding: 32px;
+  border-radius: 12px;
+}
+.btn-close {
+  overflow: hidden;
+  position: relative;
+}
+.apply-now-modal .btn-close {
+  background-image: url('../images/applu-close.svg');
+  opacity: 1;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #00CE54;
+  border-radius: 100%;
+}
+.modal-header, .modal-footer, .modal-body {
+  padding: 0;
+  border: 0;
+} 
+.apply-now-modal .modal-body {
+  padding: 32px 0 28px;
+}
+.apply-now-modal .btn-close:focus {
+  box-shadow: none;
+}
+.application-type {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #000000;
+  padding-bottom: 16px;
+}
+.modal-body-type {
+  padding-bottom: 8px;
+}
+.modal-body-type .form-control {
+  margin-bottom: 24px;
+}
+.file-length {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #AFAFAF;
+}
+.file-upload {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+}
+.file-upload {
+  padding: 8px 0 4px;
+}
+.application-upload {
+  text-align: center;
+  padding: 24px 15px 28px 15px;
+  border: 1px dashed #AFAFAF;
+}
+.review-slide-content h6 {
+  padding: 32px 0 4px;
+}
+.review-slide-content {
+  padding: 28px 24px;
+  border-radius: 12px;
+  background-color: #00CE54;
+}
+.review-slider .slick-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.review-slider .slick-dots button {
+  border-radius: 100%;
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  border: 1.2px solid #AFAFAF;
+  background-color: transparent;
+  font-size: 0;
+  margin: 0;
+}
+.review-slide-content p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+.review-slide-content h6 {
+  color: #fff;
+}
+.review-author {
+  position: relative;
+}
+.review-slide {
+  padding: 0 20px;
+  position: relative;
+}
+.review-slider {
+  margin: 0 -20px;
+}
+.gift-review-wrap {
+  padding-top: 60px;
+}
+.review-author::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url('../images/green-quotes.svg');
+  width: 68px;
+  height: 52px;
+}
+.review-slider .slick-dots .slick-active button {
+  background-color: #00A945;
+  border: 0;
+}
+/* .review-slider::before {
+  background: linear-gradient(180deg, #00CE54 32.66%, rgba(101, 69, 149, 0)), url(../images/banner-pattern.png);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
 
 
 
