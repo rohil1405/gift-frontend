@@ -160,11 +160,12 @@ $('.our-instagram-slide').slick({
   slidesToShow: 6,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 0,
+  autoplaySpeed: 0,  
+  variableWidth: true,
   speed: 3000, 
   dots: false,
-  infinite: true,
-  cssEase: 'linear',
+  infinite: true,  
+  cssEase: 'linear', 
   centerPadding: '2px',
   arrows: false,
   responsive: [
@@ -300,8 +301,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-  
-
   document.querySelector('.close-btn').addEventListener('click', function(e) {
     e.preventDefault();
     acceptAll.classList.add('close');
@@ -313,6 +312,39 @@ document.addEventListener('DOMContentLoaded', function() {
     sessionStorage.setItem('cookiesAccepted', 'true'); 
   });
 });
+
+const optionMenus = document.querySelectorAll(".select-menu");
+
+optionMenus.forEach((menu) => {
+  const selectBtn = menu.querySelector(".select-btn");
+  const options = menu.querySelectorAll(".options-listing li");
+  const selectText = menu.querySelector(".select-text");
+
+  selectBtn.addEventListener("click", () => {
+    menu.classList.toggle("active");
+
+    optionMenus.forEach((otherMenu) => {
+      if (otherMenu !== menu) {
+        otherMenu.classList.remove("active");
+      }
+    });
+  });
+
+  options.forEach((option) => {
+    option.addEventListener("click", () => {
+      let selectedOption = option.innerText;
+      selectText.innerText = selectedOption;
+      menu.classList.remove("active");
+    });
+  });
+});
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".select-menu")) {
+    optionMenus.forEach((menu) => menu.classList.remove("active"));
+  }
+});
+
 
 
 

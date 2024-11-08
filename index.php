@@ -213,9 +213,10 @@
 
     <!-- our-founder-section start -->
     <section class="our-founder-wrap d-flex">
-        <div class="container">
-            <div class="our-founder-list d-flex">
-                <div class="our-founder">
+
+        <div class="our-founder-list d-flex">
+            <div class="our-founder">
+                <div class='our-founder-counter-area'>
                     <h2 class="h2">Since our founding in 2004, GIFT has provided</h2>
 
                     <ul class="our-founder-listing">
@@ -305,7 +306,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="our-founder-content">
+
+            </div>
+            <div class="our-founder-content">
+                <div class='our-founder-bg-content'>
                     <h4 class="h4">It'so impactful, it might just change your life..</h4>
                     <p>Join our band of incredible volunteers, who through their giving, have made an immeasurable to difference to those in need in our community. Whether you can give an hour a week or an hour a month, we guarantee you'll feel the joy of helping others and you'll never look back!</p>
                     <div class="cta-btn btn-border">
@@ -317,10 +321,9 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
-
-
     </section>
     <!-- our-founder-section end -->
 

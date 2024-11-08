@@ -84,9 +84,6 @@
     .contact-info-listing {
         margin: 0 -16px;
     }
-    .contact-images {
-        padding-right: 60px;
-    }
     .contact-form-wrap {
         padding: 50px 0 85px;
     }
@@ -237,20 +234,14 @@
     .main-logo {
         width: 112px;
     }
-    .contact-images {
-        padding-right: 40px;
-    }
     .contact-form-wrap h2 {
         padding-bottom: 30px;
     }
     .form-footer {
         padding-top:16px;
     }
-    .contact-images-top {
-        padding-bottom: 24px;
-    }
-    .cimage {
-        margin-right: 24px;
+    .contact-form-area {
+        margin-left: 60px;
     }
     .form-field {
         padding-bottom: 16px;
@@ -356,6 +347,12 @@
     }
     .our-events-item::before {
         display: none;
+    }
+    .slide-top, .slide-bottom {
+        gap: 24px;
+    }
+    .slide-bottom {
+        padding-top: 24px;
     }
     
 }
@@ -602,16 +599,6 @@
     .thank-you p {
         padding: 10px 0 32px;
     }
-    .contact-images {
-        width: calc(100% - 378px);
-        padding-right: 16px;
-    }
-    .contact-images-top {
-        padding-bottom: 16px;
-    }
-    .cimage {
-        margin-right: 16px;
-    }
     .form-footer {
         padding-top: 10px;
     }
@@ -639,6 +626,12 @@
     .our-events-slide {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .contact-form-list {
+        width: 55%;
+    }
+    .contact-images {
+        width: 45%;
     }
 
 }
@@ -909,17 +902,19 @@
         flex-wrap: wrap;
         row-gap: 32px;
     }
-    .contact-images {
-        width: 100%;
-    }
     .contact-form-list {
         width: 100%;
     }
-    .cimage {
-        margin-right: 12px;
-    }
     .contact-images-top {
         padding-bottom: 12px;
+    }
+    .contact-images {
+        width: 100%;
+        padding-right: 15px;
+    }
+    .contact-form-area {
+        margin-left: 15px;
+        max-width: 100%;
     }
     .contact-form-wrap {
         padding: 40px 0;
