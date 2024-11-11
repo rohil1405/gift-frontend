@@ -32,7 +32,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
         <div class="container">
             <div class="join-team-offer">
                 <div class="row g-0">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-5">
                         <div class="join-team-box">
                             <ul class='join-team-listing'>
                                 <li class="d-flex align-items-center">
@@ -92,7 +92,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
 
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-lg-9 col-md-7">
                         <div class="join-offer-content">
                             <p>The role of Family Liaison Officer acts as a bridge between GIFT’s recipients and GIFT’s food distribution by providing up to date information to both parties enabling professional and cost-effective procedures for GIFT and a high-quality service for recipients, where expectations are well managed and sound judgment is used to determine family status and priority of needs.</p>
                             <h5 class="h5">Area of Responsibility</h5>
@@ -197,12 +197,11 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                             <div class="application-type">Attachments</div>
                             <div class="application-upload">
                                 <img src='./images/file-upload.svg' alt='file-upload' width='60' height='60' />
-                                <div class="file-upload">
-                                    Drag and drop or
-                                    <input type='file' />
-                                    <label for="file" class="file-label">
-                                        Upload File
-                                    </label>
+                                <div class="file-group">
+                                    <input type="file" id=" file" class="file-control" multiple="">
+                                    <label for="file" class="file-label"><span>
+                                    Drag and drop or 
+                                        </span></label>
                                 </div>
                                 <div class="file-length">
                                     (max.file size: 2 MB)
@@ -222,7 +221,6 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
             </div>
         </div>
     </div>
-
     <!-- apply-now-modal end -->
 
     <!-- people-work-wrap-section start -->
@@ -315,13 +313,34 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                 </div>
             </div>
         </div>
-
     </section>
-
     <!-- people-work-wrap-section end -->
 
-
-
+    <section class="our-newsletter-wrap">
+        <div class="container">
+            <div class="our-newsletter">
+                <div class="our-newsletter-content">
+                    <h2 class="h4">Subscribe to our newsletter</h2>
+                    <form>
+                        <div class="fieldset">
+                            <input type="text" class="form-control" id="first-name" placeholder="First name">
+                        </div>
+                        <div class="fieldset">
+                            <input type="text" class="form-control" id="sur-name" placeholder="Surname">
+                        </div>
+                        <div class="fieldset">
+                            <input type="email" class="form-control" id="email" placeholder="Email address">
+                        </div>
+                        <button type="submit" class="cta-form-btn">Subscribe
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.9375 4.0625L16.5625 9.6875L10.9375 15.3125M3.4375 9.6875H16.5625" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <?php include("include/footer.php"); ?>
     <?php include("include/script.php"); ?>

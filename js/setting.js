@@ -101,20 +101,21 @@ $('.review-slider').slick({
   slidesToScroll: 1,
   cssEase: 'linear',
   arrows: true,  
-  centerPadding: '40px',
   prevArrow: $('.custom-prev-arrow'), 
   nextArrow: $('.custom-next-arrow'),
   responsive: [
     {
-      breakpoint: 1200,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 4
+        slidesToShow: 1,
       }
     },
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 1,
       }
     },
   ]

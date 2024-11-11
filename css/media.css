@@ -93,6 +93,13 @@
     .voluteering-opportunities {
         padding: 80px 0 170px;
     }
+    .people-work-content {
+        max-width: 100%;
+        margin-right: 98px;
+    }
+    .gift-people-work-wrap {
+        padding: 80px 0 142px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -267,6 +274,55 @@
     .banner-slider {
         margin-top: -17%;
     }
+    .banner-inner .banner {
+        padding: 170px 0 100px;
+    }
+    .join-team-offer-wrap {
+        padding: 80px 0 40px;
+    }
+    .join-offer-content h5 {
+        padding: 40px 0 26px;
+    }   
+    .join-offer-content ul, .join-offer-content p {
+        padding-bottom: 40px;
+    }
+    .join-offer-content {
+        margin-left: 110px;
+    }
+    .people-work-content {
+        margin-right: 10px;
+    }
+    .people-work h2 {
+        padding-bottom: 32px;
+    }
+    .gift-people-work-wrap {
+        padding: 60px 0 122px;
+    }
+    .gift-review-wrap {
+        padding-top: 50px;
+    }
+    .review-slider {
+        margin: 0 -16px;
+    }
+    .review-slide {
+        padding: 0 16px;
+    }
+    .review-slider .slick-dots {
+        margin-top: 50px;
+    }
+    .join-team-empty-wrap {
+        padding: 80px 0;
+    }  
+    .join-team-role-wrap {
+        padding: 64px 0;
+    }
+    .join-current-role {
+        margin-top: 22px;
+        padding: 26px 18px;
+    }
+    .role-conditions-listing {
+        gap: 16px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -354,7 +410,25 @@
     .slide-bottom {
         padding-top: 24px;
     }
-    
+    .join-offer-content {
+        margin-left: 84px;
+    }
+    .review-slide-content {
+        padding: 24px 16px;
+    }
+    .review-slider .slick-dots {
+        margin-top: 40px;
+    }
+    .role-conditions-listing {
+        gap: 12px;
+    }
+    .join-current-role {
+        margin-top: 20px;
+        padding: 24px 10px;
+    }
+    .join-team-role-wrap {
+        padding: 54px 0;
+    }
 }
 
 @media (max-width: 991px) {
@@ -633,7 +707,63 @@
     .contact-images {
         width: 45%;
     }
-
+    .banner-inner .banner {
+        padding: 150px 0 80px;
+    }
+    .join-team-offer-wrap {
+        padding: 60px 0 24px;
+    }
+    .join-offer-content {
+        max-width: 100%;
+        margin-left: 32px;
+    }
+    .join-offer-content ul, .join-offer-content p {
+        padding-bottom: 32px;
+    }
+    .join-offer-content h5 {
+        padding: 32px 0 20px;
+    }
+    .people-work, .people-image {
+        width: 100%;
+    }
+    .people-work-wrap {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+    .people-work-content {
+        margin-right: 0px;
+    }
+    .gift-review-wrap {
+        padding-top: 40px;
+    }
+    .gift-people-work-wrap {
+        padding: 50px 0 140px;
+    }
+    .people-work h2 {
+        padding-bottom: 32px;
+    }
+    .join-team-empty-wrap {
+        padding: 60px 0;
+    }
+    .join-current-role {
+        flex-wrap: wrap;
+    }
+    .role-conditions-listing {
+        justify-content: space-between;
+        gap: 12px;
+    }
+    .join-current-role-left {
+        width: 100%;
+    }
+    .join-current-role-right {
+        width: 100%;
+        text-align: center;
+        padding-top: 28px;
+    }
+    .join-team-role-wrap {
+        padding: 46px 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -955,6 +1085,81 @@
     }
     .gift-collaboration-wrap {
         padding: 20px 0 200px;
+    }
+    .banner-inner .banner {
+        padding: 160px 0 80px;
+    }
+    .join-team-offer-wrap {
+        padding: 40px 0 8px;
+    }
+    .join-offer-content ul {
+        padding: 0 0 32px 20px;
+    }
+    .join-offer-content p {
+        padding-bottom: 32px;
+    }
+    .join-offer-content {
+        margin-left: 0px;
+    }
+    .join-offer-content h5 {
+        padding: 32px 0;
+    }
+    .join-team-listing {
+        padding-bottom: 16px;
+    }
+    .people-work-image {
+        gap: 12px;
+        max-width: 100%
+    }
+    .work-image {
+        gap: 12px;
+    }
+    .gift-review-wrap {
+        padding-top: 12px;
+    }
+    .gift-people-work-wrap {
+        padding: 40px 0 220px;
+    }
+    .review-slide {
+        padding: 0 10px;
+    }
+    .review-slider {
+        margin: 0 -10px;
+    }
+    .review-slide-content {
+        padding: 26px;
+    }
+    .review-slider .slick-list.draggable {
+        padding-left: 0  !important;
+    }
+    .join-team-empty h4 {
+        padding: 32px 0 10px;
+    }
+    .join-team-empty-wrap {
+        padding: 40px 0;
+    }
+    .join-team-empty {
+        max-width: 100%;
+    }
+    .role-conditions-listing {
+        flex-wrap: wrap;
+    }
+    .role-conditions-listing li {
+        width: 100%;
+    }
+    .join-current-role-right a {
+        width: 100%;
+        justify-content: center;
+    }
+    .join-current-role {
+        margin-top: 16px;
+        padding: 28px 24px
+    }
+    .join-team-role-wrap {
+        padding: 40px 0;
+    }
+    .join-team-role h2 {
+        padding-bottom: 16px;
     }
 }
 
