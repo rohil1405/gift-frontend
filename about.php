@@ -168,10 +168,13 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                     <div class="how-we-help d-flex position-relative">
                         <div class="how-we-help-left">
                             <div class="how-we-left-content">
-                                <h2 class="h2">How we help</h2>
-                                <p>Our services remain anonymous, confidential, and GIFT staff will be sensitive to your situation. Food parcel deliveries remain anonymous, volunteers do not know names of recipients when delivering food parcels and cooked meals.</p>
-                                <p>
-                                    If you have any concerns about confidentiality, please contact our family liaison officer for a private conversation.</p>
+                                <div class="how-we-left-content-desc">
+                                    <h2 class="h2">How we help</h2>
+                                    <p>Our services remain anonymous, confidential, and GIFT staff will be sensitive to your situation. Food parcel deliveries remain anonymous, volunteers do not know names of recipients when delivering food parcels and cooked meals.</p>
+                                    <p>
+                                        If you have any concerns about confidentiality, please contact our family liaison officer for a private conversation.</p>
+                                </div>
+
                             </div>
                         </div>
                         <div class="how-we-help-right d-flex align-items-center justify-content-end">
@@ -357,28 +360,27 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                 <a href='#' target='_self'>Food Bank</a>
                                             </h6>
                                         </div>
-                                        <div class="help-list-content">
-                                            <p>For well over a decade, GIFT has been helping struggling families with weekly food packages designed to help supplement their weekly shopping.</p>
-                                            <p>We provide households with a weekly kosher food parcel containing some of the following:</p>
-                                            <ul>
-                                                <li>non-perishable foods</li>
-                                                <li>bread, challah and baked goods</li>
-                                                <li>fruit & vegetables</li>
-                                                <li>household items</li>
-                                                <li>toiletries</li>
-                                                <li>chickens</li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="help-list-hover-content">
-                                            <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
-                                            <div class="cta-btn btn-border">
-                                                <a href='about-details.php' target="_self">
-                                                    Learn more
-                                                    <img src='./images/green-arrow.svg' alt='grren-arrow' height="20" width="20" />
-                                                </a>
+                                        <div>
+                                            <div class="help-list-content">
+                                                <p>For well over a decade, GIFT has been helping struggling families with weekly food packages designed to help supplement their weekly shopping.</p>
+                                                <p>We provide households with a weekly kosher food parcel containing some of the following:</p>
+                                                <ul>
+                                                    <li>non-perishable foods</li>
+                                                    <li>bread, challah and baked goods</li>
+                                                    <li>fruit & vegetables</li>
+                                                    <li>household items</li>
+                                                    <li>toiletries</li>
+                                                    <li>chickens</li>
+                                                </ul>
+                                                <div class="cta-btn btn-border">
+                                                    <a href='about-details.php' target="_self">
+                                                        Learn more
+                                                        <img src='./images/green-arrow.svg' alt='grren-arrow' height="20" width="20" />
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
+
 
                                     </div>
                                 </div>
@@ -416,9 +418,6 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                 <li>parents who need extra help on Shabbos and other times of the week</li>
                                                 <li>the elderly</li>
                                             </ul>
-                                        </div>
-                                        <div class="help-list-hover-content">
-                                            <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
                                             <div class="cta-btn btn-border">
                                                 <a href='about-details.php' target="_self">
                                                     Learn more
@@ -459,9 +458,6 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                 <li>bring a smile and some cheer</li>
                                                 <li>sing, tell stories and dance</li>
                                             </ul>
-                                        </div>
-                                        <div class="help-list-hover-content">
-                                            <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
                                             <div class="cta-btn btn-border">
                                                 <a href='about-details.php' target="_self">
                                                     Learn more
@@ -505,9 +501,6 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                 <li>Recipient's name remains anonymous Delivery possible in all areas of London</li>
                                                 <li>Delivery possible in all areas of London</li>
                                             </ul>
-                                        </div>
-                                        <div class="help-list-hover-content">
-                                            <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
                                             <div class="cta-btn btn-border">
                                                 <a href='about-details.php' target="_self">
                                                     Learn more
@@ -551,9 +544,6 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                 <li>Befriending an elderly/vulnerable person</li>
                                                 <li>Virtual or in person opportunities available</li>
                                             </ul>
-                                        </div>
-                                        <div class="help-list-hover-content">
-                                            <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
                                             <div class="cta-btn btn-border">
                                                 <a href='about-details.php' target="_self">
                                                     Learn more
@@ -609,16 +599,608 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                 <div class="tab-pane fade show active" id="pills-london" role="tabpanel" aria-labelledby="pills-london-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <div class="meet-team-member">
-                                                <img src='./images/client-one.svg' alt='' width="290" height="313" />
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade" id="pills-manchester" role="tabpanel" aria-labelledby="pills-manchester-tab" tabindex="0">...</div>
+                                <div class="tab-pane fade" id="pills-manchester" role="tabpanel" aria-labelledby="pills-manchester-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
 
-                                <div class="tab-pane fade" id="pills-israel" role="tabpanel" aria-labelledby="pills-israel-tab" tabindex="0">...</div>
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-israel" role="tabpanel" aria-labelledby="pills-israel-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-one.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member position-relative">
+                                                <img src='./images/client-two.png' alt='' width="290" height="290" />
+
+                                                <div class="meet-team-details">
+                                                    <h6 class="h6">
+                                                        <a href='about-details.php' target="_self">
+                                                            Michelle Barnett MBE
+                                                        </a>
+                                                    </h6>
+                                                    <div class="meet-team-designation">
+                                                        Founding Director
+                                                    </div>
+                                                    <div class="cta-btn">
+                                                        <a href='#' target="_self">
+                                                            Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

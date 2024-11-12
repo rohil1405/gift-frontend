@@ -323,6 +323,12 @@
     .role-conditions-listing {
         gap: 16px;
     }
+    .who-we-are-wrap {
+        padding: 100px 0 80px
+    }
+    .history-gift-wrap {
+        padding: 80px 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -764,6 +770,26 @@
     .join-team-role-wrap {
         padding: 46px 0;
     }
+    .who-we-are-right, .who-we-are-left {
+        width: 100%;
+    }
+    .who-we-are {
+        flex-wrap: wrap;
+    }
+    .who-we-are-left-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .who-we-are-left h2 {
+        padding-bottom: 48px;
+    }
+    .who-we-are .h2:before {
+        width: 150px;
+        left: 24%;
+    }
+    .who-we-are-wrap {
+        padding: 84px 0 60px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1160,6 +1186,33 @@
     }
     .join-team-role h2 {
         padding-bottom: 16px;
+    }
+    .we-are-content {
+        margin: 28px 0;
+        padding: 24px 24px 24px 70px;
+    }
+    .we-are-content:before {
+        width: 34px;
+        height: 28px;
+        top: 15%;
+    }
+    .who-we-are-right {
+        gap: 14px;
+        margin-left: 15px;
+    }
+    .about-images {
+        gap: 14px;
+    }
+    .who-we-are-left h2 {
+        padding-bottom: 32px;
+    }
+    .who-we-are-wrap {
+        padding: 70px 0 40px;
+    }
+    .who-we-are .h2:before {
+        width: 128px;
+        left: 35%;
+        bottom: 30%;
     }
 }
 

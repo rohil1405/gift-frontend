@@ -2038,19 +2038,20 @@ footer start */
 }
 .who-we-are-left-content {
   max-width: 620px;
-  margin-left: 318px;
+  margin-left: auto;
+  padding: 0 15px;
 }
-.who-we-are-wrap::after {
+.who-we-are-right::after {
   position: absolute;
   content: '';
   background-image: url('../images/about-layout-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 695px;
+  width: 100%;
   height: 686px;
-  right: -8%;
-  top: 6%;
+  right: -30%;
+  top: -13%;
 }
 .who-we-are-right {
   width: 50%;
@@ -2125,6 +2126,7 @@ footer start */
   z-index: 1;
 }
 .history-gift-area {
+  gap: 40px;
   padding-bottom: 80px;
   z-index: 1;
 }
@@ -2148,8 +2150,12 @@ linear-gradient(360deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 59.98%); */
   width: 50%;
 }
 .how-we-left-content {
+  max-width: 620px;
+  margin-left: auto;
+}
+.how-we-left-content-desc {
   max-width: 510px;
-  margin-left: 318px;
+  
 }
 .how-we-help-right {
   gap: 32px;
@@ -2524,7 +2530,7 @@ position: relative;
   padding: 100px 0 160px;
   position: relative;
 }
-.gift-people-work-wrap::after, .join-team-empty-wrap::after, .join-team-role-wrap::after, .who-we-are-wrap::before, .history-gift-wrap::before {
+/* .gift-people-work-wrap::after, .join-team-empty-wrap::after, .join-team-role-wrap::after, .who-we-are-wrap::before, .history-gift-wrap::before {
   position: absolute;
   content: "";
   background-image: url(../images/black-pattern.png);
@@ -2533,7 +2539,7 @@ position: relative;
   top: 0;
   left: 0;
   opacity: 4%;
-}
+} */
 .our-founder-list  {
   width: 100%;
 }
@@ -2968,29 +2974,14 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
-.help-list-hover-content p {
-  color: #FFFFFF;
-  font-size: 14px;
-  line-height: 20px;
-}
-.help-list-area:hover .help-list-hover-content {
-  display: block;
-}
-.help-list-hover-content {
-  display: none;
-}
-.help-list-content {
-  display: block;
-}
-.help-list-area:hover .help-list-content{
-  display: none;
-}
-.help-list-hover-content .cta-btn a {
+.help-list-content .cta-btn a {
   border: 1px solid #fff;
   background-color: #fff;
   width: 100%;
   justify-content: center;
   color: #00CE54;
+  position: absolute;
+  bottom: 0;
 }
 .help-list-area:hover::before {
   position: absolute;
@@ -3001,11 +2992,9 @@ background-repeat: no-repeat;
   left: 0;
   top: 0;
 }
-
-.meet-team-member {
-  background-image: url('../images/meet-bg.svg');
+.help-list-area:hover .help-list-content .cta-btn {
+  opacity: 1;
 }
-
 .banner-inner-details .banner {
   gap: 110px;
 }
@@ -3068,6 +3057,73 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 .banner-testimonial-right p {
   color: #FFFFFF;
 }
+.meet-team-details {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+.help-list-content .cta-btn {
+  opacity: 0;
+}
+.meet-team-designation {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #D8D8D8;
+  text-align: center;
+  padding-top: 6px;
+}
+.meet-team-details h6 a {
+  color: #fff;
+}
+.meet-team-details h6 a:hover {
+  color: #00a945;
+}
+.meet-team-details h6 {
+  text-align: center;
+}
+.meet-team-member img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.meet-team-member  {
+  margin-bottom: 40px;
+}
+
+.meet-team-member::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 206, 84, 0.8), rgba(0, 206, 84, 0.8)),
+linear-gradient(180deg, rgba(0, 206, 84, 0.2) 32.66%, rgba(0, 206, 84, 0.8) 100%), url('../images/banner-pattern.png');
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.meet-team-details .cta-btn {
+  display: none;
+  text-align: center;
+  margin-top: 26px;
+}
+.meet-team-member:hover::after {
+  opacity: 1;
+}
+.meet-team-member:hover .meet-team-details {
+  transform: translateY(-45px);
+}
+.meet-team-member:hover .meet-team-details .cta-btn {
+  display: block;
+}
+
+
+
 
 
 
