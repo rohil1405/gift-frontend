@@ -568,12 +568,12 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     <div class="help-list-area last-list-area">
                                         <h4 class="h4">Looking to receive GIFT support?</h4>
                                         <p>Please get in touch by sending an email to
-                                            <a href='mailto:"services@jgift.org"' target='_self'>
+                                            <a href='mailto:services@jgift.org' target='_self'>
                                                 services@jgift.org
                                             </a>
                                         </p>
                                         <div class="cta-btn btn-border">
-                                            <a href='mailto:"services@jgift.org"' target="_self">
+                                            <a href='mailto:services@jgift.org' target="_self">
                                                 Send email
                                                 <img src='./images/mail-img.svg' alt='mail-img' width="20" height="20" />
                                             </a>
@@ -588,38 +588,43 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                 </div>
                 <!-- how-we-help-wrap end -->
 
+                <!-- meet-team-wrap start -->
                 <div class="meet-team-wrap">
-                    <div class="container">
-                        <div class="meet-team"></div>
-                    </div>
-                </div>
-
-                <!-- <div class="tab-pane fade" id="meet-team" role="tabpanel" aria-labelledby="meet-team-tab" tabindex="0">
                     <div class="container">
                         <div class="meet-team">
                             <h2 class="h2">Meet the Team</h2>
-                            <div class="about-meet-tabs">
-                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="london-tab" data-bs-toggle="pill" data-bs-target="#london" type="button" role="tab" aria-controls="london" aria-selected="true">London</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="manchester-tab" data-bs-toggle="pill" data-bs-target="#manchester" type="button" role="tab" aria-controls="manchester" aria-selected="false">Manchester</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="isreal-tab" data-bs-toggle="pill" data-bs-target="#israel" type="button" role="tab" aria-controls="israel" aria-selected="false">Israel</button>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="london" role="tabpanel" aria-labelledby="london-tab" tabindex="0">...</div>
-                                    <div class="tab-pane fade" id="manchester" role="tabpanel" aria-labelledby="manchester-tab" tabindex="0">...</div>
-                                    <div class="tab-pane fade" id="isreal" role="tabpanel" aria-labelledby="israel-tab" tabindex="0">...</div>
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-london-tab" data-bs-toggle="pill" data-bs-target="#pills-london" type="button" role="tab" aria-controls="pills-london" aria-selected="true">London</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-manchester-tab" data-bs-toggle="pill" data-bs-target="#pills-manchester" type="button" role="tab" aria-controls="pills-manchester" aria-selected="false">Manchester</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-israel-tab" data-bs-toggle="pill" data-bs-target="#pills-israel" type="button" role="tab" aria-controls="pills-israel" aria-selected="false">Israel</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+
+                                <div class="tab-pane fade show active" id="pills-london" role="tabpanel" aria-labelledby="pills-london-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="meet-team-member">
+                                                <img src='./images/client-one.svg' alt='' width="290" height="313" />
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <div class="tab-pane fade" id="pills-manchester" role="tabpanel" aria-labelledby="pills-manchester-tab" tabindex="0">...</div>
+
+                                <div class="tab-pane fade" id="pills-israel" role="tabpanel" aria-labelledby="pills-israel-tab" tabindex="0">...</div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <!-- meet-team-wrap end -->
 
-                </div> -->
             </div>
         </div>
     </div>

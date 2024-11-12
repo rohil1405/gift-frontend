@@ -2021,72 +2021,6 @@ footer start */
   padding: 198px 0 100px;
 }
 
-.about-main-tabs .nav-link {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 500;
-  color: #000000;
-  padding: 0;
-}
-.about-main-tabs .nav-pills {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  padding: 34px 0;
-  border-top: 1px solid #F0E9FB;
-  background-color: #F0E9FB;
-  border-bottom: 1px solid #F0E9FB;
-  margin: 0 !important;
-}
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  background-color: transparent;
-  color: #000000;
-}
-.nav-link.active {
-  position: relative;
-}
-.about-main-tabs .nav-link:hover, .nav-link.active:hover {
-  color: #00CE54;
-}
-.about-main-tabs .nav-link.active:before {
-  content: "";
-  position: absolute;
-  bottom: -7px;
-  width: 80px;
-  height: 6px;
-  background-image: url('../images/tabs-before.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.about-meet-tabs .nav-link {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  color: #000;
-  padding: 12px 24px;
-  background-color: #F4F4F4;
-  border-radius: 42px;
-}
-.about-meet-tabs .nav-link:hover {
-  background-color: #00CE54;
-  color: #fff;
-}
-.about-meet-tabs .nav-pills {
-  margin: 0 !important;
-  display: flex;
-  gap: 12px;
-  padding: 60px 0 20px;
-}
-.about-meet-tabs .nav-link.active {
-  background-color: #00CE54;
-  color: #fff;
-}
-#meet-team {
-  background-color: #fff;
-  padding: 100px 0 90px;
-}
 .who-we-are .h2 {
   position: relative;
 }
@@ -2205,9 +2139,10 @@ footer start */
   background: radial-gradient(99.2% 100% at 61.28% 0%, #F6F0FD 0%, #FBF8FF 100%);
 }
 .how-we-help-wrap {
+  overflow: hidden;
   padding: 100px 0;
-  background: radial-gradient(58.11% 36.65% at 76.53% 33.57%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%),
-linear-gradient(360deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 59.98%);
+  /* background: radial-gradient(58.11% 36.65% at 76.53% 33.57%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%),
+linear-gradient(360deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 59.98%); */
 }
 .how-we-help-left, .how-we-help-right {
   width: 50%;
@@ -2234,6 +2169,27 @@ linear-gradient(360deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 59.98%);
   right: -2%;
   transform: rotate(270deg);
   bottom: -17%;
+}
+.meet-team-wrap {
+  background-color: #fff;
+  padding: 100px 0;
+}
+.nav-link.active {
+  color: #FFF !important;
+  background-color: #00CE54 !important;
+}
+.meet-team .nav.nav-pills {
+  gap: 12px;
+  padding: 60px 0 52px;
+}
+.meet-team .nav-pills .nav-link {
+  font-size: 16px;
+  border-radius: 42px;
+  padding: 12px 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000;
+  background-color: #F4F4F4;
 }
 .how-we-left-content h2 {
   padding-bottom: 60px;
@@ -2471,6 +2427,7 @@ position: relative;
   gap: 32px;
 }
 .who-we-are-wrap {
+  overflow: hidden;
   position: relative;
   padding: 120px 0 100px;
   background: radial-gradient(25.78% 43.1% at 35.5% 46.62%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
@@ -3043,6 +3000,73 @@ background-repeat: no-repeat;
   height: 100%;
   left: 0;
   top: 0;
+}
+
+.meet-team-member {
+  background-image: url('../images/meet-bg.svg');
+}
+
+.banner-inner-details .banner {
+  gap: 110px;
+}
+.banner-testimonial-left img {
+  border-radius: 12px;
+}
+.testimonial-area {
+  gap: 24px;
+  padding: 32px 0 40px;
+  border-bottom: 1px solid rgba(233,233,233,0.3);
+}
+.testimonial-item-icon {
+  background-color: #00CE54;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+.testimonial-item {
+  gap: 8px;
+}
+.testimonial-item a:hover {
+  color: #00a945;
+}
+.testimonial-item a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.testimonial-desingation {
+  padding: 4px 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #00CE54;
+}
+.banner-testimonial-right {
+  max-width: 840px;
+  padding: 0 15px;
+}
+.banner-inner-details::before {
+  background: linear-gradient(0deg, #654595, #654595),
+linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
+
+}
+.banner-inner-details .banner {
+  padding: 160px 0 60px;
+}
+.banner-testimonial-left {
+  padding-right: 15px;
+}
+.banner-testimonial-right > p {
+  padding: 40px 0 22px;
+}
+.banner-testimonial-description p {
+  padding-top: 18px;
+  color: #D6C6EE !important;
+}
+.banner-testimonial-right .h2 {
+  color: #fff;
+}
+.banner-testimonial-right p {
+  color: #FFFFFF;
 }
 
 
