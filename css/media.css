@@ -100,6 +100,14 @@
     .gift-people-work-wrap {
         padding: 80px 0 142px;
     }
+    .global-impact-wrap::after {
+        top: 10%;
+        right: 17%;
+    }
+    .global-impact::after {
+        right: -18%;
+        top: -17%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -329,6 +337,47 @@
     .history-gift-wrap {
         padding: 80px 0;
     }
+    .history-gift-right::before {
+        height: 490px;
+    }
+    .how-we-help-wrap {
+        padding: 80px 0;
+    }
+    .how-we-help-right {
+        gap: 20px;
+    }
+    .how-we-left-content h2 {
+        padding-bottom: 44px;
+    }
+    .how-we-help-right::before {
+        right: -23%;
+        bottom: -55%;
+    }
+    .gift-services h2 {
+        padding-bottom: 32px;
+    }
+    .find-services {
+        padding: 45px 0 50px;
+    }    
+    .meet-team-wrap {
+        padding: 80px 0;
+    }
+    .meet-team .nav.nav-pills {
+        padding: 48px 0;
+    }
+    .meet-team-member {
+        margin-bottom: 32px;
+    }
+    .global-impact-wrap::after {
+        top: 7%;
+        right: 14%;
+    }
+    .global-impact::after {
+        right: -16%;
+    }
+    .global-impact-wrap {
+        padding: 80px 0 174px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -434,6 +483,12 @@
     }
     .join-team-role-wrap {
         padding: 54px 0;
+    }
+    .history-gift-left > img {
+        width: 250px;
+    }
+    .global-impact {
+        padding: 36px 48px;
     }
 }
 
@@ -790,6 +845,106 @@
     .who-we-are-wrap {
         padding: 84px 0 60px;
     }
+    .who-we-are-right::after {
+        height: 630px;
+        top: -9%;
+    }
+    .history-gift-area {
+        flex-wrap: wrap;
+        padding-top: 32px;
+    }
+    .history-gift-left {
+        max-width: 100%;
+    }
+    .history-gift-right {
+        justify-content: center;
+        width: 100%;
+    }
+    .history-gift-right::before {
+        top: -8%;
+    }
+    .history-gift-left p {
+        padding-bottom: 7px;
+    }
+    .history-gift-text {
+        gap: 10px;
+        padding: 20px 0;
+    }
+    .how-we-help-left, .how-we-help-right {
+        width: 100%;
+    }
+    .how-we-help {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .how-we-left-content {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .how-we-left-content h2 {
+        padding-bottom: 36px;
+    }
+    .how-we-help-wrap {
+        padding: 60px 0;
+    }
+    .how-we-left-content-desc {
+        max-width: 100%;
+    }
+    .how-we-help-right::before {
+        height: 600px;
+        right: -24%;
+        bottom: -20%;
+    }
+    .how-we-help-right {
+        padding-left: 15px;
+    }
+    .how-we-left-content h2 {
+        padding-bottom: 24px;
+    }
+    .gift-services h2 {
+        padding-bottom: 24px;
+    }
+    .accordion-button {
+        padding: 24px 0;
+    }
+    .find-services {
+        padding: 30px 0;
+    }
+    .help-list-area {
+        margin-bottom: 28px;
+        padding: 20px 24px;
+    }
+    .last-list-area {
+        padding: 80px 46px;
+    }
+    .gift-follow {
+        padding: 40px 0 16px;
+    }
+    .accordion-body {
+        padding: 0 0 22px;
+    }
+    .accordion-body-right {
+        padding: 20px;
+    }
+    .meet-team-wrap {
+        padding: 60px 0;
+    }
+    .meet-team .nav.nav-pills {
+        padding: 40px 0;
+    }
+    .global-impact-wrap {
+        padding: 60px 0 160px;
+        margin: 0 -15px;
+    }
+    .global-impact {
+        padding: 28px 40px;
+        max-width: 100%;
+        border-radius: 0;
+        width: 100%;
+    }
+    .global-impact::after, .global-impact-wrap::after  {
+        display: none;
+    } 
 }
 
 @media (max-width: 767px) {
@@ -1213,6 +1368,88 @@
         width: 128px;
         left: 35%;
         bottom: 30%;
+    }
+    .who-we-are-right::after {
+        height: 368px;
+        top: -16%;
+    }
+    .history-gift-right::before {
+        top: -15%;
+        height: 304px;
+    }
+    .history-gift-left > img {
+        width: 200px;
+    }
+    .history-gift-area:nth-child(2) .history-gift-right::before {
+        right: 5%;
+    }
+    .history-gift-area {
+        gap: 20px;
+    }
+    .history-gift-right {
+        gap: 18px;
+    }
+    .how-we-help-right::before {
+        height: 336px;
+        right: -11%;
+        bottom: -25%;
+    }
+    .how-we-help-right {
+        gap: 14px;
+    }
+    .how-we-help-wrap {
+        padding: 40px 0;
+    }
+    .accordion-body {
+        flex-wrap: wrap;
+    }
+    .gift-follow {
+        padding: 20px 0;
+    }
+    .help-list-area.last-list-area {
+        display: none;
+    }
+    .help-list-area {
+        width: 100%;
+        margin-right: 16px;
+        margin-bottom: 20px;
+    }
+    .meet-team-wrap {
+        padding: 40px 0 20px;
+    }
+    .meet-team .nav.nav-pills {
+        padding: 32px 0;
+    }
+    .meet-team-member {
+        margin-bottom: 20px;
+    }
+    .meet-team-details {
+        bottom: 26px;
+    }
+    .meet-team-details {
+        position: static;
+    }
+    .meet-team-details h6 a{
+        color: #000;
+        padding-top: 15px;
+    }
+    .meet-team-designation {
+        color: #58585B;
+    }
+    .meet-team .nav.nav-pills {
+        gap: 4px;
+    }
+    .global-impact {
+        padding: 28px 16px;
+    }
+    .global-impact p {
+        padding: 20px 0 32px;
+    }
+    .global-impact-wrap {
+        padding: 40px 0 200px;
+    }
+    .find-services {
+        display: block;
     }
 }
 

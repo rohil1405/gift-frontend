@@ -154,14 +154,366 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                 <!-- history-gift-wrap end -->
 
                 <!-- history-date-slide start -->
-                <div class="history-date-slide">
-                    <div class="history-slider">
-                        <div class="history-slide">
-                            Hello
+                <div class="history-date-slide-wrap">
+                    <div class="history-date-slide">
+                        <div class="history-slider d-flex align-items-center ">
+                            <div class="history-slide">
+                                <div class="history-img">
+                                    <img src='./images/about-image-slide.png' alt='work-four' width="771" height="536" />
+                                </div>
+                            </div>
+                            <div class="history-slide">
+                                <div class="history-img">
+                                    <img src='./images/image-about-two.png' alt='work-four' width="384" height="346" />
+                                </div>
+                            </div>
+                            <div class="history-slide d-flex flex-column">
+                                <div class="history-img">
+                                    <img src='./images/image-about-three.png' alt='work-four' width="384" height="260" />
+                                </div>
+                                <div class="history-img">
+                                    <img src='./images/image-about-four.png' alt='work-four' width="284" height="240" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="history-slider d-flex align-items-center ">
+                            <div class="history-slide">
+                                <div class="history-img">
+                                    <img src='./images/about-image-slide.png' alt='work-four' width="771" height="536" />
+                                </div>
+                            </div>
+                            <div class="history-slide ">
+                                <div class="history-img">
+                                    <img src='./images/image-about-two.png' alt='work-four' width="384" height="346" />
+                                </div>
+                            </div>
+                            <div class="history-slide d-flex flex-column">
+                                <div class="history-img">
+                                    <img src='./images/image-about-three.png' alt='work-four' width="384" height="260" />
+                                </div>
+                                <div class="history-img">
+                                    <img src='./images/image-about-four.png' alt='work-four' width="284" height="240" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="history-slider d-flex align-items-center ">
+                            <div class="history-slide">
+                                <div class="history-img">
+                                    <img src='./images/about-image-slide.png' alt='work-four' width="771" height="536" />
+                                </div>
+                            </div>
+                            <div class="history-slide">
+                                <div class="history-img">
+                                    <img src='./images/image-about-two.png' alt='work-four' width="384" height="346" />
+                                </div>
+                            </div>
+                            <div class="history-slide d-flex flex-column">
+                                <div class="history-img">
+                                    <img src='./images/image-about-three.png' alt='work-four' width="384" height="260" />
+                                </div>
+                                <div class="history-img">
+                                    <img src='./images/image-about-four.png' alt='work-four' width="284" height="240" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- history-date-slide end -->
+
+                <div class="year-review-slide-wrap">
+                    <div class="year-review-slider">
+                        <div class="year-review-slide">
+                            <div class='year-review-content'>
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2008</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class='year-review-content'>
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2009</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class='year-review-content'>
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2010</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2011</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2012</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2013</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2014</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2015</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2016</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2017</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+
+                                    </div>
+                                    <h6 class="h6">2018</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+                        </div>
+                        <div class="year-review-slide ">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+
+                                    </div>
+                                    <h6 class="h6">2019</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+
+                                    </div>
+                                    <h6 class="h6">2020</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text  d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+
+                                    </div>
+                                    <h6 class="h6">2021</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+
+                                    </div>
+                                    <h6 class="h6">2022</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2023</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2024</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="year-review-slide">
+                            <div class="year-review-content">
+                                <div class="year-review-text d-flex align-items-center">
+                                    <div class="year-review-icon d-flex justify-content-center align-items-center">
+                                        <img src='./images/2017-icon.svg' alt='2017-icon' width="47" height="36" />
+                                    </div>
+                                    <h6 class="h6">2025</h6>
+                                </div>
+                                <p>The Prime Minister, Theresa May honours GIFT volunteer Avi Dubiner with the Points of Light Award for his involvement in GIFT Shabbat Walk.
+                                </p>
+                                <p> GIFT’S activities and objectives are included as part of Jewish studies GCSE curriculum.</p>
+                                <p>GIFT launches new educational initiative the Supermarket Challenge.</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
 
                 <!-- how-we-help-wrap start -->
                 <div class='how-we-help-wrap position-relative z-1'>
@@ -177,7 +529,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
                             </div>
                         </div>
-                        <div class="how-we-help-right d-flex align-items-center justify-content-end">
+                        <div class="how-we-help-right d-flex align-items-center justify-content-end position-relative">
                             <div class="about-image">
                                 <img src='./images/help-one.png' alt='help-one' width="180" height="180" />
                             </div>
@@ -331,9 +683,9 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                             </div>
                         </div>
 
-                        <div class="find-services">
-                            <div class="row">
-                                <div class="col-md-4 d-flex">
+                        <div class="find-services position-relative">
+                            <div class="row find-services-slider">
+                                <div class="col-lg-4 col-md-6 col-12 d-flex find-services-slide">
                                     <div class="help-list-area">
                                         <div class="help-list-text d-flex align-items-center">
                                             <div class="help-list-icon d-flex align-items-center justify-content-center">
@@ -385,7 +737,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 d-flex">
+                                <div class="col-lg-4 col-md-6 col-12 d-flex find-services-slide">
                                     <div class="help-list-area">
                                         <div class="help-list-text d-flex align-items-center">
                                             <div class="help-list-icon d-flex align-items-center justify-content-center">
@@ -428,7 +780,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 d-flex">
+                                <div class="col-lg-4 col-md-6 col-12 d-flex find-services-slide">
                                     <div class="help-list-area">
                                         <div class="help-list-text d-flex align-items-center">
                                             <div class="help-list-icon d-flex align-items-center justify-content-center">
@@ -468,7 +820,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 d-flex">
+                                <div class="col-lg-4 col-md-6 col-12 d-flex find-services-slide">
                                     <div class="help-list-area">
                                         <div class="help-list-text d-flex align-items-center">
                                             <div class="help-list-icon d-flex align-items-center justify-content-center">
@@ -511,7 +863,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 d-flex">
+                                <div class="col-lg-4 col-md-6 col-12 d-flex find-services-slide">
                                     <div class="help-list-area">
                                         <div class="help-list-text d-flex align-items-center">
                                             <div class="help-list-icon d-flex align-items-center justify-content-center">
@@ -554,7 +906,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     </div>
                                 </div>
 
-                                <div class="col-md-4 d-flex">
+                                <div class="col-lg-4 col-md-6 col-12 d-flex find-services-slide">
                                     <div class="help-list-area last-list-area">
                                         <h4 class="h4">Looking to receive GIFT support?</h4>
                                         <p>Please get in touch by sending an email to
@@ -572,9 +924,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                     </div>
                                 </div>
                             </div>
+                            <div class="custom-arrows">
+                                <div class="custom-prev-arrow"></div>
+                                <div class="custom-next-arrow"></div>
+                            </div>
                         </div>
 
+
                     </div>
+
                 </div>
                 <!-- how-we-help-wrap end -->
 
@@ -598,7 +956,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
                                 <div class="tab-pane fade show active" id="pills-london" role="tabpanel" aria-labelledby="pills-london-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -614,13 +972,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -636,13 +996,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -658,13 +1020,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -680,13 +1044,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -702,13 +1068,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -724,13 +1092,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -746,13 +1116,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -768,13 +1140,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -790,13 +1164,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -812,13 +1188,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -834,13 +1212,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -856,13 +1236,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -878,13 +1260,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -900,6 +1284,8 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -910,7 +1296,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
                                 <div class="tab-pane fade" id="pills-manchester" role="tabpanel" aria-labelledby="pills-manchester-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -926,13 +1312,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -948,13 +1336,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -970,13 +1360,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -992,6 +1384,8 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1002,7 +1396,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
                                 <div class="tab-pane fade" id="pills-israel" role="tabpanel" aria-labelledby="pills-israel-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -1018,13 +1412,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -1040,13 +1436,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -1062,13 +1460,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -1084,13 +1484,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -1106,13 +1508,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -1128,13 +1532,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -1150,13 +1556,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-one.png' alt='' width="290" height="290" />
 
@@ -1172,13 +1580,15 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3">
+                                        <div class="col-lg-3 col-md-4 col-6">
                                             <div class="meet-team-member position-relative">
                                                 <img src='./images/client-two.png' alt='' width="290" height="290" />
 
@@ -1194,6 +1604,8 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                                                     <div class="cta-btn">
                                                         <a href='#' target="_self">
                                                             Read More
+                                                            <img src='./images/white-arrow.png'
+                                                                alt='white-arrow' width="20" height="20" />
                                                         </a>
                                                     </div>
                                                 </div>
