@@ -1448,7 +1448,7 @@
     .global-impact-wrap {
         padding: 40px 0 200px;
     }
-    .find-services {
+    .find-services .custom-arrows {
         display: block;
     }
 }

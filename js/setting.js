@@ -305,18 +305,16 @@ $('.our-instagram-slide').slick({
 
 
 $('.find-services-slider').slick({
-  slidesToShow: 3,
+  slidesToShow: 1,
   slidesToScroll: 1,
-  infinite: true,
+  infinite: false,
   speed: 1400,
   dots: true,
-  arrows: true,
   autoplay: false,
-  centerPadding: '60px',
   cssEase: 'linear',
-  autoplaySpeed: 2000,
-  prevArrow: $('.bg-next-arrow'), 
-  nextArrow: $('.bg-prev-arrow'),
+  arrows: true,  
+  prevArrow: $('.custom-prev-arrow'), 
+  nextArrow: $('.custom-next-arrow'),
 });
 
 

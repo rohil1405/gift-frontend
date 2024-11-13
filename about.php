@@ -154,7 +154,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                 <!-- history-gift-wrap end -->
 
                 <!-- history-date-slide start -->
-                <div class="history-date-slide-wrap">
+                <!-- <div class="history-date-slide-wrap">
                     <div class="history-date-slide">
                         <div class="history-slider d-flex align-items-center ">
                             <div class="history-slide">
@@ -219,10 +219,10 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- history-date-slide end -->
 
-                <div class="year-review-slide-wrap">
+                <!-- <div class="year-review-slide-wrap">
                     <div class="year-review-slider">
                         <div class="year-review-slide">
                             <div class='year-review-content'>
@@ -513,7 +513,7 @@ linear-gradient(180deg, #654595 32.66%, rgba(101, 69, 149, 0) 100%);
 
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- how-we-help-wrap start -->
                 <div class='how-we-help-wrap position-relative z-1'>
